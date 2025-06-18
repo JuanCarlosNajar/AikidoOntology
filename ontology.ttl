@@ -45,6 +45,85 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_beneficio
+:act_tiene_beneficio rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Actividades ;
+                     rdfs:range :Funciones_corporales ;
+                     rdfs:comment "Funciones corporales a las que beneficia la actividad" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_contraindicación
+:act_tiene_contraindicación rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf owl:topObjectProperty ;
+                            rdfs:domain :Actividades ;
+                            rdfs:range :Problematicas ;
+                            rdfs:comment "Contextos a los que perjudica la activiad" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_modalidad
+:act_tiene_modalidad rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Actividades ;
+                     rdfs:range :Modalidad_actividades ;
+                     rdfs:comment "Relaciona la actividad con la modalidad de actividad" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_objetivo
+:act_tiene_objetivo rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdfs:domain :Actividades_fisicas ,
+                                :Actividades_sociales_emocionales ,
+                                :Actividades_valores ;
+                    rdfs:range :Objetivos ;
+                    rdfs:comment "El objetivo que tiene la actividad." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_tipo
+:act_tiene_tipo rdf:type owl:ObjectProperty ;
+                rdfs:domain :Actividades ;
+                rdfs:range :Tipos_Actividad .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tipo_actividad
+:act_tipo_actividad rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdfs:domain :Actividades_fisicas ,
+                                :Actividades_sociales_emocionales ,
+                                :Actividades_valores ;
+                    rdfs:range :Modalidad_actividades .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_fisica
+:act_usa_capacidad_fisica rdf:type owl:ObjectProperty ;
+                          rdfs:domain :Actividades_fisicas ;
+                          rdfs:range :Capacidades_físicas .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_técnica
+:act_usa_capacidad_técnica rdf:type owl:ObjectProperty ;
+                           rdfs:domain :Actividades ;
+                           rdfs:range :Capacidades_técnicas .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_habilidad_social_emocional
+:act_usa_habilidad_social_emocional rdf:type owl:ObjectProperty ;
+                                    rdfs:domain :Actividades ;
+                                    rdfs:range :Habilidades_sociales_y_emocionales ;
+                                    rdfs:comment "Habilidades sociales y emocionales que la actividad puede usar" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_valor
+:act_usa_valor rdf:type owl:ObjectProperty ;
+               rdfs:domain :Actividades ;
+               rdfs:range :Valores .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#ctx_tiene_impacto_en
+:ctx_tiene_impacto_en rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Problematicas ;
+                      rdfs:range :Funciones_corporales ;
+                      rdfs:comment "Indica las funciones corporales que se ven afectadas por la etapa de la edad" .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desarrolla_habilidad_social_emocional
 :desarrolla_habilidad_social_emocional rdf:type owl:ObjectProperty ;
                                        rdfs:domain :Valores ;
@@ -54,7 +133,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#edad
 :edad rdf:type owl:ObjectProperty ;
-      rdfs:domain :Impacto_por_edad ;
+      rdfs:domain :Impactos_por_edad ;
       rdfs:range :Etapas_edad .
 
 
@@ -74,6 +153,16 @@
                 rdfs:comment "indica a qué grupo enseña el profesor." .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fnd_usa_capacidad
+:fnd_usa_capacidad rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Fundamentos ;
+                   rdfs:range :Capacidades_físicas ,
+                              :Capacidades_técnicas ,
+                              :Habilidades_sociales_y_emocionales ,
+                              :Valores ;
+                   rdfs:comment "Fundamento usa capacidad" .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#forma_parte_de
 :forma_parte_de rdf:type owl:ObjectProperty ;
                 rdfs:domain :Etapas_clase ;
@@ -83,7 +172,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#funcion
 :funcion rdf:type owl:ObjectProperty ;
-         rdfs:domain :Impacto_por_edad ;
+         rdfs:domain :Impactos_por_edad ;
          rdfs:range :Funciones_corporales ;
          rdfs:comment "Funciones corporales, según definición del CIF de la OMS, sobre las que tiene algún tipo de impacto, positivo o negativo." .
 
@@ -97,7 +186,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto
 :impacto rdf:type owl:ObjectProperty ;
-         rdfs:domain :Impacto_por_edad ;
+         rdfs:domain :Impactos_por_edad ;
          rdfs:range :Impacto_funcional ;
          rdfs:comment "Tipo de impacto (favorable o deficiencia) y el grado del impacto." .
 
@@ -113,7 +202,85 @@
 :produce_impacto rdf:type owl:ObjectProperty ;
                  rdfs:domain :Etapas_edad ;
                  rdfs:range :Impacto_funcional ;
-                 rdfs:comment "Indica el tipo de impacto que produce una etapa de edad" .
+                 rdfs:comment "Indica el tipo de impacto (grado) que produce una etapa de edad" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_actividad
+:rcm_tiene_actividad rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Recomendaciones_realizadas ;
+                     rdfs:range :Actividades_fisicas ,
+                                :Actividades_sociales_emocionales ,
+                                :Actividades_valores ;
+                     rdfs:comment "Actividad recomendada." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_alumno
+:rcm_tiene_alumno rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Recomendaciones_realizadas ;
+                  rdfs:range :Alumnos ;
+                  rdfs:comment "Alumno o alumnos a los que se le aplica la recomendación." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_apartado_clase
+:rcm_tiene_apartado_clase rdf:type owl:ObjectProperty ;
+                          rdfs:domain :Recomendaciones_realizadas ;
+                          rdfs:range :Apartados_clase ;
+                          rdfs:comment "Indica el apartado de la clase donde se llevaría acabo." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_autor
+:rcm_tiene_autor rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Recomendaciones_realizadas ;
+                 rdfs:range :Profesores ;
+                 rdfs:comment "Una recomendación tiene un autor." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_estado
+:rcm_tiene_estado rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Recomendaciones_realizadas ;
+                  rdfs:range :Estados_recomendaciones ;
+                  rdfs:comment "Una recomendación tiene un estado" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fundamento
+:rcm_tiene_fundamento rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Recomendaciones_realizadas ;
+                      rdfs:range :Tipos_fundamentos ;
+                      rdfs:comment "Fundamentos a los que se aplica la recomendación." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_grupo
+:rcm_tiene_grupo rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Recomendaciones_realizadas ;
+                 rdfs:range :Grupos ;
+                 rdfs:comment "Grupo al que se aplica la recomendación." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_impacto
+:rcm_tiene_impacto rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :Recomendaciones_realizadas ;
+                   rdfs:range :Impactos_por_IMC ,
+                              :Impactos_por_condición_física ,
+                              :Impactos_por_edad ,
+                              :Impactos_por_género ;
+                   rdfs:comment "Impacto del contexto." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_problemática
+:rcm_tiene_problemática rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Recomendaciones_realizadas ;
+                        rdfs:range :Problematicas ;
+                        rdfs:comment "Problemáticas a las que se le aplica la recomendación" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#realizar_en_apartado_clase
+:realizar_en_apartado_clase rdf:type owl:ObjectProperty ;
+                            rdfs:domain :Actividades_fisicas ,
+                                        :Actividades_sociales_emocionales ,
+                                        :Actividades_valores ;
+                            rdfs:range :Apartados_clase ;
+                            rdfs:comment "Actividades que se realizan en un determinado apartado de la clase (ejercicios de calentamiento, de estiramientos, técnicos, etc)" .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_alumno
@@ -138,6 +305,26 @@
               rdfs:comment "Para indicar el tipo de ataque de uke (katate dori, kata dori, jodan tsuki, etc.)." .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_clasificación_IMC
+:tiene_clasificación_IMC rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         rdfs:domain :Alumnos ;
+                         rdfs:range :Clasificaciones_según_IMC .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física
+:tiene_condición_física rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Alumnos ;
+                        rdfs:range :Condiciónes_físicas .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_contexto
+:tiene_contexto rdf:type owl:ObjectProperty ;
+                rdfs:domain :Alumnos ;
+                rdfs:range :Problematicas ;
+                rdfs:comment "Indica si el alumno tiene algún contexto específico (lesión, enfermedad, discapacidad,etc)" .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_defensa
 :tiene_defensa rdf:type owl:ObjectProperty ;
                rdfs:domain :Tecnicas ;
@@ -152,9 +339,25 @@
              rdfs:comment "Para indicar si una técnica se puede realizar en omote y ura." .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_grado
+:tiene_grado rdf:type owl:ObjectProperty ;
+             rdfs:domain :Alumnos ,
+                         :Profesores ;
+             rdfs:range :Grado ;
+             rdfs:comment "Grado o nivel de Aikido." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género
+:tiene_género rdf:type owl:ObjectProperty ;
+              rdfs:domain :Alumnos ,
+                          :Profesores ;
+              rdfs:range :Géneros ;
+              rdfs:comment "Indica el género de una pérsona (hombre, mujer u otro)." .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_habilidad_principal
 :tiene_habilidad_principal rdf:type owl:ObjectProperty ;
-                           rdfs:domain :Actividades_sociales_y_emocionales ;
+                           rdfs:domain :Actividades_sociales_emocionales ;
                            rdfs:range :Habilidades_sociales_y_emocionales ;
                            rdfs:comment "La habilidad principal que fomenta un ejercicio del grupo de actividades sociales y emocionales." .
 
@@ -162,16 +365,9 @@
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_habilidad_secundaria
 :tiene_habilidad_secundaria rdf:type owl:ObjectProperty ;
                             rdfs:subPropertyOf owl:topObjectProperty ;
-                            rdfs:domain :Actividades_sociales_y_emocionales ;
+                            rdfs:domain :Actividades_sociales_emocionales ;
                             rdfs:range :Habilidades_sociales_y_emocionales ;
                             rdfs:comment "Indica qué otras habilidades sociales y emocionales se desarrollan con esta actividad." .
-
-
-###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_impacto_en
-:tiene_impacto_en rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Etapas_edad ;
-                  rdfs:range :Funciones_corporales ;
-                  rdfs:comment "Indica las funciones corporales que se ven afectadas por la etapa de la edad" .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_posicion
@@ -206,12 +402,6 @@
 :tipo_defensa rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_capacidad_fisica
-:usa_capacidad_fisica rdf:type owl:ObjectProperty ;
-                      rdfs:domain :Actividades_fisicas ;
-                      rdfs:range :Capacidades_físicas .
-
-
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion
 :usa_funcion rdf:type owl:ObjectProperty ;
              rdfs:domain :Capacidades_físicas ;
@@ -242,6 +432,57 @@
               rdfs:comment "Edad inicial de la etapa de la edad" .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_descripción
+:rcm_tiene_descripción rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdfs:domain :Recomendaciones_realizadas ;
+                       rdfs:range xsd:string ;
+                       rdfs:comment "Descripción de la recomendación." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_evaluación
+:rcm_tiene_evaluación rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain :Recomendaciones_realizadas ;
+                      rdfs:range xsd:string ;
+                      rdfs:comment "Evaluación de la Recomendación" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fecha_creación
+:rcm_tiene_fecha_creación rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Recomendaciones_realizadas ;
+                          rdfs:range xsd:dateTime ;
+                          rdfs:comment "Fecha creación de la recomendación" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fecha_evaluación
+:rcm_tiene_fecha_evaluación rdf:type owl:DatatypeProperty ;
+                            rdfs:domain :Recomendaciones_realizadas ;
+                            rdfs:range xsd:dateTime ;
+                            rdfs:comment "FEcha de la evaluación de la recomendación." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fecha_modificación
+:rcm_tiene_fecha_modificación rdf:type owl:DatatypeProperty ;
+                              rdfs:domain :Recomendaciones_realizadas ;
+                              rdfs:range xsd:dateTime ;
+                              rdfs:comment "Fecha de modificación de la recomendación." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_motivo
+:rcm_tiene_motivo rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Recomendaciones_realizadas ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "Motivo por el que se ha generado la recomendación." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_observaciones
+:rcm_tiene_observaciones rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :Recomendaciones_realizadas ;
+                         rdfs:range xsd:string ;
+                         rdfs:comment "Observaciones sobre las recomendaciones." .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_beneficio
 :tiene_beneficio rdf:type owl:DatatypeProperty ;
                  rdfs:range xsd:string .
@@ -267,6 +508,14 @@
                  rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_estatura
+:tiene_estatura rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Alumnos ,
+                            :Profesores ;
+                rdfs:range xsd:decimal ;
+                rdfs:comment "Estatura en centímetros." .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_nombre
 :tiene_nombre rdf:type owl:DatatypeProperty ;
               rdfs:range xsd:string .
@@ -284,6 +533,14 @@
              rdfs:comment "El número de orden de la etapa dentro de la estructura de la clase." .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_peso
+:tiene_peso rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Alumnos ,
+                        :Profesores ;
+            rdfs:range xsd:decimal ;
+            rdfs:comment "Peso en kilogramos." .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_materiales
 :usa_materiales rdf:type owl:DatatypeProperty ;
                 rdfs:range xsd:string .
@@ -293,25 +550,36 @@
 #    Classes
 #################################################################
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades
+:Actividades rdf:type owl:Class ;
+             rdfs:subClassOf :Enseñanza ;
+             rdfs:comment "Actividades y ejercicios que podemos realizar en una clase de Aikido" .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas
 :Actividades_fisicas rdf:type owl:Class ;
-                     rdfs:subClassOf :Fundamentos_fisicos ,
+                     rdfs:subClassOf :Tipos_Actividad ,
                                      [ rdf:type owl:Restriction ;
-                                       owl:onProperty :usa_capacidad_fisica ;
+                                       owl:onProperty :act_usa_capacidad_fisica ;
                                        owl:someValuesFrom :Capacidades_físicas
                                      ] ;
                      rdfs:comment "Conjunto de actividades y ejercicios para potenciar las capacidades físicas de los alumnos." .
 
 
-###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales
-:Actividades_sociales_y_emocionales rdf:type owl:Class ;
-                                    rdfs:subClassOf :Fundamentos_sociales_y_emocionales ;
-                                    rdfs:comment "Conjunto de actividades y ejercicios para potenciar las habilidades emocionales y sociales de los alumnos." .
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales
+:Actividades_sociales_emocionales rdf:type owl:Class ;
+                                  rdfs:subClassOf :Tipos_Actividad ;
+                                  rdfs:comment "Conjunto de actividades y ejercicios para potenciar las habilidades emocionales y sociales de los alumnos." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_técnicas
+:Actividades_técnicas rdf:type owl:Class ;
+                      rdfs:subClassOf :Tipos_Actividad .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_valores
 :Actividades_valores rdf:type owl:Class ;
-                     rdfs:subClassOf :Fundamentos_valores ;
+                     rdfs:subClassOf :Tipos_Actividad ;
                      rdfs:comment "Conjunto de actividades y ejercicios para fomentar los valores éticos y morales en los alumnos." .
 
 
@@ -339,7 +607,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Ataques
 :Ataques rdf:type owl:Class ;
-         rdfs:subClassOf :Fundamentos_tecnicos ;
+         rdfs:subClassOf :Conceptos_técnicos ;
          rdfs:comment "Tipos de ataques de uke." .
 
 
@@ -361,6 +629,39 @@
                                    rdfs:comment "Son aquellas que regulan y organizan el movimiento, permitiendo una ejecución eficaz, económica y adaptada a diferentes situaciones. Dependen más del sistema nervioso central." .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas
+:Capacidades_técnicas rdf:type owl:Class ;
+                      rdfs:subClassOf :Fundamentos_tecnicos .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Clasificaciones_según_IMC
+:Clasificaciones_según_IMC rdf:type owl:Class ;
+                           rdfs:subClassOf :Contexto_IMC ;
+                           rdfs:comment "Clasificación del estado nutricional según el IMC." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos
+:Conceptos_técnicos rdf:type owl:Class ;
+                    rdfs:subClassOf :Fundamentos_tecnicos .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Condiciónes_físicas
+:Condiciónes_físicas rdf:type owl:Class ;
+                     rdfs:subClassOf :Contexto_capacidad_física ;
+                     rdfs:comment "Valoración cualitativa de las capacidades físicas de un alumno" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_IMC
+:Contexto_IMC rdf:type owl:Class ;
+              rdfs:subClassOf :Problematicas ;
+              rdfs:comment "Contexto debido al  Índice de Masa Corporal (IMC) o en inglés BMI (Body Mass Index). Es una medida ampliamente utilizada para evaluar la composición corporal de forma general, especialmente en contextos escolares y deportivos." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_capacidad_física
+:Contexto_capacidad_física rdf:type owl:Class ;
+                           rdfs:subClassOf :Problematicas .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_discapacidades
 :Contexto_discapacidades rdf:type owl:Class ;
                          rdfs:subClassOf :Problematicas ;
@@ -369,7 +670,8 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_edad
 :Contexto_edad rdf:type owl:Class ;
-               rdfs:subClassOf :Problematicas .
+               rdfs:subClassOf :Problematicas ;
+               rdfs:comment "Problemáticas cuyo origen es la edad cronológica del alumno o etapa madurativa en la que está." .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_enfermedades
@@ -398,7 +700,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Defensas
 :Defensas rdf:type owl:Class ;
-          rdfs:subClassOf :Fundamentos_tecnicos ;
+          rdfs:subClassOf :Conceptos_técnicos ;
           rdfs:comment "Tipos de defensa que realiza tori." .
 
 
@@ -427,7 +729,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Desplazamientos
 :Desplazamientos rdf:type owl:Class ;
-                 rdfs:subClassOf :Fundamentos_tecnicos ;
+                 rdfs:subClassOf :Conceptos_técnicos ;
                  rdfs:comment "Tipos de desplazamientos." .
 
 
@@ -453,6 +755,11 @@
 :Enseñanza rdf:type owl:Class ;
            rdfs:subClassOf :Aikido ;
            rdfs:comment "Parte operativa o de gestión, más orientada a la organización escolar (alumnos, horarios, sesiones) que a los conceptos del arte marcial en sí." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Estados_recomendaciones
+:Estados_recomendaciones rdf:type owl:Class ;
+                         rdfs:subClassOf :Recomendaciones .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Estructuras_clase
@@ -505,7 +812,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Forma_tecnica
 :Forma_tecnica rdf:type owl:Class ;
-               rdfs:subClassOf :Fundamentos_tecnicos ;
+               rdfs:subClassOf :Conceptos_técnicos ;
                rdfs:comment "Indica cómo tori puede ejecutar la técnica respecto de uke: omote o ura." .
 
 
@@ -676,7 +983,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Grado
 :Grado rdf:type owl:Class ;
-       rdfs:subClassOf :Fundamentos_tecnicos ;
+       rdfs:subClassOf :Conceptos_técnicos ;
        rdfs:comment "Grado del alumno o del profesor." .
 
 
@@ -684,6 +991,12 @@
 :Grupos rdf:type owl:Class ;
         rdfs:subClassOf :Enseñanza ;
         rdfs:comment "Grupos de alumnos que forman una clase" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Géneros
+:Géneros rdf:type owl:Class ;
+         rdfs:subClassOf :Contexto_género ;
+         rdfs:comment "Género de la persona (hombre, mujer, otro) . Necesario tenerlo en cuenta debido a las funciones corporales a las que puede afectar el ser de un género u otro." .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Habilidades_sociales_y_emocionales
@@ -698,10 +1011,34 @@
                    rdfs:comment "Clasificación de los tipos de impacto (facilitadores y deficiencias) sobre las funciones corporales así como su grado (leve / ligera, moderado / moderada, fuerte / grave)" .
 
 
-###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad
-:Impacto_por_edad rdf:type owl:Class ;
-                  rdfs:subClassOf :Contexto_edad ;
-                  rdfs:comment "Dificultades, limitaciones de la capacidad y problemas de desempeño debido a la edad madurativa." .
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_lesión
+:Impactos_lesión rdf:type owl:Class ;
+                 rdfs:subClassOf :Contexto_lesiones ;
+                 rdfs:comment "Los impactos sobre las funciones corporales que puede tener una lesión." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_IMC
+:Impactos_por_IMC rdf:type owl:Class ;
+                  rdfs:subClassOf :Contexto_IMC ;
+                  rdfs:comment "Los tipos de impacto que tienen las diversas clasificaciones según el IMC de la persona." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_condición_física
+:Impactos_por_condición_física rdf:type owl:Class ;
+                               rdfs:subClassOf :Contexto_capacidad_física ;
+                               rdfs:comment "Tipos de impacto debido a la condición física del alumno." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad
+:Impactos_por_edad rdf:type owl:Class ;
+                   rdfs:subClassOf :Contexto_edad ;
+                   rdfs:comment "Dificultades, limitaciones de la capacidad y problemas de desempeño debido a la edad madurativa." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_género
+:Impactos_por_género rdf:type owl:Class ;
+                     rdfs:subClassOf :Contexto_género ;
+                     rdfs:comment "Tipos de impacto debido a ser de un género u otro." .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Inmovilizaciones
@@ -714,9 +1051,21 @@
                   rdfs:comment "tori inmoviliza a uke" .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Modalidad_actividades
+:Modalidad_actividades rdf:type owl:Class ;
+                       rdfs:subClassOf :Actividades ;
+                       rdfs:comment "Las diversas modalidades de ejecución de las actividades (por parejas, individual,sin contacto físico,etc.).  Las actividades pueden tener, a la vez, a distintas modalidades." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Objetivos
+:Objetivos rdf:type owl:Class ;
+           rdfs:subClassOf :Actividades ;
+           rdfs:comment "Objetivos de las actividades." .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Participantes
 :Participantes rdf:type owl:Class ;
-               rdfs:subClassOf :Fundamentos_tecnicos ;
+               rdfs:subClassOf :Conceptos_técnicos ;
                rdfs:comment "En las técnicas de Aikido participan dos alumnos, uno con el rol de atacante (uke) y otro con el rol de defensor (tori)." .
 
 
@@ -728,7 +1077,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Posicion
 :Posicion rdf:type owl:Class ;
-          rdfs:subClassOf :Fundamentos_tecnicos ;
+          rdfs:subClassOf :Conceptos_técnicos ;
           rdfs:comment "Indica como se coloca uke respecto de tori: derecha con derecha / izquierda con izquierda, o derecha con izquierda." .
 
 
@@ -754,6 +1103,16 @@
               rdfs:comment "tori lanza o proyecta a uke" .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones
+:Recomendaciones rdf:type owl:Class ;
+                 rdfs:subClassOf :Enseñanza .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas
+:Recomendaciones_realizadas rdf:type owl:Class ;
+                            rdfs:subClassOf :Recomendaciones .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tachi_waza_inmovilizaciones
 :Tachi_waza_inmovilizaciones rdf:type owl:Class ;
                              rdfs:subClassOf :Técnicas_en_tachi_waza ;
@@ -774,7 +1133,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Te_sabaki
 :Te_sabaki rdf:type owl:Class ;
-           rdfs:subClassOf :Fundamentos_tecnicos ;
+           rdfs:subClassOf :Conceptos_técnicos ;
            rdfs:comment "Movimientos de las manos y los brazos." .
 
 
@@ -784,16 +1143,33 @@
           rdfs:comment "Conjuntos de técnicas (defensas contra ataques) que se practican en Aikido." .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_Actividad
+:Tipos_Actividad rdf:type owl:Class ;
+                 rdfs:subClassOf :Actividades .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_ataque
 :Tipos_ataque rdf:type owl:Class ;
-              rdfs:subClassOf :Fundamentos_tecnicos ;
+              rdfs:subClassOf :Conceptos_técnicos ;
               rdfs:comment "Tipos de ataque" .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_defensa
 :Tipos_defensa rdf:type owl:Class ;
-               rdfs:subClassOf :Fundamentos_tecnicos ;
+               rdfs:subClassOf :Conceptos_técnicos ;
                rdfs:comment "Si es una inmovilizacion o una proyección" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_fundamentos
+:Tipos_fundamentos rdf:type owl:Class ;
+                   rdfs:subClassOf :Fundamentos ;
+                   rdfs:comment "Tipos de fundamentos." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_lesiones
+:Tipos_lesiones rdf:type owl:Class ;
+                rdfs:subClassOf :Contexto_lesiones ;
+                rdfs:comment "Los distintos tipos de lesiones que pueden afectar a un alumno." .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Técnicas_en_hanmi_handachi_waza
@@ -826,7 +1202,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Ukemi
 :Ukemi rdf:type owl:Class ;
-       rdfs:subClassOf :Fundamentos_tecnicos ,
+       rdfs:subClassOf :Conceptos_técnicos ,
                        [ rdf:type owl:Restriction ;
                          owl:onProperty :usa_funcion_corporal ;
                          owl:someValuesFrom :b750_funciones_reflejos_motores
@@ -842,7 +1218,7 @@
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Waza
 :Waza rdf:type owl:Class ;
-      rdfs:subClassOf :Fundamentos_tecnicos ;
+      rdfs:subClassOf :Conceptos_técnicos ;
       rdfs:comment "Las distintas formas de practicar las técnicas." .
 
 
@@ -1382,6 +1758,8 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 <http://purl.obolibrary.org/obo/alumno_06> rdf:type owl:NamedIndividual ,
                                                     :Alumnos ;
                                            :es_alumno_de :grupo_B ;
+                                           :tiene_condición_física :condición_buena ;
+                                           :tiene_género :género_hombre ;
                                            :tiene_edad 11 .
 
 
@@ -1389,7 +1767,44 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 <http://purl.obolibrary.org/obo/alumno_08> rdf:type owl:NamedIndividual ,
                                                     :Alumnos ;
                                            :es_alumno_de :grupo_C ;
+                                           :tiene_condición_física :condición_media ;
+                                           :tiene_género :género_mujer ;
                                            :tiene_edad 9 .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_grupal
+:actividad_grupal rdf:type owl:NamedIndividual ,
+                           :Modalidad_actividades ;
+                  rdfs:comment "Actividad para realizar en grupo." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_individual
+:actividad_individual rdf:type owl:NamedIndividual ,
+                               :Modalidad_actividades ;
+                      rdfs:comment "Actividad que se realiza individualmente." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_juego
+:actividad_juego rdf:type owl:NamedIndividual ,
+                          :Modalidad_actividades ;
+                 rdfs:comment "Se trata de un juego didáctico." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_por_parejas
+:actividad_por_parejas rdf:type owl:NamedIndividual ,
+                                :Modalidad_actividades ;
+                       rdfs:comment "Actividad para realizar por parejas." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_sin_contacto_físico
+:actividad_sin_contacto_físico rdf:type owl:NamedIndividual ,
+                                        :Modalidad_actividades ;
+                               rdfs:comment "Actividad que para realizarla no es necesario el contacto físico entre los alumnos." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_técnica
+:actividad_técnica rdf:type owl:NamedIndividual ,
+                            :Modalidad_actividades .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#agarre
@@ -1412,6 +1827,8 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 :alumno_01 rdf:type owl:NamedIndividual ,
                     :Alumnos ;
            :es_alumno_de :grupo_A ;
+           :tiene_condición_física :condición_media ;
+           :tiene_género :género_hombre ;
            :tiene_edad 8 .
 
 
@@ -1419,6 +1836,8 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 :alumno_02 rdf:type owl:NamedIndividual ,
                     :Alumnos ;
            :es_alumno_de :grupo_A ;
+           :tiene_condición_física :condición_muy_baja ;
+           :tiene_género :género_hombre ;
            :tiene_edad 10 .
 
 
@@ -1426,6 +1845,8 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 :alumno_03 rdf:type owl:NamedIndividual ,
                     :Alumnos ;
            :es_alumno_de :grupo_A ;
+           :tiene_condición_física :condición_muy_buena ;
+           :tiene_género :género_mujer ;
            :tiene_edad 11 .
 
 
@@ -1433,6 +1854,8 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 :alumno_04 rdf:type owl:NamedIndividual ,
                     :Alumnos ;
            :es_alumno_de :grupo_B ;
+           :tiene_condición_física :condición_muy_baja ;
+           :tiene_género :género_mujer ;
            :tiene_edad 6 .
 
 
@@ -1440,6 +1863,9 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 :alumno_05 rdf:type owl:NamedIndividual ,
                     :Alumnos ;
            :es_alumno_de :grupo_B ;
+           :tiene_condición_física :condición_media ,
+                                   :condición_muy_baja ;
+           :tiene_género :género_hombre ;
            :tiene_edad 9 .
 
 
@@ -1447,6 +1873,8 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 :alumno_07 rdf:type owl:NamedIndividual ,
                     :Alumnos ;
            :es_alumno_de :grupo_C ;
+           :tiene_condición_física :condición_buena ;
+           :tiene_género :género_hombre ;
            :tiene_edad 7 .
 
 
@@ -1454,22 +1882,30 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 :alumno_09 rdf:type owl:NamedIndividual ,
                     :Alumnos ;
            :es_alumno_de :grupo_C ;
+           :tiene_condición_física :condición_buena ;
+           :tiene_género :género_hombre ;
            :tiene_edad 12 .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#alumno_10
 :alumno_10 rdf:type owl:NamedIndividual ,
-                    :Alumnos .
+                    :Alumnos ;
+           :tiene_condición_física :condición_baja ;
+           :tiene_género :género_hombre .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#alumno_11
 :alumno_11 rdf:type owl:NamedIndividual ,
-                    :Alumnos .
+                    :Alumnos ;
+           :tiene_condición_física :condición_media ;
+           :tiene_género :género_otro .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#alumno_12
 :alumno_12 rdf:type owl:NamedIndividual ,
-                    :Alumnos .
+                    :Alumnos ;
+           :tiene_condición_física :condición_media ;
+           :tiene_género :género_hombre .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#anticipación_y_adaptación
@@ -1896,12 +2332,78 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#caminar_en_silencio
 :caminar_en_silencio rdf:type owl:NamedIndividual ,
-                              :Actividades_sociales_y_emocionales ;
+                              :Actividades_sociales_emocionales ;
                      :tiene_habilidad_principal :autocontrol ;
                      :tiene_beneficio "Este ejercicio mejora la concentración, la paciencia y la capacidad de los niños para controlar sus acciones y reacciones." ;
                      :tiene_desarrollo "Los niños caminan lentamente por el tatami en completo silencio, prestando atención a cada paso, a su postura y a su respiración. Se les anima a ser conscientes de su entorno y de sus propios movimientos." ;
                      :tiene_nombre "Caminar en Silencio" ;
                      :tiene_objetivo "Fomentar la conciencia corporal y el control del movimiento." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_actitud
+:capacidad_actitud rdf:type owl:NamedIndividual ,
+                            :Capacidades_técnicas ;
+                   rdfs:comment "Capacidad de mantener una actitud marcial correcta, con una actitud corporal correcta, y concentrado en la ejecución." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_adaptación
+:capacidad_adaptación rdf:type owl:NamedIndividual ,
+                               :Capacidades_técnicas ;
+                      rdfs:comment "Capacidad de adaptarse a uke y a las circunstancias del momento." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_comprensión_táctica
+:capacidad_comprensión_táctica rdf:type owl:NamedIndividual ,
+                                        :Capacidades_técnicas ;
+                               rdfs:comment "Capacidad de cuándo aplicar qué técnica" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_concentración
+:capacidad_concentración rdf:type owl:NamedIndividual ,
+                                  :Capacidades_técnicas ;
+                         rdfs:comment "Capacidad de estar concentrado en la ejecución de la técnica." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_coordinación
+:capacidad_coordinación rdf:type owl:NamedIndividual ,
+                                 :Capacidades_técnicas ;
+                        rdfs:comment "Capacidad de coordinar todos los elementos corporales implicados en la ejecución." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_equilibrio
+:capacidad_equilibrio rdf:type owl:NamedIndividual ,
+                               :Capacidades_técnicas ;
+                      rdfs:comment "Capacidad de mantener un correcto equilibrio en la realización de los ejercicios." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_memoria_motriz
+:capacidad_memoria_motriz rdf:type owl:NamedIndividual ,
+                                   :Capacidades_técnicas ;
+                          rdfs:comment "Capacidad de recordar la secuencia de movimientos de la técnica." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_orientación
+:capacidad_orientación rdf:type owl:NamedIndividual ,
+                                :Capacidades_técnicas ;
+                       rdfs:comment "Capacidad necesaria para evitar colisiones, mantener la distancia, etc." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_principios
+:capacidad_principios rdf:type owl:NamedIndividual ,
+                               :Capacidades_técnicas ;
+                      rdfs:comment "Capacidad de usar correctamente los principios del Aikido: distancia, coordinación, actitud, visión, etc." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_ritmo
+:capacidad_ritmo rdf:type owl:NamedIndividual ,
+                          :Capacidades_técnicas ;
+                 rdfs:comment "Capacidad de mantener un ritmo sostenido y adecuado en la realización de la técnica." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_tiempo_reacción
+:capacidad_tiempo_reacción rdf:type owl:NamedIndividual ,
+                                    :Capacidades_técnicas ;
+                           rdfs:comment "Capacidad de reaccionar en el momento adecuado" .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#carrera_a_la_pata_coja
@@ -1921,7 +2423,7 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#carreras_con_arrastre
 :carreras_con_arrastre rdf:type owl:NamedIndividual ,
                                 :Actividades_fisicas ;
-                       :usa_capacidad_fisica :fuerza ;
+                       :act_usa_capacidad_fisica :fuerza ;
                        :tiene_beneficio "Mejora fuerza de piernas y trabajo cooperativoza de piernas y trabajo cooperativo" ;
                        :tiene_desarrollo "Un niño corre mientras arrastra a otro sentado sobre una colchoneta" ;
                        :tiene_nombre "Carreras con arrastre" ;
@@ -1942,6 +2444,43 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
                rdfs:comment "Jin es la bondad y la compasión hacia los demás, ser generoso y ayudar cuando sea necesario." .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_baja
+:condición_baja rdf:type owl:NamedIndividual ,
+                         :Condiciónes_físicas ;
+                rdfs:comment "Dificultades moderadas en una o dos capacidades físicas. Se le debe adaptar la carga o duración." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_buena
+:condición_buena rdf:type owl:NamedIndividual ,
+                          :Condiciónes_físicas ;
+                 rdfs:comment "Presenta facilidad para seguir ejercicios y mantener el esfuerzo. Responde bien a nuevas demandas físicas." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_media
+:condición_media rdf:type owl:NamedIndividual ,
+                          :Condiciónes_físicas ;
+                 rdfs:comment "Condición física funcional para la práctica estándar. No destaca ni presenta limitaciones relevantes." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_muy_baja
+:condición_muy_baja rdf:type owl:NamedIndividual ,
+                             :Condiciónes_físicas ;
+                    rdfs:comment """Presenta dificultades en dos o más capacidades físicas.
+Por ejemplo: Se fatiga fácilmente. No mantiene el esfuerzo.""" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_muy_buena
+:condición_muy_buena rdf:type owl:NamedIndividual ,
+                              :Condiciónes_físicas ;
+                     rdfs:comment "Destaca claramente en resistencia, fuerza o coordinación. Puede asumir tareas más complejas o exigentes." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#construcción_guiada
+:construcción_guiada rdf:type owl:NamedIndividual ,
+                              :Actividades_técnicas ;
+                     rdfs:comment "El alumno observa una técnica realizada por el instructor (sin explicación) y luego intenta reconstruirla verbal y físicamente, en pequeños pasos." .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#coraje_yu
 :coraje_yu rdf:type owl:NamedIndividual ,
                     :Valores ;
@@ -1954,7 +2493,7 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#cuerda_de_resistencia
 :cuerda_de_resistencia rdf:type owl:NamedIndividual ,
                                 :Actividades_fisicas ;
-                       :usa_capacidad_fisica :fuerza ;
+                       :act_usa_capacidad_fisica :fuerza ;
                        :tiene_beneficio "Aumenta la fuerza de agarre y tracción" ;
                        :tiene_desarrollo "Tiran de una cuerda desde posiciones fijas o dinámicas" ;
                        :tiene_nombre "Cuerda de resistencia" ;
@@ -1978,12 +2517,30 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desafío_de_equilibrio
 :desafío_de_equilibrio rdf:type owl:NamedIndividual ,
-                                :Actividades_sociales_y_emocionales ;
+                                :Actividades_sociales_emocionales ;
                        :tiene_habilidad_principal :autocontrol ;
                        :tiene_beneficio "Este ejercicio mejora la concentración, la paciencia y la capacidad de los niños para controlar sus acciones y reacciones." ;
                        :tiene_desarrollo "Los niños caminan lentamente por el tatami en completo silencio, prestando atención a cada paso, a su postura y a su respiración. Se les anima a ser conscientes de su entorno y de sus propios movimientos." ;
                        :tiene_nombre "Caminar en Silencio" ;
                        :tiene_objetivo "Fomentar la conciencia corporal y el control del movimiento." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desplazamientos_en_shikko_adelante_atrás
+:desplazamientos_en_shikko_adelante_atrás rdf:type owl:NamedIndividual ,
+                                                   :Actividades_técnicas ;
+                                          rdfs:comment "Desplazarse en shikko hacia adelante hasta llegar al límite del tatami, volver desplazándose hacia atrás." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desplazamientos_en_shikko_girando
+:desplazamientos_en_shikko_girando rdf:type owl:NamedIndividual ,
+                                            :Actividades_técnicas ;
+                                   rdfs:comment "Desplazarse en shikko, avanzando hacia adelante y ejecutando un giro 360º, hasta llegar al límite del tatami." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desplazamientos_en_shikko_lucha_espadas
+:desplazamientos_en_shikko_lucha_espadas rdf:type owl:NamedIndividual ,
+                                                  :Actividades_técnicas ;
+                                         rdfs:comment "Se dispone a medio grupo en un lado del tatami, y al otro medio en el otro. CAda alumno porta una trozo de churro de piscina, a la manera de espada. Cada lado avanza, en shikko, hacia el lado contrario, y en el momento de encuentro realizan una lucha de espadas, para quitarle al contrario la suya y volver a su lado." .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#diferenciación_cinestésica
@@ -2034,7 +2591,7 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#el_guerrero_interior
 :el_guerrero_interior rdf:type owl:NamedIndividual ,
-                               :Actividades_sociales_y_emocionales ;
+                               :Actividades_sociales_emocionales ;
                       :tiene_habilidad_principal :regulación_emocional ;
                       :tiene_beneficio "Los niños aprenden a reemplazar pensamientos negativos automáticos por otros más amables y constructivos." ;
                       :tiene_desarrollo """Después de realizar una técnica complicada o tras un error en un ejercicio, el instructor invita al grupo a sentarse en seiza y decir en voz baja frases como:
@@ -2049,7 +2606,7 @@ Se puede acompañar con un gesto (por ejemplo, mano en el corazón o en el muslo
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#el_oso_y_el_cangrejo
 :el_oso_y_el_cangrejo rdf:type owl:NamedIndividual ,
                                :Actividades_fisicas ;
-                      :usa_capacidad_fisica :fuerza ;
+                      :act_usa_capacidad_fisica :fuerza ;
                       :tiene_beneficio "Mejora fuerza funcional y coordinación" ;
                       :tiene_desarrollo "Carrera en cuadrupedia frontal (oso) o supina (cangrejo)" ;
                       :tiene_nombre "El oso y el cangrejo" ;
@@ -2089,11 +2646,17 @@ Variantes:
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#empuje_de_sumo
 :empuje_de_sumo rdf:type owl:NamedIndividual ,
                          :Actividades_fisicas ;
-                :usa_capacidad_fisica :fuerza ;
+                :act_usa_capacidad_fisica :fuerza ;
                 :tiene_beneficio "Fortalece piernas, brazos y equilibrio postural" ;
                 :tiene_desarrollo "En parejas, intentan empujarse fuera de un círculo con el torso recto" ;
                 :tiene_nombre "Empuje de sumo" ;
                 :tiene_objetivo "Fortalecer tren superior e inferior" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#encadenamiento_técnicas
+:encadenamiento_técnicas rdf:type owl:NamedIndividual ,
+                                  :Actividades_técnicas ;
+                         rdfs:comment "Realización secuencial de tres técnicas básicas (por ejemplo, ikkyo, shihonage, iriminage) de forma fluida, con cambios al ritmo de una señal sonora." .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#equilibrio
@@ -2113,7 +2676,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#estatua_de_Aikido
 :estatua_de_Aikido rdf:type owl:NamedIndividual ,
-                            :Actividades_sociales_y_emocionales ;
+                            :Actividades_sociales_emocionales ;
                    :tiene_habilidad_principal :autocontrol ;
                    :tiene_beneficio "Esta actividad ayuda a los niños a desarrollar la capacidad de detenerse y controlar sus impulsos, mejorando su atención y disciplina" ;
                    :tiene_desarrollo "Los niños caminan libremente por el tatami, Y Al escuchar una señal (una palmada o una palabra clave), deben detenerse inmediatamente y mantener una postura determinada (por ejemplo, estar sentados en seiza) sin moverse hasta que se dé la siguiente señal." ;
@@ -2214,6 +2777,26 @@ Variantes:
         rdfs:comment "Es la capacidad del músculo o de un grupo muscular para vencer una resistencia externa o para oponerse a ella. Es fundamental en casi todas las actividades físicas y deportivas." .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fundamentos_físicos
+:fundamentos_físicos rdf:type owl:NamedIndividual ,
+                              :Tipos_fundamentos .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fundamentos_sociales_y_emocionales
+:fundamentos_sociales_y_emocionales rdf:type owl:NamedIndividual ,
+                                             :Tipos_fundamentos .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fundamentos_técnicos
+:fundamentos_técnicos rdf:type owl:NamedIndividual ,
+                               :Tipos_fundamentos .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fundamentos_valores
+:fundamentos_valores rdf:type owl:NamedIndividual ,
+                              :Tipos_fundamentos .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#gedan_tsuki
 :gedan_tsuki rdf:type owl:NamedIndividual ,
                       :Ataques ,
@@ -2232,23 +2815,44 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_A
 :grupo_A rdf:type owl:NamedIndividual ,
-                  :Grupos .
+                  :Grupos ;
+         rdfs:comment "Centro 1. Lunes y miércoles." .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_B
 :grupo_B rdf:type owl:NamedIndividual ,
-                  :Grupos .
+                  :Grupos ;
+         rdfs:comment "Centro 1. Martes y jueves." .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_C
 :grupo_C rdf:type owl:NamedIndividual ,
-                  :Grupos .
+                  :Grupos ;
+         rdfs:comment "Centro 2. Lunes y miércoles." .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#gyaku_hanmi
 :gyaku_hanmi rdf:type owl:NamedIndividual ,
                       :Posicion ;
              rdfs:comment "tori en migi hanmi y uke en hidari hanmi, o tori en hidari hanmi y uke en migi hanmi" .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_hombre
+:género_hombre rdf:type owl:NamedIndividual ,
+                        :Géneros ;
+               rdfs:comment "Ser del género hombre." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_mujer
+:género_mujer rdf:type owl:NamedIndividual ,
+                       :Géneros ;
+              rdfs:comment "Ser del género mujer." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_otro
+:género_otro rdf:type owl:NamedIndividual ,
+                      :Géneros ;
+             rdfs:comment "Cualquier otro tipo de género que afecte a las funciones corporales o condiciones físicas." .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#hanmi_handachi_waza
@@ -2292,9 +2896,29 @@ Variantes:
                 :Inmovilizaciones .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#imc_bajo_peso
+:imc_bajo_peso rdf:type owl:NamedIndividual ,
+                        :Clasificaciones_según_IMC .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#imc_obesidad
+:imc_obesidad rdf:type owl:NamedIndividual ,
+                       :Clasificaciones_según_IMC .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#imc_peso_normal
+:imc_peso_normal rdf:type owl:NamedIndividual ,
+                          :Clasificaciones_según_IMC .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#imc_sobrepeso
+:imc_sobrepeso rdf:type owl:NamedIndividual ,
+                        :Clasificaciones_según_IMC .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b117_f3
 :impacto_e11a12_b117_f3 rdf:type owl:NamedIndividual ,
-                                 :Impacto_por_edad ;
+                                 :Impactos_por_edad ;
                         :edad :e11a12 ;
                         :funcion :b117 ;
                         :impacto :f3 .
@@ -2302,7 +2926,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b164_f3
 :impacto_e11a12_b164_f3 rdf:type owl:NamedIndividual ,
-                                 :Impacto_por_edad ;
+                                 :Impactos_por_edad ;
                         :edad :e11a12 ;
                         :funcion :b164 ;
                         :impacto :f3 .
@@ -2310,7 +2934,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b180_f2
 :impacto_e11a12_b180_f2 rdf:type owl:NamedIndividual ,
-                                 :Impacto_por_edad ;
+                                 :Impactos_por_edad ;
                         :edad :e11a12 ;
                         :funcion :b180 ;
                         :impacto :f2 .
@@ -2318,7 +2942,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b210_f3
 :impacto_e11a12_b210_f3 rdf:type owl:NamedIndividual ,
-                                 :Impacto_por_edad ;
+                                 :Impactos_por_edad ;
                         :edad :e11a12 ;
                         :funcion :b210 ;
                         :impacto :f3 .
@@ -2326,7 +2950,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b230_f3
 :impacto_e11a12_b230_f3 rdf:type owl:NamedIndividual ,
-                                 :Impacto_por_edad ;
+                                 :Impactos_por_edad ;
                         :edad :e11a12 ;
                         :funcion :b230 ;
                         :impacto :f3 .
@@ -2334,7 +2958,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b440_f3
 :impacto_e11a12_b440_f3 rdf:type owl:NamedIndividual ,
-                                 :Impacto_por_edad ;
+                                 :Impactos_por_edad ;
                         :edad :e11a12 ;
                         :funcion :b440 ;
                         :impacto :f3 .
@@ -2342,7 +2966,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b445_f2
 :impacto_e11a12_b445_f2 rdf:type owl:NamedIndividual ,
-                                 :Impacto_por_edad ;
+                                 :Impactos_por_edad ;
                         :edad :e11a12 ;
                         :funcion :b445 ;
                         :impacto :f2 .
@@ -2350,7 +2974,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b730_f3
 :impacto_e11a12_b730_f3 rdf:type owl:NamedIndividual ,
-                                 :Impacto_por_edad ;
+                                 :Impactos_por_edad ;
                         :edad :e11a12 ;
                         :funcion :b730 ;
                         :impacto :f3 .
@@ -2358,7 +2982,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b760_f3
 :impacto_e11a12_b760_f3 rdf:type owl:NamedIndividual ,
-                                 :Impacto_por_edad ;
+                                 :Impactos_por_edad ;
                         :edad :e11a12 ;
                         :funcion :b760 ;
                         :impacto :f3 .
@@ -2366,7 +2990,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b830_f1
 :impacto_e11a12_b830_f1 rdf:type owl:NamedIndividual ,
-                                 :Impacto_por_edad ;
+                                 :Impactos_por_edad ;
                         :edad :e11a12 ;
                         :funcion :b830 ;
                         :impacto :f1 .
@@ -2374,7 +2998,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b114_d1
 :impacto_e6a8_b114_d1 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b114 ;
                       :impacto :d1 .
@@ -2382,7 +3006,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b117_f1
 :impacto_e6a8_b117_f1 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b117 ;
                       :impacto :f1 .
@@ -2390,7 +3014,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b140_f1
 :impacto_e6a8_b140_f1 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b140 ;
                       :impacto :f1 .
@@ -2398,7 +3022,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b156_f2
 :impacto_e6a8_b156_f2 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b156 ;
                       :impacto :f2 .
@@ -2406,7 +3030,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b210_f1
 :impacto_e6a8_b210_f1 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b210 ;
                       :impacto :f1 .
@@ -2414,7 +3038,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b230_f1
 :impacto_e6a8_b230_f1 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b230 ;
                       :impacto :f1 .
@@ -2422,7 +3046,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b440_d1
 :impacto_e6a8_b440_d1 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b440 ;
                       :impacto :d1 .
@@ -2430,7 +3054,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b710_f1
 :impacto_e6a8_b710_f1 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b710 ;
                       :impacto :f1 .
@@ -2438,7 +3062,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b715_d1
 :impacto_e6a8_b715_d1 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b715 ;
                       :impacto :d1 .
@@ -2446,7 +3070,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b730_d1
 :impacto_e6a8_b730_d1 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b730 ;
                       :impacto :d1 .
@@ -2454,7 +3078,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b735_f1
 :impacto_e6a8_b735_f1 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b735 ;
                       :impacto :f1 .
@@ -2462,7 +3086,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b760_d1
 :impacto_e6a8_b760_d1 rdf:type owl:NamedIndividual ,
-                               :Impacto_por_edad ;
+                               :Impactos_por_edad ;
                       :edad :e6a8 ;
                       :funcion :b760 ;
                       :impacto :d1 .
@@ -2470,7 +3094,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b126_f1
 :impacto_e9a10_b126_f1 rdf:type owl:NamedIndividual ,
-                                :Impacto_por_edad ;
+                                :Impactos_por_edad ;
                        :edad :e9a10 ;
                        :funcion :b126 ;
                        :impacto :f1 .
@@ -2478,7 +3102,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b130_f1
 :impacto_e9a10_b130_f1 rdf:type owl:NamedIndividual ,
-                                :Impacto_por_edad ;
+                                :Impactos_por_edad ;
                        :edad :e9a10 ;
                        :funcion :b130 ;
                        :impacto :f1 .
@@ -2486,7 +3110,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b140_f2
 :impacto_e9a10_b140_f2 rdf:type owl:NamedIndividual ,
-                                :Impacto_por_edad ;
+                                :Impactos_por_edad ;
                        :edad :e9a10 ;
                        :funcion :b140 ;
                        :impacto :f2 .
@@ -2494,7 +3118,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b164_f1
 :impacto_e9a10_b164_f1 rdf:type owl:NamedIndividual ,
-                                :Impacto_por_edad ;
+                                :Impactos_por_edad ;
                        :edad :e9a10 ;
                        :funcion :b164 ;
                        :impacto :f1 .
@@ -2502,7 +3126,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b210_f2
 :impacto_e9a10_b210_f2 rdf:type owl:NamedIndividual ,
-                                :Impacto_por_edad ;
+                                :Impactos_por_edad ;
                        :edad :e9a10 ;
                        :funcion :b210 ;
                        :impacto :f2 .
@@ -2510,7 +3134,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b230_f2
 :impacto_e9a10_b230_f2 rdf:type owl:NamedIndividual ,
-                                :Impacto_por_edad ;
+                                :Impactos_por_edad ;
                        :edad :e9a10 ;
                        :funcion :b230 ;
                        :impacto :f2 .
@@ -2518,7 +3142,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b440_f1
 :impacto_e9a10_b440_f1 rdf:type owl:NamedIndividual ,
-                                :Impacto_por_edad ;
+                                :Impactos_por_edad ;
                        :edad :e9a10 ;
                        :funcion :b440 ;
                        :impacto :f1 .
@@ -2526,7 +3150,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b730_f2
 :impacto_e9a10_b730_f2 rdf:type owl:NamedIndividual ,
-                                :Impacto_por_edad ;
+                                :Impactos_por_edad ;
                        :edad :e9a10 ;
                        :funcion :b730 ;
                        :impacto :f2 .
@@ -2534,7 +3158,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b735_f2
 :impacto_e9a10_b735_f2 rdf:type owl:NamedIndividual ,
-                                :Impacto_por_edad ;
+                                :Impactos_por_edad ;
                        :edad :e9a10 ;
                        :funcion :b735 ;
                        :impacto :f2 .
@@ -2542,10 +3166,30 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b760_f2
 :impacto_e9a10_b760_f2 rdf:type owl:NamedIndividual ,
-                                :Impacto_por_edad ;
+                                :Impactos_por_edad ;
                        :edad :e9a10 ;
                        :funcion :b760 ;
                        :impacto :f2 .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b280_d2
+:impacto_lesión_rodilla_b280_d2 rdf:type owl:NamedIndividual ,
+                                         :Impactos_lesión .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b710_d3
+:impacto_lesión_rodilla_b710_d3 rdf:type owl:NamedIndividual ,
+                                         :Impactos_lesión .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b715_d3
+:impacto_lesión_rodilla_b715_d3 rdf:type owl:NamedIndividual ,
+                                         :Impactos_lesión .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b780_d3
+:impacto_lesión_rodilla_b780_d3 rdf:type owl:NamedIndividual ,
+                                         :Impactos_lesión .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#inmovilizacion
@@ -2572,7 +3216,7 @@ Variantes:
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#juego_del_guía
 :juego_del_guía rdf:type owl:NamedIndividual ,
-                         :Actividades_sociales_y_emocionales ;
+                         :Actividades_sociales_emocionales ;
                 :tiene_habilidad_principal :autocontrol ;
                 :tiene_beneficio "Esta actividad fortalece la comunicación, la empatía y el control de los impulsos, ya que los niños deben confiar en su compañero y actuar con cuidado y responsabilidad." ;
                 :tiene_desarrollo "En parejas, un niño cierra los ojos y pone una mano en su compañero, bien en el hombro o mano contra mano. A continuación, se desplazan suavemente por el tatami, guiando el compañero que ve al que no. Luego, intercambian roles." ;
@@ -2658,9 +3302,15 @@ Variantes:
                rdfs:comment "Chugi implica ser leal y fiel a las personas que te rodean, a tus principios y a tus responsabilidades." .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#lesión_rodilla
+:lesión_rodilla rdf:type owl:NamedIndividual ,
+                         :Tipos_lesiones ;
+                rdfs:comment "Tiene afectadas las rodillas." .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#lo_que_siento_y_lo_que_necesito
 :lo_que_siento_y_lo_que_necesito rdf:type owl:NamedIndividual ,
-                                          :Actividades_sociales_y_emocionales ;
+                                          :Actividades_sociales_emocionales ;
                                  :tiene_habilidad_principal :regulación_emocional ;
                                  :tiene_beneficio "Favorece la expresión emocional clara y el desarrollo de una explicación más equilibrada de lo ocurrido." ;
                                  :tiene_desarrollo """Después de un malentendido con un compañero durante una técnica, se hace una breve dinámica guiada. El niño debe completar frases como:
@@ -2756,6 +3406,21 @@ El instructor puede modelar la frase primero y luego los niños la repiten de fo
           rdfs:comment "Habilidad para iniciar y ejecutar rápidamente acciones motoras adecuadas ante una señal o estímulo." .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#recomendación_activa
+:recomendación_activa rdf:type owl:NamedIndividual ,
+                               :Estados_recomendaciones .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#recomendación_aplicada
+:recomendación_aplicada rdf:type owl:NamedIndividual ,
+                                 :Estados_recomendaciones .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#recomendación_descartada
+:recomendación_descartada rdf:type owl:NamedIndividual ,
+                                   :Estados_recomendaciones .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rectitud_gi
 :rectitud_gi rdf:type owl:NamedIndividual ,
                       :Valores ;
@@ -2792,7 +3457,7 @@ El instructor puede modelar la frase primero y luego los niños la repiten de fo
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#respira_como_un_sensei
 :respira_como_un_sensei rdf:type owl:NamedIndividual ,
-                                 :Actividades_sociales_y_emocionales ;
+                                 :Actividades_sociales_emocionales ;
                         :tiene_habilidad_principal :regulación_emocional ;
                         :tiene_beneficio "Integra la autorregulación fisiológica con el cambio de pensamiento en situaciones reales del tatami." ;
                         :tiene_desarrollo """En momentos de agitación (tras juegos intensos o un conflicto menor), el instructor guía una breve pausa: los niños se sientan, cierran los ojos y hacen 3 respiraciones profundas mientras piensan:
@@ -2806,7 +3471,7 @@ Luego, se puede invitar a comentar cómo se sienten y qué pueden hacer diferent
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#respiración_y_movimiento
 :respiración_y_movimiento rdf:type owl:NamedIndividual ,
-                                   :Actividades_sociales_y_emocionales ;
+                                   :Actividades_sociales_emocionales ;
                           :tiene_habilidad_principal :autocontrol ;
                           :tiene_beneficio "Esta práctica ayuda a los niños a calmarse, concentrarse y prepararse mentalmente para la clase, promoviendo el autocontrol emocional" ;
                           :tiene_desarrollo "Antes de comenzar la clase, se guía a los niños en una breve sesión de respiración profunda, sincronizando la inhalación y exhalación con movimientos suaves de brazos inspirados en técnicas de Aikido" ;
@@ -2854,6 +3519,12 @@ Luego, se puede invitar a comentar cómo se sienten y qué pueden hacer diferent
                  :Inmovilizaciones .
 
 
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#secuencia_ciega
+:secuencia_ciega rdf:type owl:NamedIndividual ,
+                          :Actividades_técnicas ;
+                 rdfs:comment "El alumno realiza una secuencia aprendida (3 técnicas) con los ojos cerrados o vendados, guiado solo por la voz del uke o del instructor." .
+
+
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#sensei1
 :sensei1 rdf:type owl:NamedIndividual ,
                   :Profesores ;
@@ -2898,7 +3569,7 @@ Luego, se puede invitar a comentar cómo se sienten y qué pueden hacer diferent
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#subidas_explosivas
 :subidas_explosivas rdf:type owl:NamedIndividual ,
                              :Actividades_fisicas ;
-                    :usa_capacidad_fisica :fuerza ;
+                    :act_usa_capacidad_fisica :fuerza ;
                     :tiene_beneficio "Mejora potencia muscular y agilidad" ;
                     :tiene_desarrollo "Saltos verticales sobre colchonetas bajas repetidos en series" ;
                     :tiene_nombre "Subidas explosivas" ;
@@ -3191,7 +3862,7 @@ Luego, se puede invitar a comentar cómo se sienten y qué pueden hacer diferent
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#transforma_el_pensamiento
 :transforma_el_pensamiento rdf:type owl:NamedIndividual ,
-                                    :Actividades_sociales_y_emocionales ;
+                                    :Actividades_sociales_emocionales ;
                            :tiene_habilidad_principal :regulación_emocional ;
                            :tiene_beneficio "Ayuda a los niños a identificar pensamientos distorsionados y generar una actitud más resiliente y autónoma." ;
                            :tiene_desarrollo """Después de una actividad frustrante o una caída, el instructor propone un juego:
@@ -3202,6 +3873,18 @@ Luego, se puede invitar a comentar cómo se sienten y qué pueden hacer diferent
 También se habla de causas realistas: “¿Qué ha pasado? ¿Qué depende de ti?”""" ;
                            :tiene_nombre "Transforma el pensamiento" ;
                            :tiene_objetivo "enseñar a cambiar pensamientos negativos y buscar causas controlables." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#técnica_en_espejo
+:técnica_en_espejo rdf:type owl:NamedIndividual ,
+                            :Actividades_técnicas ;
+                   rdfs:comment "El alumno ejecuta una técnica básica (por ejemplo, ikkyo omote) frente a un compañero que hace de espejo, imitando el movimiento." .
+
+
+###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#técnica_reactiva
+:técnica_reactiva rdf:type owl:NamedIndividual ,
+                           :Actividades_técnicas ;
+                  rdfs:comment "El instructor o compañero cambia la energía o dirección del ataque (por ejemplo, empuje fuerte o suave), y el alumno debe elegir una técnica adecuada en función del estímulo." .
 
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#uchi_kaiten_nage
@@ -3265,7 +3948,7 @@ También se habla de causas realistas: “¿Qué ha pasado? ¿Qué depende de ti
 
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#visualiza_tu_mejor_versión
 :visualiza_tu_mejor_versión rdf:type owl:NamedIndividual ,
-                                     :Actividades_sociales_y_emocionales ;
+                                     :Actividades_sociales_emocionales ;
                             :tiene_habilidad_principal :regulación_emocional ;
                             :tiene_beneficio "Favorece el enfoque, reduce el miedo al error y fortalece la motivación" ;
                             :tiene_desarrollo """Planteamos a cada alumno un ejercicio o técnica que tienen que hacer delante de sus compañeros. El instructor guía una breve visualización:

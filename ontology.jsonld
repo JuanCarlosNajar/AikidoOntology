@@ -2,7 +2,7 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_capacidad_fisica"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_fisica"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_físicas"
@@ -139,9 +139,15 @@
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_alumno_de" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_B"
   } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_buena"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_edad" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "11"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_hombre"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
@@ -152,9 +158,15 @@
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_alumno_de" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_C"
   } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_media"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_edad" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "9"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_mujer"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
@@ -352,24 +364,39 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#dan"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Actividades y ejercicios que podemos realizar en una clase de Aikido"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Enseñanza"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Conjunto de actividades y ejercicios para potenciar las capacidades físicas de los alumnos."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_fisicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_Actividad"
   }, {
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales",
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Conjunto de actividades y ejercicios para potenciar las habilidades emocionales y sociales de los alumnos."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_Actividad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_técnicas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_Actividad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_valores",
@@ -378,7 +405,7 @@
     "@value" : "Conjunto de actividades y ejercicios para fomentar los valores éticos y morales en los alumnos."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_valores"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_Actividad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Agarres",
@@ -417,7 +444,7 @@
     "@value" : "Tipos de ataques de uke."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_físicas",
@@ -447,6 +474,51 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_físicas"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Clasificaciones_según_IMC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Clasificación del estado nutricional según el IMC."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_IMC"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Condiciónes_físicas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Valoración cualitativa de las capacidades físicas de un alumno"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_capacidad_física"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_IMC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contexto debido al  Índice de Masa Corporal (IMC) o en inglés BMI (Body Mass Index). Es una medida ampliamente utilizada para evaluar la composición corporal de forma general, especialmente en contextos escolares y deportivos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Problematicas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_capacidad_física",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Problematicas"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_discapacidades",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -458,6 +530,9 @@
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_edad",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Problemáticas cuyo origen es la edad cronológica del alumno o etapa madurativa en la que está."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Problematicas"
   } ]
@@ -504,7 +579,7 @@
     "@value" : "Tipos de defensa que realiza tori."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Deficiencia_grave",
@@ -546,7 +621,7 @@
     "@value" : "Tipos de desplazamientos."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Edad_11a12",
@@ -583,6 +658,12 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Aikido"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Estados_recomendaciones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Estructuras_clase",
@@ -651,7 +732,7 @@
     "@value" : "Indica cómo tori puede ejecutar la técnica respecto de uke: omote o ura."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_articulaciones_y_huesos",
@@ -878,7 +959,7 @@
     "@value" : "Grado del alumno o del profesor."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Grupos",
@@ -888,6 +969,15 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Enseñanza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Géneros",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Género de la persona (hombre, mujer, otro) . Necesario tenerlo en cuenta debido a las funciones corporales a las que puede afectar el ser de un género u otro."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_género"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Habilidades_sociales_y_emocionales",
@@ -908,13 +998,49 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_corporales"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad",
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_lesión",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Los impactos sobre las funciones corporales que puede tener una lesión."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_lesiones"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_IMC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Los tipos de impacto que tienen las diversas clasificaciones según el IMC de la persona."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_IMC"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_condición_física",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tipos de impacto debido a la condición física del alumno."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_capacidad_física"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Dificultades, limitaciones de la capacidad y problemas de desempeño debido a la edad madurativa."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_edad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_género",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tipos de impacto debido a ser de un género u otro."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_género"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Inmovilizaciones",
@@ -928,13 +1054,31 @@
     "@id" : "_:genid12"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Modalidad_actividades",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Las diversas modalidades de ejecución de las actividades (por parejas, individual,sin contacto físico,etc.).  Las actividades pueden tener, a la vez, a distintas modalidades."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Objetivos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Objetivos de las actividades."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Participantes",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "En las técnicas de Aikido participan dos alumnos, uno con el rol de atacante (uke) y otro con el rol de defensor (tori)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Patadas",
@@ -952,7 +1096,7 @@
     "@value" : "Indica como se coloca uke respecto de tori: derecha con derecha / izquierda con izquierda, o derecha con izquierda."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Problematicas",
@@ -982,6 +1126,18 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_defensa"
   }, {
     "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Enseñanza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tachi_waza_inmovilizaciones",
@@ -1017,7 +1173,7 @@
     "@value" : "Movimientos de las manos y los brazos."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tecnicas",
@@ -1029,13 +1185,19 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_Actividad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_ataque",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Tipos de ataque"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_defensa",
@@ -1044,7 +1206,25 @@
     "@value" : "Si es una inmovilizacion o una proyección"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_fundamentos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tipos de fundamentos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_lesiones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Los distintos tipos de lesiones que pueden afectar a un alumno."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_lesiones"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Técnicas_en_hanmi_handachi_waza",
@@ -1091,7 +1271,7 @@
     "@value" : "caidas"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
   }, {
     "@id" : "_:genid15"
   } ]
@@ -1111,7 +1291,180 @@
     "@value" : "Las distintas formas de practicar las técnicas."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_beneficio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Funciones corporales a las que beneficia la actividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_corporales"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_contraindicación",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contextos a los que perjudica la activiad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Problematicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_modalidad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relaciona la actividad con la modalidad de actividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Modalidad_actividades"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_objetivo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "El objetivo que tiene la actividad."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_valores"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Objetivos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_tipo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_Actividad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tipo_actividad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_valores"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Modalidad_actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_fisica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_físicas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_técnica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_habilidad_social_emocional",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Habilidades sociales y emocionales que la actividad puede usar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Habilidades_sociales_y_emocionales"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_valor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Valores"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_grupal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Modalidad_actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Actividad para realizar en grupo."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_individual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Modalidad_actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Actividad que se realiza individualmente."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_juego",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Modalidad_actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Se trata de un juego didáctico."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_por_parejas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Modalidad_actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Actividad para realizar por parejas."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_sin_contacto_físico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Modalidad_actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Actividad que para realizarla no es necesario el contacto físico entre los alumnos."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_técnica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Modalidad_actividades"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#agarre",
@@ -1139,9 +1492,15 @@
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_alumno_de" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_A"
   } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_media"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_edad" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "8"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_hombre"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
@@ -1152,9 +1511,15 @@
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_alumno_de" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_A"
   } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_muy_baja"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_edad" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "10"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_hombre"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
@@ -1165,9 +1530,15 @@
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_alumno_de" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_A"
   } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_muy_buena"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_edad" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "11"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_mujer"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
@@ -1178,9 +1549,15 @@
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_alumno_de" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_B"
   } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_muy_baja"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_edad" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "6"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_mujer"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
@@ -1191,9 +1568,17 @@
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_alumno_de" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_B"
   } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_media"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_muy_baja"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_edad" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "9"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_hombre"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
@@ -1204,9 +1589,15 @@
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_alumno_de" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_C"
   } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_buena"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_edad" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "7"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_hombre"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
@@ -1217,9 +1608,15 @@
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_alumno_de" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_C"
   } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_buena"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_edad" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "12"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_hombre"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
@@ -1227,18 +1624,36 @@
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#alumno_10",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_baja"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_hombre"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#alumno_11",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_media"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_otro"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#alumno_12",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_media"
+  } ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_hombre"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
   } ]
@@ -2466,7 +2881,106 @@
     "@value" : "Fomentar la conciencia corporal y el control del movimiento."
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_actitud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capacidad de mantener una actitud marcial correcta, con una actitud corporal correcta, y concentrado en la ejecución."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_adaptación",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capacidad de adaptarse a uke y a las circunstancias del momento."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_comprensión_táctica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capacidad de cuándo aplicar qué técnica"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_concentración",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capacidad de estar concentrado en la ejecución de la técnica."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_coordinación",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capacidad de coordinar todos los elementos corporales implicados en la ejecución."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_equilibrio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capacidad de mantener un correcto equilibrio en la realización de los ejercicios."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_memoria_motriz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capacidad de recordar la secuencia de movimientos de la técnica."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_orientación",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capacidad necesaria para evitar colisiones, mantener la distancia, etc."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_principios",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capacidad de usar correctamente los principios del Aikido: distancia, coordinación, actitud, visión, etc."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_ritmo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capacidad de mantener un ritmo sostenido y adecuado en la realización de la técnica."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_tiempo_reacción",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capacidad de reaccionar en el momento adecuado"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#carrera_a_la_pata_coja",
@@ -2489,6 +3003,9 @@
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#carreras_con_arrastre",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_fisica" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fuerza"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_beneficio" : [ {
     "@value" : "Mejora fuerza de piernas y trabajo cooperativoza de piernas y trabajo cooperativo"
   } ],
@@ -2500,9 +3017,6 @@
   } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_objetivo" : [ {
     "@value" : "Desarrollar fuerza en tren inferior"
-  } ],
-  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_capacidad_fisica" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fuerza"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas"
@@ -2530,6 +3044,60 @@
     "@value" : "Jin es la bondad y la compasión hacia los demás, ser generoso y ayudar cuando sea necesario."
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_baja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Condiciónes_físicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Dificultades moderadas en una o dos capacidades físicas. Se le debe adaptar la carga o duración."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_buena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Condiciónes_físicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Presenta facilidad para seguir ejercicios y mantener el esfuerzo. Responde bien a nuevas demandas físicas."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_media",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Condiciónes_físicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Condición física funcional para la práctica estándar. No destaca ni presenta limitaciones relevantes."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_muy_baja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Condiciónes_físicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Presenta dificultades en dos o más capacidades físicas.\nPor ejemplo: Se fatiga fácilmente. No mantiene el esfuerzo."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#condición_muy_buena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Condiciónes_físicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Destaca claramente en resistencia, fuerza o coordinación. Puede asumir tareas más complejas o exigentes."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#construcción_guiada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "El alumno observa una técnica realizada por el instructor (sin explicación) y luego intenta reconstruirla verbal y físicamente, en pequeños pasos."
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#coraje_yu",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desarrolla_habilidad_social_emocional" : [ {
@@ -2546,8 +3114,23 @@
     "@value" : "Yu implica tener el coraje de hacer lo correcto incluso en situaciones difíciles o peligrosas."
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#ctx_tiene_impacto_en",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indica las funciones corporales que se ven afectadas por la etapa de la edad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Problematicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_corporales"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#cuerda_de_resistencia",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_fisica" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fuerza"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_beneficio" : [ {
     "@value" : "Aumenta la fuerza de agarre y tracción"
   } ],
@@ -2559,9 +3142,6 @@
   } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_objetivo" : [ {
     "@value" : "Fortalecer brazos y espalda"
-  } ],
-  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_capacidad_fisica" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fuerza"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas"
@@ -2609,7 +3189,7 @@
     "@value" : "Fomentar la conciencia corporal y el control del movimiento."
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desarrolla_habilidad_social_emocional",
@@ -2622,6 +3202,33 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Habilidades_sociales_y_emocionales"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desplazamientos_en_shikko_adelante_atrás",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Desplazarse en shikko hacia adelante hasta llegar al límite del tatami, volver desplazándose hacia atrás."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desplazamientos_en_shikko_girando",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Desplazarse en shikko, avanzando hacia adelante y ejecutando un giro 360º, hasta llegar al límite del tatami."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desplazamientos_en_shikko_lucha_espadas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Se dispone a medio grupo en un lado del tatami, y al otro medio en el otro. CAda alumno porta una trozo de churro de piscina, a la manera de espada. Cada lado avanza, en shikko, hacia el lado contrario, y en el momento de encuentro realizan una lucha de espadas, para quitarle al contrario la suya y volver a su lado."
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#diferenciación_cinestésica",
@@ -2685,7 +3292,7 @@
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#edad",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Etapas_edad"
@@ -2751,11 +3358,14 @@
     "@value" : "fomentar una narrativa interna positiva ante el error o la frustración"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#el_oso_y_el_cangrejo",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_fisica" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fuerza"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_beneficio" : [ {
     "@value" : "Mejora fuerza funcional y coordinación"
   } ],
@@ -2767,9 +3377,6 @@
   } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_objetivo" : [ {
     "@value" : "Desarrollar fuerza general"
-  } ],
-  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_capacidad_fisica" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fuerza"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas"
@@ -2814,6 +3421,9 @@
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#empuje_de_sumo",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_fisica" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fuerza"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_beneficio" : [ {
     "@value" : "Fortalece piernas, brazos y equilibrio postural"
   } ],
@@ -2826,11 +3436,17 @@
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_objetivo" : [ {
     "@value" : "Fortalecer tren superior e inferior"
   } ],
-  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_capacidad_fisica" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fuerza"
-  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#encadenamiento_técnicas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Realización secuencial de tres técnicas básicas (por ejemplo, ikkyo, shihonage, iriminage) de forma fluida, con cambios al ritmo de una señal sonora."
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#equilibrio",
@@ -2905,7 +3521,7 @@
     "@value" : "Mejorar la concentración y el control corporal"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#estiramientos",
@@ -3050,6 +3666,24 @@
     "@value" : "Es la capacidad de los músculos y articulaciones para realizar movimientos con la máxima amplitud posible, sin sufrir daños. Está influenciada por la elasticidad muscular y la movilidad articular."
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fnd_usa_capacidad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fundamento usa capacidad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_físicas"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Habilidades_sociales_y_emocionales"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Valores"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#forma_parte_de",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -3086,10 +3720,34 @@
     "@value" : "Funciones corporales, según definición del CIF de la OMS, sobre las que tiene algún tipo de impacto, positivo o negativo."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_corporales"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fundamentos_físicos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_fundamentos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fundamentos_sociales_y_emocionales",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_fundamentos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fundamentos_técnicos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_fundamentos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fundamentos_valores",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_fundamentos"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#gedan_tsuki",
@@ -3115,18 +3773,27 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Grupos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Centro 1. Lunes y miércoles."
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_B",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Grupos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Centro 1. Martes y jueves."
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_C",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Grupos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Centro 2. Lunes y miércoles."
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_edad",
@@ -3148,6 +3815,33 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "tori en migi hanmi y uke en hidari hanmi, o tori en hidari hanmi y uke en migi hanmi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_hombre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Géneros"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ser del género hombre."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_mujer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Géneros"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ser del género mujer."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#género_otro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Géneros"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Cualquier otro tipo de género que afecte a las funciones corporales o condiciones físicas."
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#hanmi_handachi_waza",
@@ -3214,13 +3908,37 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Inmovilizaciones"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#imc_bajo_peso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Clasificaciones_según_IMC"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#imc_obesidad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Clasificaciones_según_IMC"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#imc_peso_normal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Clasificaciones_según_IMC"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#imc_sobrepeso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Clasificaciones_según_IMC"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Tipo de impacto (favorable o deficiencia) y el grado del impacto."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_funcional"
@@ -3238,7 +3956,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f3"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b164_f3",
@@ -3253,7 +3971,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f3"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b180_f2",
@@ -3268,7 +3986,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f2"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b210_f3",
@@ -3283,7 +4001,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f3"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b230_f3",
@@ -3298,7 +4016,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f3"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b440_f3",
@@ -3313,7 +4031,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f3"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b445_f2",
@@ -3328,7 +4046,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f2"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b730_f3",
@@ -3343,7 +4061,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f3"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b760_f3",
@@ -3358,7 +4076,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f3"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b830_f1",
@@ -3373,7 +4091,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b114_d1",
@@ -3388,7 +4106,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#d1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b117_f1",
@@ -3403,7 +4121,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b140_f1",
@@ -3418,7 +4136,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b156_f2",
@@ -3433,7 +4151,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f2"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b210_f1",
@@ -3448,7 +4166,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b230_f1",
@@ -3463,7 +4181,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b440_d1",
@@ -3478,7 +4196,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#d1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b710_f1",
@@ -3493,7 +4211,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b715_d1",
@@ -3508,7 +4226,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#d1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b730_d1",
@@ -3523,7 +4241,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#d1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b735_f1",
@@ -3538,7 +4256,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b760_d1",
@@ -3553,7 +4271,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#d1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b126_f1",
@@ -3568,7 +4286,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b130_f1",
@@ -3583,7 +4301,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b140_f2",
@@ -3598,7 +4316,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f2"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b164_f1",
@@ -3613,7 +4331,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b210_f2",
@@ -3628,7 +4346,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f2"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b230_f2",
@@ -3643,7 +4361,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f2"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b440_f1",
@@ -3658,7 +4376,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f1"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b730_f2",
@@ -3673,7 +4391,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f2"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b735_f2",
@@ -3688,7 +4406,7 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f2"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e9a10_b760_f2",
@@ -3703,7 +4421,31 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#f2"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_por_edad"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b280_d2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_lesión"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b710_d3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_lesión"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b715_d3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_lesión"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b780_d3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_lesión"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_sobre",
@@ -3764,7 +4506,7 @@
     "@value" : "Desarrollar la confianza mutua y el autocontrol en situaciones de interacción."
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#juji_garami",
@@ -3883,6 +4625,15 @@
     "@value" : "Chugi implica ser leal y fiel a las personas que te rodean, a tus principios y a tus responsabilidades."
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#lesión_rodilla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_lesiones"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tiene afectadas las rodillas."
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#lo_que_siento_y_lo_que_necesito",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_beneficio" : [ {
@@ -3901,7 +4652,7 @@
     "@value" : "aprender a expresar emociones y buscar soluciones respetuosas."
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#mae_geri",
@@ -4011,7 +4762,7 @@
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#produce_impacto",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Indica el tipo de impacto que produce una etapa de edad"
+    "@value" : "Indica el tipo de impacto (grado) que produce una etapa de edad"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Etapas_edad"
@@ -4022,6 +4773,217 @@
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#proyeccion",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_actividad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Actividad recomendada."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_valores"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_alumno",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Alumno o alumnos a los que se le aplica la recomendación."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_apartado_clase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indica el apartado de la clase donde se llevaría acabo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Apartados_clase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_autor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Una recomendación tiene un autor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Profesores"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_descripción",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Descripción de la recomendación."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_estado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Una recomendación tiene un estado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Estados_recomendaciones"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_evaluación",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Evaluación de la Recomendación"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fecha_creación",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fecha creación de la recomendación"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fecha_evaluación",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "FEcha de la evaluación de la recomendación."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fecha_modificación",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fecha de modificación de la recomendación."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fundamento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fundamentos a los que se aplica la recomendación."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_fundamentos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_grupo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Grupo al que se aplica la recomendación."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Grupos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_impacto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Impacto del contexto."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_IMC"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_condición_física"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_género"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_motivo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Motivo por el que se ha generado la recomendación."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_observaciones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Observaciones sobre las recomendaciones."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_problemática",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Problemáticas a las que se le aplica la recomendación"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Recomendaciones_realizadas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Problematicas"
+  } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#reacción",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
@@ -4037,6 +4999,40 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Habilidad para iniciar y ejecutar rápidamente acciones motoras adecuadas ante una señal o estímulo."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#realizar_en_apartado_clase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Actividades que se realizan en un determinado apartado de la clase (ejercicios de calentamiento, de estiramientos, técnicos, etc)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_valores"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Apartados_clase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#recomendación_activa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Estados_recomendaciones"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#recomendación_aplicada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Estados_recomendaciones"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#recomendación_descartada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Estados_recomendaciones"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rectitud_gi",
@@ -4116,7 +5112,7 @@
     "@value" : "enseñar a calmarse y a reinterpretar los errores como parte del proceso."
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#respiración_y_movimiento",
@@ -4137,7 +5133,7 @@
     "@value" : "Enseñar la autorregulación emocional a través de la respiración consciente"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#responsabilidad",
@@ -4200,6 +5196,15 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Inmovilizaciones"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#secuencia_ciega",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "El alumno realiza una secuencia aprendida (3 técnicas) con los ojos cerrados o vendados, guiado solo por la voz del uke o del instructor."
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#sensei1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_profesor_de" : [ {
@@ -4259,6 +5264,9 @@
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#subidas_explosivas",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_fisica" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fuerza"
+  } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_beneficio" : [ {
     "@value" : "Mejora potencia muscular y agilidad"
   } ],
@@ -4270,9 +5278,6 @@
   } ],
   "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_objetivo" : [ {
     "@value" : "Estimular fuerza rápida de piernas"
-  } ],
-  "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_capacidad_fisica" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#fuerza"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas"
@@ -4853,6 +5858,39 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_clasificación_IMC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Clasificaciones_según_IMC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_condición_física",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Condiciónes_físicas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_contexto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indica si el alumno tiene algún contexto específico (lesión, enfermedad, discapacidad,etc)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Problematicas"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_defensa",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -4897,6 +5935,20 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_estatura",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Estatura en centímetros."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Profesores"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_forma",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -4909,13 +5961,41 @@
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Forma_tecnica"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_grado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Grado o nivel de Aikido."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Profesores"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Grado"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indica el género de una pérsona (hombre, mujer u otro)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Profesores"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Géneros"
+  } ]
+}, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_habilidad_principal",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "La habilidad principal que fomenta un ejercicio del grupo de actividades sociales y emocionales."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Habilidades_sociales_y_emocionales"
@@ -4927,25 +6007,13 @@
     "@value" : "Indica qué otras habilidades sociales y emocionales se desarrollan con esta actividad."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Habilidades_sociales_y_emocionales"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_impacto_en",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Indica las funciones corporales que se ven afectadas por la etapa de la edad"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Etapas_edad"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_corporales"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_nombre",
@@ -4970,6 +6038,20 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_peso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Peso en kilogramos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Alumnos"
+  }, {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Profesores"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_posicion",
@@ -5064,7 +6146,25 @@
     "@value" : "enseñar a cambiar pensamientos negativos y buscar causas controlables."
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#técnica_en_espejo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "El alumno ejecuta una técnica básica (por ejemplo, ikkyo omote) frente a un compañero que hace de espejo, imitando el movimiento."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#técnica_reactiva",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_técnicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "El instructor o compañero cambia la energía o dirección del ataque (por ejemplo, empuje fuerte o suave), y el alumno debe elegir una técnica adecuada en función del estímulo."
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#uchi_kaiten_nage",
@@ -5107,15 +6207,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "tori ejecuta la técnica avanzando hacia la espalda de uke"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_capacidad_fisica",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_físicas"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion",
@@ -5207,7 +6298,7 @@
     "@value" : "motivar a través de la visualización de logros futuros y del refuerzo interno."
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_y_emocionales"
+    "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_sociales_emocionales"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#yoko_ukemi",
