@@ -11,11 +11,7 @@ AddType application/ld+json .jsonld
 # Rewrite engine setup
 RewriteEngine On
 #Change the path to the folder here
-<<<<<<< HEAD
 RewriteBase /AikidoOntology 
-=======
-RewriteBase https://juancarlosnajar.github.io/AikidoOntology/AikidoOntology 
->>>>>>> b07ecce98e0bbf420e2a42bed1ec6db193840cf8
 
 # Rewrite rule to serve JSON-LD content from the vocabulary URI if requested
 # Placed before HTML to support serving JSON-LD from a browser (e.g., JSON Playground)

@@ -46,16 +46,13 @@
     "id" : "28",
     "type" : "owl:Class"
   }, {
-    "id" : "69",
+    "id" : "70",
     "type" : "owl:Class"
   }, {
-    "id" : "71",
+    "id" : "72",
     "type" : "owl:Class"
   }, {
     "id" : "40",
-    "type" : "owl:Class"
-  }, {
-    "id" : "79",
     "type" : "owl:Class"
   }, {
     "id" : "80",
@@ -64,16 +61,19 @@
     "id" : "81",
     "type" : "owl:Class"
   }, {
-    "id" : "83",
+    "id" : "82",
     "type" : "owl:Class"
   }, {
-    "id" : "86",
+    "id" : "84",
     "type" : "owl:Class"
   }, {
     "id" : "87",
     "type" : "owl:Class"
   }, {
-    "id" : "91",
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
     "type" : "owl:Class"
   }, {
     "id" : "107",
@@ -88,13 +88,13 @@
     "id" : "120",
     "type" : "owl:Class"
   }, {
-    "id" : "95",
+    "id" : "49",
     "type" : "owl:Class"
   }, {
-    "id" : "62",
+    "id" : "63",
     "type" : "owl:Class"
   }, {
-    "id" : "56",
+    "id" : "57",
     "type" : "owl:Class"
   }, {
     "id" : "18",
@@ -103,100 +103,103 @@
     "id" : "16",
     "type" : "owl:Class"
   }, {
-    "id" : "167",
+    "id" : "166",
     "type" : "owl:Class"
   }, {
-    "id" : "64",
+    "id" : "65",
     "type" : "owl:Class"
   }, {
-    "id" : "193",
+    "id" : "192",
     "type" : "owl:Class"
   }, {
     "id" : "104",
     "type" : "owl:Class"
   }, {
-    "id" : "197",
+    "id" : "196",
     "type" : "owl:Class"
   }, {
-    "id" : "85",
+    "id" : "86",
     "type" : "owl:Class"
   }, {
-    "id" : "72",
+    "id" : "71",
     "type" : "owl:Class"
   }, {
-    "id" : "226",
+    "id" : "225",
     "type" : "owl:Class"
   }, {
-    "id" : "52",
+    "id" : "42",
     "type" : "owl:Class"
   }, {
     "id" : "121",
     "type" : "owl:Class"
   }, {
-    "id" : "168",
+    "id" : "167",
     "type" : "owl:Class"
   }, {
-    "id" : "156",
+    "id" : "155",
     "type" : "owl:Class"
   }, {
-    "id" : "230",
+    "id" : "229",
     "type" : "owl:Class"
   }, {
-    "id" : "232",
+    "id" : "231",
     "type" : "owl:Class"
   }, {
-    "id" : "66",
+    "id" : "67",
     "type" : "owl:Class"
   }, {
-    "id" : "70",
+    "id" : "73",
     "type" : "owl:Class"
   }, {
-    "id" : "145",
+    "id" : "144",
     "type" : "owl:Class"
   }, {
-    "id" : "212",
+    "id" : "209",
     "type" : "owl:Class"
   }, {
-    "id" : "151",
+    "id" : "150",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "190",
+    "id" : "189",
     "type" : "owl:Class"
   }, {
-    "id" : "178",
+    "id" : "177",
     "type" : "owl:Class"
   }, {
-    "id" : "143",
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "254",
     "type" : "owl:Class"
   }, {
     "id" : "255",
     "type" : "owl:Class"
   }, {
     "id" : "256",
-    "type" : "owl:Class"
-  }, {
-    "id" : "257",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "258",
+    "id" : "257",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "122",
     "type" : "owl:Class"
   }, {
+    "id" : "258",
+    "type" : "rdfs:Datatype"
+  }, {
     "id" : "259",
     "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
   }, {
     "id" : "260",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "171",
-    "type" : "owl:Class"
-  }, {
-    "id" : "261",
+    "id" : "216",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "217",
+    "id" : "261",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "262",
@@ -209,33 +212,30 @@
     "type" : "rdfs:Datatype"
   }, {
     "id" : "265",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "266",
     "type" : "owl:Class"
   }, {
-    "id" : "268",
+    "id" : "267",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "192",
+    "id" : "191",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "273",
+    "id" : "272",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "277",
+    "id" : "276",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "205",
+    "id" : "211",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "279",
     "type" : "owl:Class"
   }, {
-    "id" : "201",
+    "id" : "200",
     "type" : "owl:Class"
   }, {
     "id" : "287",
@@ -250,7 +250,7 @@
     "id" : "302",
     "type" : "owl:Class"
   }, {
-    "id" : "235",
+    "id" : "234",
     "type" : "owl:Class"
   }, {
     "id" : "294",
@@ -259,19 +259,19 @@
     "id" : "303",
     "type" : "owl:Class"
   }, {
-    "id" : "216",
+    "id" : "215",
     "type" : "owl:Class"
   }, {
-    "id" : "164",
+    "id" : "163",
     "type" : "owl:Class"
   }, {
-    "id" : "92",
+    "id" : "93",
     "type" : "owl:Class"
   }, {
-    "id" : "214",
+    "id" : "213",
     "type" : "owl:Class"
   }, {
-    "id" : "198",
+    "id" : "197",
     "type" : "owl:Class"
   }, {
     "id" : "306",
@@ -280,7 +280,7 @@
     "id" : "307",
     "type" : "owl:Class"
   }, {
-    "id" : "149",
+    "id" : "148",
     "type" : "rdfs:Literal"
   }, {
     "id" : "308",
@@ -292,16 +292,16 @@
     "id" : "310",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "312",
+    "id" : "311",
     "type" : "owl:Class"
   }, {
-    "id" : "313",
+    "id" : "312",
     "type" : "owl:Class"
   }, {
     "id" : "314",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "186",
+    "id" : "185",
     "type" : "owl:Class"
   }, {
     "id" : "30",
@@ -310,31 +310,31 @@
     "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "253",
+    "id" : "252",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "290",
     "type" : "owl:Class"
   }, {
-    "id" : "160",
+    "id" : "159",
     "type" : "owl:Class"
   }, {
-    "id" : "209",
+    "id" : "206",
     "type" : "owl:Class"
   }, {
-    "id" : "134",
+    "id" : "133",
     "type" : "owl:Class"
   }, {
-    "id" : "245",
+    "id" : "244",
     "type" : "owl:Class"
   }, {
     "id" : "342",
     "type" : "owl:Class"
   }, {
-    "id" : "163",
+    "id" : "162",
     "type" : "owl:Class"
   }, {
-    "id" : "54",
+    "id" : "55",
     "type" : "owl:Class"
   }, {
     "id" : "99",
@@ -346,19 +346,19 @@
     "id" : "20",
     "type" : "owl:Class"
   }, {
-    "id" : "130",
-    "type" : "owl:Class"
-  }, {
     "id" : "13",
     "type" : "owl:Class"
   }, {
-    "id" : "170",
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
     "type" : "owl:Class"
   }, {
     "id" : "124",
     "type" : "owl:Class"
   }, {
-    "id" : "195",
+    "id" : "194",
     "type" : "owl:Class"
   }, {
     "id" : "27",
@@ -370,25 +370,25 @@
     "id" : "110",
     "type" : "owl:Class"
   }, {
-    "id" : "84",
+    "id" : "85",
     "type" : "owl:Class"
   }, {
-    "id" : "60",
+    "id" : "61",
     "type" : "owl:Class"
   }, {
-    "id" : "68",
+    "id" : "69",
     "type" : "owl:Class"
   }, {
     "id" : "112",
     "type" : "owl:Class"
   }, {
-    "id" : "162",
+    "id" : "161",
     "type" : "owl:Class"
   }, {
-    "id" : "88",
+    "id" : "89",
     "type" : "owl:Class"
   }, {
-    "id" : "183",
+    "id" : "182",
     "type" : "owl:Class"
   }, {
     "id" : "320",
@@ -406,13 +406,13 @@
     "id" : "288",
     "type" : "owl:Class"
   }, {
-    "id" : "166",
+    "id" : "165",
     "type" : "owl:Class"
   }, {
     "id" : "108",
     "type" : "owl:Class"
   }, {
-    "id" : "173",
+    "id" : "172",
     "type" : "owl:Class"
   }, {
     "id" : "106",
@@ -421,34 +421,34 @@
     "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "147",
+    "id" : "207",
     "type" : "owl:Class"
   }, {
-    "id" : "210",
+    "id" : "146",
     "type" : "owl:Class"
   }, {
     "id" : "375",
     "type" : "owl:Class"
   }, {
-    "id" : "269",
+    "id" : "268",
     "type" : "owl:Class"
   }, {
-    "id" : "78",
+    "id" : "79",
     "type" : "owl:Class"
   }, {
     "id" : "43",
     "type" : "owl:Class"
   }, {
-    "id" : "400",
-    "type" : "owl:Class"
-  }, {
     "id" : "401",
     "type" : "owl:Class"
   }, {
-    "id" : "57",
+    "id" : "278",
     "type" : "owl:Class"
   }, {
-    "id" : "75",
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
     "type" : "owl:Class"
   }, {
     "id" : "4",
@@ -457,7 +457,7 @@
     "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "208",
+    "id" : "205",
     "type" : "owl:Class"
   }, {
     "id" : "11",
@@ -466,13 +466,13 @@
     "id" : "379",
     "type" : "owl:Class"
   }, {
-    "id" : "125",
+    "id" : "48",
     "type" : "owl:Class"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "196",
+    "id" : "195",
     "type" : "owl:Class"
   }, {
     "id" : "405",
@@ -487,7 +487,7 @@
     "id" : "304",
     "type" : "owl:Class"
   }, {
-    "id" : "271",
+    "id" : "270",
     "type" : "owl:Class"
   }, {
     "id" : "97",
@@ -496,22 +496,22 @@
     "id" : "407",
     "type" : "owl:Class"
   }, {
-    "id" : "236",
+    "id" : "235",
     "type" : "owl:Class"
   }, {
-    "id" : "225",
+    "id" : "224",
     "type" : "owl:Class"
   }, {
-    "id" : "207",
+    "id" : "204",
     "type" : "owl:Class"
   }, {
     "id" : "301",
     "type" : "owl:Class"
   }, {
-    "id" : "176",
+    "id" : "175",
     "type" : "owl:Class"
   }, {
-    "id" : "227",
+    "id" : "226",
     "type" : "owl:Class"
   }, {
     "id" : "15",
@@ -523,7 +523,7 @@
     "id" : "411",
     "type" : "owl:Class"
   }, {
-    "id" : "199",
+    "id" : "198",
     "type" : "owl:Class"
   }, {
     "id" : "412",
@@ -538,10 +538,10 @@
     "id" : "414",
     "type" : "owl:Class"
   }, {
-    "id" : "158",
+    "id" : "157",
     "type" : "owl:Class"
   }, {
-    "id" : "219",
+    "id" : "218",
     "type" : "owl:Class"
   }, {
     "id" : "286",
@@ -550,7 +550,7 @@
     "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "94",
+    "id" : "53",
     "type" : "owl:Class"
   }, {
     "id" : "344",
@@ -559,10 +559,10 @@
     "id" : "117",
     "type" : "owl:Class"
   }, {
-    "id" : "179",
+    "id" : "178",
     "type" : "owl:Class"
   }, {
-    "id" : "203",
+    "id" : "202",
     "type" : "owl:Class"
   }, {
     "id" : "432",
@@ -571,13 +571,13 @@
     "id" : "127",
     "type" : "owl:Class"
   }, {
-    "id" : "50",
+    "id" : "51",
     "type" : "owl:Class"
   }, {
-    "id" : "154",
+    "id" : "153",
     "type" : "owl:Class"
   }, {
-    "id" : "82",
+    "id" : "83",
     "type" : "owl:Class"
   }, {
     "id" : "382",
@@ -586,7 +586,7 @@
     "id" : "322",
     "type" : "owl:Class"
   }, {
-    "id" : "137",
+    "id" : "136",
     "type" : "owl:Class"
   }, {
     "id" : "446",
@@ -601,43 +601,43 @@
     "id" : "419",
     "type" : "owl:Class"
   }, {
-    "id" : "132",
+    "id" : "131",
     "type" : "owl:Class"
   }, {
-    "id" : "165",
+    "id" : "164",
     "type" : "owl:Class"
   }, {
     "id" : "354",
     "type" : "owl:Class"
   }, {
-    "id" : "188",
+    "id" : "187",
     "type" : "owl:Class"
   }, {
     "id" : "361",
     "type" : "owl:Class"
   }, {
-    "id" : "243",
+    "id" : "242",
     "type" : "owl:Class"
   }, {
-    "id" : "206",
+    "id" : "203",
     "type" : "owl:Class"
   }, {
     "id" : "424",
     "type" : "owl:Class"
   }, {
-    "id" : "211",
+    "id" : "208",
     "type" : "owl:Class"
   }, {
     "id" : "421",
     "type" : "owl:Class"
   }, {
-    "id" : "74",
+    "id" : "75",
     "type" : "owl:Class"
   }, {
     "id" : "445",
     "type" : "owl:Class"
   }, {
-    "id" : "135",
+    "id" : "134",
     "type" : "owl:Class"
   }, {
     "id" : "444",
@@ -652,13 +652,13 @@
     "id" : "469",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "181",
+    "id" : "180",
     "type" : "owl:Class"
   }, {
-    "id" : "42",
+    "id" : "399",
     "type" : "owl:Class"
   }, {
-    "id" : "90",
+    "id" : "91",
     "type" : "owl:Class"
   }, {
     "id" : "336",
@@ -670,16 +670,16 @@
     "id" : "123",
     "type" : "owl:Class"
   }, {
-    "id" : "275",
+    "id" : "274",
     "type" : "owl:Class"
   }, {
-    "id" : "59",
+    "id" : "60",
     "type" : "owl:Class"
   }, {
     "id" : "45",
     "type" : "owl:Class"
   }, {
-    "id" : "48",
+    "id" : "95",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -744,16 +744,16 @@
         "IRI-based" : "alumno_12"
       }
     }, {
-      "iri" : "http://purl.obolibrary.org/obo/alumno_08",
-      "baseIri" : "http://purl.obolibrary.org/obo",
-      "labels" : {
-        "IRI-based" : "alumno_08"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#alumno_11",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "alumno_11"
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/alumno_08",
+      "baseIri" : "http://purl.obolibrary.org/obo",
+      "labels" : {
+        "IRI-based" : "alumno_08"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#alumno_10",
@@ -799,25 +799,6 @@
     "id" : "28",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Deficiencia_moderada",
-    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Deficiencia_moderada"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#d2",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "d2"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "Afecta de forma negativa a la función corporal, de forma moderada."
-    },
-    "id" : "69",
-    "superClasses" : [ "70" ]
-  }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b755_funciones_reflejos_movimiento_involuntario",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
     "instances" : 0,
@@ -834,8 +815,27 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con las contracciones involuntarias de los músculos grandes o de todo el cuerpo inducidas por la posición del cuerpo, el equilibrio y los estímulos amenazadores.\nIncluye: funciones relacionadas con las reacciones posturales, reacciones de enderezamiento, reacciones de adaptación corporal, reacciones de equilibrio, reacciones de apoyo, reacciones defensivas"
     },
-    "id" : "71",
-    "superClasses" : [ "72" ]
+    "id" : "70",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Deficiencia_moderada",
+    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Deficiencia_moderada"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#d2",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "d2"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Afecta de forma negativa a la función corporal, de forma moderada."
+    },
+    "id" : "72",
+    "superClasses" : [ "73" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b114_funciones_orientación",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -872,8 +872,8 @@
     "comment" : {
       "undefined" : "Facilita la función corporal de forma fuerte."
     },
-    "id" : "79",
-    "superClasses" : [ "70" ]
+    "id" : "80",
+    "superClasses" : [ "73" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b167_funciones_mentales_lenguaje",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -891,8 +891,8 @@
     "comment" : {
       "undefined" : "Funciones mentales específicas relacionadas con el reconocimiento y la utilización de signos, símbolos y otros componentes del lenguaje."
     },
-    "id" : "80",
-    "superClasses" : [ "74" ]
+    "id" : "81",
+    "superClasses" : [ "75" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b270_funciones_temperatura_y_otros",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -910,8 +910,8 @@
     "comment" : {
       "undefined" : "Funciones sensoriales relacionadas con sentir la temperatura, la vibración, la presión y los estímulos nocivos."
     },
-    "id" : "81",
-    "superClasses" : [ "82" ]
+    "id" : "82",
+    "superClasses" : [ "83" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_IMC",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -919,11 +919,11 @@
     "label" : {
       "IRI-based" : "Contexto_IMC"
     },
-    "subClasses" : [ "84", "85" ],
+    "subClasses" : [ "85", "86" ],
     "comment" : {
       "undefined" : "Contexto debido al  Índice de Masa Corporal (IMC) o en inglés BMI (Body Mass Index). Es una medida ampliamente utilizada para evaluar la composición corporal de forma general, especialmente en contextos escolares y deportivos."
     },
-    "id" : "83",
+    "id" : "84",
     "superClasses" : [ "20" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b780_funciones_sensaciones_musculos_movimiento",
@@ -942,8 +942,8 @@
     "comment" : {
       "undefined" : "Sensaciones asociadas con los músculos o grupo de músculos del cuerpo y su movimiento.\nIncluye: sensaciones de rigidez y tirantez muscular, espasmo muscular o contractura y pesadez muscular"
     },
-    "id" : "86",
-    "superClasses" : [ "72" ]
+    "id" : "87",
+    "superClasses" : [ "71" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Posicion",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -952,15 +952,6 @@
       "IRI-based" : "Posicion"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#ai_hanmi",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "comment" : {
-        "undefined" : "uke y tori en migi hanmi o en hidari hanmi"
-      },
-      "labels" : {
-        "IRI-based" : "ai_hanmi"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#gyaku_hanmi",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "comment" : {
@@ -969,12 +960,21 @@
       "labels" : {
         "IRI-based" : "gyaku_hanmi"
       }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#ai_hanmi",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "comment" : {
+        "undefined" : "uke y tori en migi hanmi o en hidari hanmi"
+      },
+      "labels" : {
+        "IRI-based" : "ai_hanmi"
+      }
     } ],
     "comment" : {
       "undefined" : "Indica como se coloca uke respecto de tori: derecha con derecha / izquierda con izquierda, o derecha con izquierda."
     },
-    "id" : "87",
-    "superClasses" : [ "88" ]
+    "id" : "88",
+    "superClasses" : [ "89" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b430_funciones_sistema_hematológico",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -992,8 +992,8 @@
     "comment" : {
       "undefined" : "Funciones de producción de sangre, transporte de oxígeno y metabolitos , y coagulación.\nIncluye: funciones de producción de sangre y la medula ósea; funciones relacionadas con el transporte sanguíneo de oxígeno; funciones hemáticas del bazo;\nfunciones sanguíneas de transporte de metabolitos; coagulación; deficiencias tales como en anemia; hemofilia y otras disfunciones de la coagulación"
     },
-    "id" : "91",
-    "superClasses" : [ "92" ]
+    "id" : "92",
+    "superClasses" : [ "93" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b515_funciones_digestión",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1068,8 +1068,8 @@
     "label" : {
       "IRI-based" : "Recomendaciones"
     },
-    "subClasses" : [ "125", "94" ],
-    "id" : "95",
+    "subClasses" : [ "48", "53" ],
+    "id" : "49",
     "superClasses" : [ "24" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Golpes",
@@ -1091,16 +1091,16 @@
         "IRI-based" : "chudan_tsuki"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#jodan_tsuki",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "jodan_tsuki"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#yokomen_uchi",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "yokomen_uchi"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#jodan_tsuki",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "jodan_tsuki"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#shomen_uchi",
@@ -1112,8 +1112,8 @@
     "comment" : {
       "undefined" : "Tipos de golpes dados con la mano o el puño."
     },
-    "id" : "62",
-    "superClasses" : [ "57" ]
+    "id" : "63",
+    "superClasses" : [ "58" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Patadas",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1137,8 +1137,8 @@
     "comment" : {
       "undefined" : "Tipos de golpes dados con el pie."
     },
-    "id" : "56",
-    "superClasses" : [ "57" ]
+    "id" : "57",
+    "superClasses" : [ "58" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b810_funciones_protectoras_piel",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1165,7 +1165,7 @@
     "label" : {
       "IRI-based" : "Funciones_piel_uñas_y_pelo"
     },
-    "subClasses" : [ "15", "18", "163", "164", "165", "166" ],
+    "subClasses" : [ "15", "18", "162", "163", "164", "165" ],
     "comment" : {
       "undefined" : "Funciones relacionadas con la piel, las uñas y el pelo."
     },
@@ -1188,8 +1188,8 @@
     "comment" : {
       "undefined" : "Segunda etapa escolar de Primaria: 9 y 10 años."
     },
-    "id" : "167",
-    "superClasses" : [ "168" ]
+    "id" : "166",
+    "superClasses" : [ "167" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tai_sabaki",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1228,8 +1228,8 @@
     "comment" : {
       "undefined" : "Son todos los movimientos de desplazamiento del cuerpo con el fin de esquivar y no oponer resistencia ante un ataque."
     },
-    "id" : "64",
-    "superClasses" : [ "60" ]
+    "id" : "65",
+    "superClasses" : [ "61" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b770_funciones_marcha",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1247,8 +1247,8 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con los modos de moverse una persona al caminar, correr u otros movimientos de todo el cuerpo.\nIncluye: patrones para caminar y para correr; deficiencias tales como marcha espástica, hemipléjica, parapléjica, asimétrica y patrón de marcha torpe o rígido"
     },
-    "id" : "193",
-    "superClasses" : [ "72" ]
+    "id" : "192",
+    "superClasses" : [ "71" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_género",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1256,7 +1256,7 @@
     "label" : {
       "IRI-based" : "Contexto_género"
     },
-    "subClasses" : [ "195", "196" ],
+    "subClasses" : [ "194", "195" ],
     "comment" : {
       "undefined" : "Engloba todas las cuestiones referentes al género biológico (masculino y femenino)."
     },
@@ -1279,8 +1279,8 @@
     "comment" : {
       "undefined" : "Funciones sensoriales relacionadas con percibir olores y aromas."
     },
-    "id" : "197",
-    "superClasses" : [ "82" ]
+    "id" : "196",
+    "superClasses" : [ "83" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Clasificaciones_según_IMC",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1316,8 +1316,8 @@
     "comment" : {
       "undefined" : "Clasificación del estado nutricional según el IMC."
     },
-    "id" : "85",
-    "superClasses" : [ "83" ]
+    "id" : "86",
+    "superClasses" : [ "84" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_musculares",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1325,12 +1325,12 @@
     "label" : {
       "IRI-based" : "Funciones_musculares"
     },
-    "subClasses" : [ "207", "208", "86", "71", "209", "193", "210", "211", "212" ],
+    "subClasses" : [ "204", "205", "87", "70", "206", "192", "207", "208", "209" ],
     "comment" : {
       "undefined" : "Funciones fundamentales para el movimiento voluntario, el mantenimiento de la postura, el equilibrio, y la coordinación motora."
     },
-    "id" : "72",
-    "superClasses" : [ "206" ]
+    "id" : "71",
+    "superClasses" : [ "203" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Técnicas_en_tachi_waza",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1338,12 +1338,12 @@
     "label" : {
       "IRI-based" : "Técnicas_en_tachi_waza"
     },
-    "subClasses" : [ "225", "227" ],
+    "subClasses" : [ "224", "226" ],
     "comment" : {
       "undefined" : "Técnicas con tori y uke en pie."
     },
-    "id" : "226",
-    "superClasses" : [ "137" ]
+    "id" : "225",
+    "superClasses" : [ "136" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b720_funciones_movilidad_huesos",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1361,7 +1361,7 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con la amplitud y la suavidad de movimiento de grupos específicos de huesos, tales como la escápula, la pelvis, los huesos carpianos y tarsianos.\nIncluye: deficiencias tales como escápula congelada y pelvis congelada"
     },
-    "id" : "52",
+    "id" : "42",
     "superClasses" : [ "43" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_fisicas",
@@ -1413,11 +1413,11 @@
     "label" : {
       "IRI-based" : "Etapas_edad"
     },
-    "subClasses" : [ "167", "201", "203" ],
+    "subClasses" : [ "166", "200", "202" ],
     "comment" : {
       "undefined" : "Etapas del desarrollo de las personas debido a la edad."
     },
-    "id" : "168",
+    "id" : "167",
     "superClasses" : [ "114" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b620_funciones_urinarias",
@@ -1436,8 +1436,8 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con la evacuación de orina desde la vejiga urinaria.\nIncluye: funciones urinarias, frecuencia de micción, continencia urinaria; deficiencias tales como deseo imperioso de orinar, incontinencia por estrés, incontinencia refleja, incontinencia por rebosamiento, incontinencia continua, goteo, vejiga automática, poliuria, retención urinaria y urgencia urinaria."
     },
-    "id" : "156",
-    "superClasses" : [ "154" ]
+    "id" : "155",
+    "superClasses" : [ "153" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Técnicas_en_hanmi_handachi_waza",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1448,8 +1448,8 @@
     "comment" : {
       "undefined" : "Técnias con tori de rodillas y Uke en pie."
     },
-    "id" : "230",
-    "superClasses" : [ "137" ]
+    "id" : "229",
+    "superClasses" : [ "136" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_condición_física",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1460,7 +1460,7 @@
     "comment" : {
       "undefined" : "Tipos de impacto debido a la condición física del alumno."
     },
-    "id" : "232",
+    "id" : "231",
     "superClasses" : [ "102" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Agarres",
@@ -1527,8 +1527,8 @@
     "comment" : {
       "undefined" : "Tipos de agarre."
     },
-    "id" : "66",
-    "superClasses" : [ "57" ]
+    "id" : "67",
+    "superClasses" : [ "58" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impacto_funcional",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1536,11 +1536,11 @@
     "label" : {
       "IRI-based" : "Impacto_funcional"
     },
-    "subClasses" : [ "214", "219", "69", "183", "79", "186" ],
+    "subClasses" : [ "213", "218", "72", "182", "80", "185" ],
     "comment" : {
       "undefined" : "Clasificación de los tipos de impacto (facilitadores y deficiencias) sobre las funciones corporales así como su grado (leve / ligera, moderado / moderada, fuerte / grave)"
     },
-    "id" : "70",
+    "id" : "73",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Etapas_clase",
@@ -1550,16 +1550,16 @@
       "IRI-based" : "Etapas_clase"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#etapa_2_calentamiento",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "etapa_2_calentamiento"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#etapa_5_estiramientos",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "etapa_5_estiramientos"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#etapa_2_calentamiento",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "etapa_2_calentamiento"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#etapa_6_saludo_final",
@@ -1574,22 +1574,22 @@
         "IRI-based" : "etapa_3_ukemi_desplazamientos"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#etapa_4_tecnicas",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "etapa_4_tecnicas"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#etapa_1_saludo_inicial",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "etapa_1_saludo_inicial"
       }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#etapa_4_tecnicas",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "etapa_4_tecnicas"
+      }
     } ],
     "comment" : {
       "undefined" : "Son cada una de las etapas o pasos que componen la estructura de una clase"
     },
-    "id" : "145",
+    "id" : "144",
     "superClasses" : [ "24" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b765_funciones_movimiento_involuntario",
@@ -1608,12 +1608,12 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con las contracciones no intencionadas, involuntarias sin propósito final o con algo de propósito final.\nIncluye: contracciones involuntarias de los músculos; deficiencias tales como temblores, tics, manierismos, estereotipias, perseveración motora, corea, atetosis, tics\nvocales, movimientos distónicos y discinesia"
     },
-    "id" : "212",
-    "superClasses" : [ "72" ]
+    "id" : "209",
+    "superClasses" : [ "71" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "151",
+    "id" : "150",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1634,8 +1634,8 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con la regulación del agua, los minerales y los electrolitos en el cuerpo.\nIncluye: funciones relacionadas con el balance hídrico, con el balance de minerales tales como el calcio, el zinc y el hierro, y con el balance de electrolitos tales como el\nsodio y el potasio; deficiencias tales como en retención hídrica, deshidratación, hipercalcemia, hipocalcemia, deficiencia de hierro, hipernatremia, hiponatremia,\nhiperpotasemia e hipopotasemia"
     },
-    "id" : "190",
-    "superClasses" : [ "171" ]
+    "id" : "189",
+    "superClasses" : [ "170" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Inmovilizaciones",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1644,16 +1644,16 @@
       "IRI-based" : "Inmovilizaciones"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#sankyo",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "sankyo"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#gokyo",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "gokyo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#sankyo",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "sankyo"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#ude_garami",
@@ -1689,8 +1689,8 @@
     "comment" : {
       "undefined" : "tori inmoviliza a uke"
     },
-    "id" : "178",
-    "superClasses" : [ "179" ]
+    "id" : "177",
+    "superClasses" : [ "178" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Estructuras_clase",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1708,7 +1708,7 @@
     "comment" : {
       "undefined" : "Estructura de la clase (apartados y orden de los mismos): saludo inicial, calentamiento, apartado técnico, estiramientos, saludo final."
     },
-    "id" : "143",
+    "id" : "142",
     "superClasses" : [ "24" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Defensas",
@@ -1718,28 +1718,28 @@
       "IRI-based" : "Defensas"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#sankyo",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "sankyo"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#gokyo",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "gokyo"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#soto_kaiten_nage",
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#sankyo",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
-        "IRI-based" : "soto_kaiten_nage"
+        "IRI-based" : "sankyo"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#kiri_otoshi",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "kiri_otoshi"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#soto_kaiten_nage",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "soto_kaiten_nage"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#yonkyo",
@@ -1763,16 +1763,16 @@
         "IRI-based" : "aiki_otoshi"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#koshi_nage",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "koshi_nage"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#juji_garami",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "juji_garami"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#koshi_nage",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "koshi_nage"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#irimi_nage",
@@ -1787,12 +1787,6 @@
         "IRI-based" : "hiji_kime_osae"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#kokyu_nage",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "kokyu_nage"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#ude_garami",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
@@ -1805,16 +1799,22 @@
         "IRI-based" : "ude_kime_nage"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#sumi_otoshi",
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#kokyu_nage",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
-        "IRI-based" : "sumi_otoshi"
+        "IRI-based" : "kokyu_nage"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tenchi_nage",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "tenchi_nage"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#sumi_otoshi",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "sumi_otoshi"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#kote_gaeshi",
@@ -1835,23 +1835,23 @@
         "IRI-based" : "nikkyo"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#shiho_nage",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "shiho_nage"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#uchi_kaiten_nage",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "uchi_kaiten_nage"
       }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#shiho_nage",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "shiho_nage"
+      }
     } ],
     "comment" : {
       "undefined" : "Tipos de defensa que realiza tori."
     },
-    "id" : "255",
-    "superClasses" : [ "88" ]
+    "id" : "254",
+    "superClasses" : [ "89" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b230_funciones_auditivas",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -1869,19 +1869,19 @@
     "comment" : {
       "undefined" : "Funciones sensoriales relacionadas con la percepción de los sonidos y la discriminación de su localización, tono, volumen y calidad."
     },
-    "id" : "256",
-    "superClasses" : [ "82" ]
+    "id" : "255",
+    "superClasses" : [ "83" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "257",
+    "id" : "256",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "258",
+    "id" : "257",
     "label" : {
       "IRI-based" : "decimal"
     }
@@ -1925,14 +1925,14 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "259",
+    "id" : "258",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "260",
+    "id" : "259",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1943,25 +1943,32 @@
     "label" : {
       "IRI-based" : "Funciones_metabólicas"
     },
-    "subClasses" : [ "188", "190", "170" ],
+    "subClasses" : [ "187", "189", "169" ],
     "comment" : {
       "undefined" : "Conjunto de procesos bioquímicos y fisiológicos que permiten que el cuerpo convierta los alimentos y otras sustancias en energía, estructuras celulares y productos necesarios para la vida."
     },
-    "id" : "171",
+    "id" : "170",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "261",
+    "id" : "260",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "217",
+    "id" : "216",
     "label" : {
       "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "261",
+    "label" : {
+      "IRI-based" : "dateTime"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -1971,23 +1978,16 @@
       "IRI-based" : "dateTime"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "263",
-    "label" : {
-      "IRI-based" : "dateTime"
-    }
-  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "264",
+    "id" : "263",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "265",
+    "id" : "264",
     "label" : {
       "IRI-based" : "string"
     }
@@ -2008,12 +2008,12 @@
     "comment" : {
       "undefined" : "Funciones mentales especificas relacionadas con la conciencia de la propia identidad, del propio cuerpo, de la posición de uno mismo en su mundo y en el tiempo."
     },
-    "id" : "266",
-    "superClasses" : [ "74" ]
+    "id" : "265",
+    "superClasses" : [ "75" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "268",
+    "id" : "267",
     "label" : {
       "IRI-based" : "string"
     }
@@ -2092,32 +2092,32 @@
       "undefined" : "Conjunto de valores éticos y morales fomentados por la práctica del Aikido."
     },
     "id" : "26",
-    "superClasses" : [ "269" ]
+    "superClasses" : [ "268" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "192",
+    "id" : "191",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "273",
+    "id" : "272",
     "label" : {
       "IRI-based" : "dateTime"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "277",
+    "id" : "276",
     "label" : {
       "IRI-based" : "integer"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "205",
+    "id" : "211",
     "label" : {
       "IRI-based" : "integer"
     }
@@ -2139,7 +2139,7 @@
       "undefined" : "Funciones mentales específicas que enlazan y coordinan movimientos voluntarios complejos con un propósito final."
     },
     "id" : "279",
-    "superClasses" : [ "74" ]
+    "superClasses" : [ "75" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Edad_11a12",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2157,8 +2157,8 @@
     "comment" : {
       "undefined" : "Tercera etapa escolar de Primaria: 11 y 12 años."
     },
-    "id" : "201",
-    "superClasses" : [ "168" ]
+    "id" : "200",
+    "superClasses" : [ "167" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b340_funciones_alternativas_vocalización",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2181,38 +2181,38 @@
   }, {
     "instances" : 0,
     "union" : [ "121", "122", "123" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "296"
   }, {
     "instances" : 0,
-    "union" : [ "195", "84", "271", "232" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "194", "85", "270", "231" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "291"
   }, {
     "instances" : 0,
     "union" : [ "121", "122", "123" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "302"
   }, {
     "instances" : 0,
     "union" : [ "23", "127" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "235"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "234"
   }, {
     "instances" : 0,
-    "union" : [ "134", "11", "26", "27" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "133", "11", "26", "27" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "294"
   }, {
     "instances" : 0,
     "union" : [ "23", "127" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "303"
   }, {
     "instances" : 0,
     "union" : [ "127", "23" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "216"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "215"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b860_funciones_uña",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2230,7 +2230,7 @@
     "comment" : {
       "undefined" : "Funciones de las uñas tales como la protección, apariencia y posibilidad de arañar.\nIncluye: crecimiento y pigmentación de las uñas, calidad de las uñas"
     },
-    "id" : "164",
+    "id" : "163",
     "superClasses" : [ "16" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_varias",
@@ -2239,8 +2239,8 @@
     "label" : {
       "IRI-based" : "Funciones_varias"
     },
-    "subClasses" : [ "304", "91" ],
-    "id" : "92",
+    "subClasses" : [ "304", "92" ],
+    "id" : "93",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Facilitador_moderado",
@@ -2259,13 +2259,13 @@
     "comment" : {
       "undefined" : "Facilita la función corporal de forma moderada."
     },
-    "id" : "214",
-    "superClasses" : [ "70" ]
+    "id" : "213",
+    "superClasses" : [ "73" ]
   }, {
     "instances" : 0,
     "union" : [ "121", "122", "123" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "198"
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "197"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Participantes",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2296,15 +2296,15 @@
       "undefined" : "En las técnicas de Aikido participan dos alumnos, uno con el rol de atacante (uke) y otro con el rol de defensor (tori)."
     },
     "id" : "306",
-    "superClasses" : [ "88" ]
+    "superClasses" : [ "89" ]
   }, {
     "instances" : 0,
-    "union" : [ "23", "127" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "127", "23" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "307"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "149",
+    "id" : "148",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -2312,12 +2312,12 @@
   }, {
     "instances" : 0,
     "union" : [ "121", "122", "123" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "308"
   }, {
     "instances" : 0,
-    "union" : [ "23", "127" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "127", "23" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "309"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
@@ -2326,6 +2326,25 @@
     "label" : {
       "IRI-based" : "decimal"
     }
+  }, {
+    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b172_funciones_cálculo",
+    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "b172_funciones_cálculo"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b172",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "b172"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Funciones mentales específicas relacionadas con la determinación, la aproximación y la manipulación de símbolos y procesos matemáticos."
+    },
+    "id" : "311",
+    "superClasses" : [ "75" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b320_funciones_articulacion",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2345,25 +2364,6 @@
     },
     "id" : "312",
     "superClasses" : [ "288" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b172_funciones_cálculo",
-    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "b172_funciones_cálculo"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b172",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "b172"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "Funciones mentales específicas relacionadas con la determinación, la aproximación y la manipulación de símbolos y procesos matemáticos."
-    },
-    "id" : "313",
-    "superClasses" : [ "74" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -2388,8 +2388,8 @@
     "comment" : {
       "undefined" : "Afecta de forma negativa y gravemente a la función corporal."
     },
-    "id" : "186",
-    "superClasses" : [ "70" ]
+    "id" : "185",
+    "superClasses" : [ "73" ]
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
@@ -2419,7 +2419,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "253",
+    "id" : "252",
     "label" : {
       "IRI-based" : "string"
     }
@@ -2477,8 +2477,8 @@
     "comment" : {
       "undefined" : "Sensaciones que aparecen con el vaciamiento de la orina y las funciones urinarias relacionadas.\nIncluye: sensación de vaciado incompleto de la orina, sensación de vejiga llena"
     },
-    "id" : "160",
-    "superClasses" : [ "154" ]
+    "id" : "159",
+    "superClasses" : [ "153" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b760_funciones_control_movimiento_voluntario",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2496,8 +2496,8 @@
     "comment" : {
       "undefined" : "Funciones asociadas con el control sobre los movimientos voluntarios y la coordinación de los mismos.\nIncluye: funciones relacionadas con el control de movimientos voluntarios simples y movimientos voluntarios complejos, coordinación de movimientos voluntarios, funciones de apoyo del brazo o pierna, coordinación motora derecha-izquierda, coordinación ojo-mano, coordinación ojo-pie; deficiencias tales como problemas de control y coordinación, ej., la disdiadococinesia"
     },
-    "id" : "209",
-    "superClasses" : [ "72" ]
+    "id" : "206",
+    "superClasses" : [ "71" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_técnicas",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2551,15 +2551,6 @@
         "IRI-based" : "capacidad_tiempo_reacción"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_comprensión_táctica",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "comment" : {
-        "undefined" : "Capacidad de cuándo aplicar qué técnica"
-      },
-      "labels" : {
-        "IRI-based" : "capacidad_comprensión_táctica"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_adaptación",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "comment" : {
@@ -2567,6 +2558,15 @@
       },
       "labels" : {
         "IRI-based" : "capacidad_adaptación"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_comprensión_táctica",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "comment" : {
+        "undefined" : "Capacidad de cuándo aplicar qué técnica"
+      },
+      "labels" : {
+        "IRI-based" : "capacidad_comprensión_táctica"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_actitud",
@@ -2587,15 +2587,6 @@
         "IRI-based" : "capacidad_equilibrio"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_memoria_motriz",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "comment" : {
-        "undefined" : "Capacidad de recordar la secuencia de movimientos de la técnica."
-      },
-      "labels" : {
-        "IRI-based" : "capacidad_memoria_motriz"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_principios",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "comment" : {
@@ -2604,9 +2595,18 @@
       "labels" : {
         "IRI-based" : "capacidad_principios"
       }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#capacidad_memoria_motriz",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "comment" : {
+        "undefined" : "Capacidad de recordar la secuencia de movimientos de la técnica."
+      },
+      "labels" : {
+        "IRI-based" : "capacidad_memoria_motriz"
+      }
     } ],
-    "id" : "134",
-    "superClasses" : [ "135" ]
+    "id" : "133",
+    "superClasses" : [ "134" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#kyu",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2711,8 +2711,8 @@
         "IRI-based" : "3_kyu"
       }
     } ],
-    "id" : "245",
-    "superClasses" : [ "236" ]
+    "id" : "244",
+    "superClasses" : [ "235" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_lesiones",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2752,7 +2752,7 @@
     "comment" : {
       "undefined" : "Otras funciones de la piel distintas a las funciones reparadoras y de protección, tales como refrigeración y sudor.\nIncluye: funciones relacionadas con el sudor, funciones glandulares de la piel y olor corporal"
     },
-    "id" : "163",
+    "id" : "162",
     "superClasses" : [ "16" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b455_funciones_relacionadas_con_la_tolerancia_al_ejercicio",
@@ -2771,7 +2771,7 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con la capacidad respiratoria y cardiovascular necesaria para resistir el ejercicio físico.\nIncluye: funciones de resistencia física, de la capacidad aeróbica, vigor y fatigabilidad"
     },
-    "id" : "54",
+    "id" : "55",
     "superClasses" : [ "46" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades",
@@ -2780,7 +2780,7 @@
     "label" : {
       "IRI-based" : "Actividades"
     },
-    "subClasses" : [ "120", "199", "132" ],
+    "subClasses" : [ "120", "198", "131" ],
     "comment" : {
       "undefined" : "Actividades y ejercicios que podemos realizar en una clase de Aikido"
     },
@@ -2797,7 +2797,7 @@
       "undefined" : "Técnicas con uke atacando por la espalda a tori."
     },
     "id" : "359",
-    "superClasses" : [ "137" ]
+    "superClasses" : [ "136" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Problematicas",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2805,52 +2805,12 @@
     "label" : {
       "IRI-based" : "Problematicas"
     },
-    "subClasses" : [ "83", "102", "104", "106", "110", "112", "114", "19" ],
+    "subClasses" : [ "84", "102", "104", "106", "110", "112", "114", "19" ],
     "comment" : {
       "undefined" : "Conjunto de impedimentos (defiencias, lesiones, enfermedades, cuestiones referentes a la edad, al género, etc) para la realización de la práctica del Aikido."
     },
     "id" : "20",
     "superClasses" : [ "361" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Grupos",
-    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Grupos"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_A",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "comment" : {
-        "undefined" : "Centro 1. Lunes y miércoles."
-      },
-      "labels" : {
-        "IRI-based" : "grupo_A"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_C",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "comment" : {
-        "undefined" : "Centro 2. Lunes y miércoles."
-      },
-      "labels" : {
-        "IRI-based" : "grupo_C"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_B",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "comment" : {
-        "undefined" : "Centro 1. Martes y jueves."
-      },
-      "labels" : {
-        "IRI-based" : "grupo_B"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "Grupos de alumnos que forman una clase"
-    },
-    "id" : "130",
-    "superClasses" : [ "24" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_físicas_básicas",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2901,6 +2861,46 @@
     "id" : "13",
     "superClasses" : [ "11" ]
   }, {
+    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Grupos",
+    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Grupos"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_A",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "comment" : {
+        "undefined" : "Centro 1. Lunes y miércoles."
+      },
+      "labels" : {
+        "IRI-based" : "grupo_A"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_C",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "comment" : {
+        "undefined" : "Centro 2. Lunes y miércoles."
+      },
+      "labels" : {
+        "IRI-based" : "grupo_C"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_B",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "comment" : {
+        "undefined" : "Centro 1. Martes y jueves."
+      },
+      "labels" : {
+        "IRI-based" : "grupo_B"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Grupos de alumnos que forman una clase"
+    },
+    "id" : "129",
+    "superClasses" : [ "24" ]
+  }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b550_funciones_termoreguladoras",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
     "instances" : 0,
@@ -2917,8 +2917,8 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con la regulación de la temperatura corporal.\nIncluye: funciones relacionadas con el mantenimiento de la temperatura corporal; deficiencias tales como hipotermia e hipertermia"
     },
-    "id" : "170",
-    "superClasses" : [ "171" ]
+    "id" : "169",
+    "superClasses" : [ "170" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades_técnicas",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -2981,15 +2981,6 @@
         "IRI-based" : "técnica_reactiva"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#encadenamiento_técnicas",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "comment" : {
-        "undefined" : "Realización secuencial de tres técnicas básicas (por ejemplo, ikkyo, shihonage, iriminage) de forma fluida, con cambios al ritmo de una señal sonora."
-      },
-      "labels" : {
-        "IRI-based" : "encadenamiento_técnicas"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desplazamientos_en_shikko_lucha_espadas",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "comment" : {
@@ -2997,6 +2988,15 @@
       },
       "labels" : {
         "IRI-based" : "desplazamientos_en_shikko_lucha_espadas"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#encadenamiento_técnicas",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "comment" : {
+        "undefined" : "Realización secuencial de tres técnicas básicas (por ejemplo, ikkyo, shihonage, iriminage) de forma fluida, con cambios al ritmo de una señal sonora."
+      },
+      "labels" : {
+        "IRI-based" : "encadenamiento_técnicas"
       }
     } ],
     "id" : "124",
@@ -3011,7 +3011,7 @@
     "comment" : {
       "undefined" : "Tipos de impacto debido a ser de un género u otro."
     },
-    "id" : "195",
+    "id" : "194",
     "superClasses" : [ "104" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Habilidades_sociales_y_emocionales",
@@ -3021,15 +3021,6 @@
       "IRI-based" : "Habilidades_sociales_y_emocionales"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#autoestima",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "comment" : {
-        "undefined" : "Confianza en uno mismo y valoración personal"
-      },
-      "labels" : {
-        "IRI-based" : "autoestima"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#autoeficacia",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "comment" : {
@@ -3037,6 +3028,15 @@
       },
       "labels" : {
         "IRI-based" : "autoeficacia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#autoestima",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "comment" : {
+        "undefined" : "Confianza en uno mismo y valoración personal"
+      },
+      "labels" : {
+        "IRI-based" : "autoestima"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#regulación_emocional",
@@ -3063,15 +3063,6 @@
         "IRI-based" : "perseverancia"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#responsabilidad",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "comment" : {
-        "undefined" : "Capacidad de ser confiable y cumplir con las obligaciones."
-      },
-      "labels" : {
-        "IRI-based" : "responsabilidad"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#empatía",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "comment" : {
@@ -3079,6 +3070,15 @@
       },
       "labels" : {
         "IRI-based" : "empatía"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#responsabilidad",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "comment" : {
+        "undefined" : "Capacidad de ser confiable y cumplir con las obligaciones."
+      },
+      "labels" : {
+        "IRI-based" : "responsabilidad"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#trabajo_en_equipo",
@@ -3094,7 +3094,7 @@
       "undefined" : "Conjunto de habilidades sociales y emocionales que permiten el desarrollo personal y social del alumno."
     },
     "id" : "27",
-    "superClasses" : [ "68" ]
+    "superClasses" : [ "69" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b555_funciones_glándulas_endocrinas",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3136,8 +3136,8 @@
     "comment" : {
       "undefined" : "Los tipos de impacto que tienen las diversas clasificaciones según el IMC de la persona."
     },
-    "id" : "84",
-    "superClasses" : [ "83" ]
+    "id" : "85",
+    "superClasses" : [ "84" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Desplazamientos",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3145,12 +3145,12 @@
     "label" : {
       "IRI-based" : "Desplazamientos"
     },
-    "subClasses" : [ "59", "64" ],
+    "subClasses" : [ "60", "65" ],
     "comment" : {
       "undefined" : "Tipos de desplazamientos."
     },
-    "id" : "60",
-    "superClasses" : [ "88" ]
+    "id" : "61",
+    "superClasses" : [ "89" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_sociales_y_emocionales",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3162,7 +3162,7 @@
     "comment" : {
       "undefined" : "Fundamentos para el desarrollo emocional y social de los individuos."
     },
-    "id" : "68",
+    "id" : "69",
     "superClasses" : [ "293" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_enfermedades",
@@ -3205,8 +3205,8 @@
     "comment" : {
       "undefined" : "Indica cómo tori puede ejecutar la técnica respecto de uke: omote o ura."
     },
-    "id" : "162",
-    "superClasses" : [ "88" ]
+    "id" : "161",
+    "superClasses" : [ "89" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Conceptos_técnicos",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3214,9 +3214,9 @@
     "label" : {
       "IRI-based" : "Conceptos_técnicos"
     },
-    "subClasses" : [ "275", "301", "179", "57", "286", "236", "306", "162", "87", "60", "255", "344" ],
-    "id" : "88",
-    "superClasses" : [ "135" ]
+    "subClasses" : [ "274", "301", "178", "58", "286", "235", "306", "161", "88", "61", "254", "344" ],
+    "id" : "89",
+    "superClasses" : [ "134" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Deficiencia_ligera",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3234,8 +3234,8 @@
     "comment" : {
       "undefined" : "Afecta de forma negativa a la función corporal, ligeramente."
     },
-    "id" : "183",
-    "superClasses" : [ "70" ]
+    "id" : "182",
+    "superClasses" : [ "73" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b510_funciones_ingestión",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3273,7 +3273,7 @@
       "undefined" : "Funciones sensoriales relacionadas con sentir la posición relativa de las partes del cuerpo.\nIncluye: funciones de cenestesia y kinestesia"
     },
     "id" : "390",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "83" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b640_funciones_sexuales",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3293,7 +3293,7 @@
       "undefined" : "Funciones físicas y mentales relacionadas con el acto sexual, incluyendo la fase de excitación, la fase preparatoria, la fase orgásmica y la de resolución.\nIncluye: funciones de las fases de excitación, preparatoria, orgásmica y de resolución; funciones relacionadas con el interés sexual, con el rendimiento sexual, erección del pene, erección del clítoris, lubricación vaginal, eyaculación, orgasmo; deficiencias tales como en impotencia, frigidez, vaginismo, eyaculación precoz, priapismo y eyaculación retardada."
     },
     "id" : "119",
-    "superClasses" : [ "154" ]
+    "superClasses" : [ "153" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3301,7 +3301,7 @@
     "label" : {
       "IRI-based" : "Fundamentos"
     },
-    "subClasses" : [ "135", "269", "90", "290", "68" ],
+    "subClasses" : [ "134", "268", "91", "290", "69" ],
     "comment" : {
       "undefined" : "Conjunto de fundamentos de la práctica del Aikido: físicos, sociales y emocionales, éticos y morales, y técnicos."
     },
@@ -3337,7 +3337,7 @@
     "comment" : {
       "undefined" : "Funciones del pelo tales como la protección, coloración y la apariencia.\nIncluye: funciones relacionadas con el crecimiento del pelo, pigmentación del pelo, localización del pelo; deficiencias tales como caída del pelo o alopecia"
     },
-    "id" : "166",
+    "id" : "165",
     "superClasses" : [ "16" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_sistema_digestivo",
@@ -3369,7 +3369,7 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con el mantenimiento de la presión arterial en las arterias.\nIncluye: funciones de mantenimiento de la presión arterial; aumento y disminución de la presión arterial; deficiencias tales como hipertensión, hipotensión e hipotensión ortostática"
     },
-    "id" : "173",
+    "id" : "172",
     "superClasses" : [ "117" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_lesiones",
@@ -3391,12 +3391,31 @@
     "label" : {
       "IRI-based" : "Funciones_corporales"
     },
-    "subClasses" : [ "108", "82", "46", "75", "92", "70", "16", "206", "171", "288", "154", "117", "354" ],
+    "subClasses" : [ "108", "83", "46", "76", "93", "73", "16", "203", "170", "288", "153", "117", "354" ],
     "comment" : {
       "undefined" : "Funciones corporales son las funciones fisiológicas de los sistemas corporales (incluyendo funciones psicológicas), atendiendo a la Clasificación Internacional del Funcionamiento, de la Discapacidad y de la Salud (CIF), redactada por la Organización Mundial de la Salud (OMS)."
     },
     "id" : "22",
     "superClasses" : [ "361" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b735_funciones_tonto_muscular",
+    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "b735_funciones_tonto_muscular"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b735",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "b735"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Funciones relacionadas con la tensión presente en los músculos cuando están en reposo y la resistencia que ofrecen al intentar moverlos pasivamente.\nIncluye: funciones asociadas con la tensión de músculos aislados y grupos de músculos, músculos de una extremidad, músculos de un lado del cuerpo, músculos\nde la mitad inferior del cuerpo, músculos de todas las extremidades, músculos del tronco, y todos los músculos del cuerpo; deficiencias tales como hipertonía,\nhipotonía, espasticidad muscular"
+    },
+    "id" : "207",
+    "superClasses" : [ "71" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Apartados_clase",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3417,16 +3436,16 @@
         "IRI-based" : "apartado_técnico"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#calentamiento",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "calentamiento"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#caidas_y_desplazamientos",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "caidas_y_desplazamientos"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#calentamiento",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "calentamiento"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#saludo_grupo",
@@ -3438,27 +3457,8 @@
     "comment" : {
       "undefined" : "Distintos apartados o grupo de actividades que componen una clase"
     },
-    "id" : "147",
+    "id" : "146",
     "superClasses" : [ "24" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b735_funciones_tonto_muscular",
-    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "b735_funciones_tonto_muscular"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b735",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "b735"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "Funciones relacionadas con la tensión presente en los músculos cuando están en reposo y la resistencia que ofrecen al intentar moverlos pasivamente.\nIncluye: funciones asociadas con la tensión de músculos aislados y grupos de músculos, músculos de una extremidad, músculos de un lado del cuerpo, músculos\nde la mitad inferior del cuerpo, músculos de todas las extremidades, músculos del tronco, y todos los músculos del cuerpo; deficiencias tales como hipertonía,\nhipotonía, espasticidad muscular"
-    },
-    "id" : "210",
-    "superClasses" : [ "72" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_lesión",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3467,16 +3467,16 @@
       "IRI-based" : "Impactos_lesión"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b710_d3",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "impacto_lesión_rodilla_b710_d3"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b715_d3",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "impacto_lesión_rodilla_b715_d3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b710_d3",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "impacto_lesión_rodilla_b710_d3"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_lesión_rodilla_b780_d3",
@@ -3507,7 +3507,7 @@
     "comment" : {
       "undefined" : "Fundamentos éticos y morales desarrollados por la práctica del Aikido."
     },
-    "id" : "269",
+    "id" : "268",
     "superClasses" : [ "293" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b130_funciones_impulsos",
@@ -3526,7 +3526,7 @@
     "comment" : {
       "undefined" : "Funciones mentales generales de los mecanismos fisiológicos y psicológicos que empujan al individuo a moverse de forma persistente para satisfacer\nnecesidades específicas y alcanzar ciertas metas."
     },
-    "id" : "78",
+    "id" : "79",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_articulaciones_y_huesos",
@@ -3535,12 +3535,12 @@
     "label" : {
       "IRI-based" : "Funciones_articulaciones_y_huesos"
     },
-    "subClasses" : [ "42", "48", "52" ],
+    "subClasses" : [ "399", "95", "42" ],
     "comment" : {
       "undefined" : "Funciones que manejan el  comportamiento y características fisiológicas de las estructuras articulares y óseas, esenciales para la movilidad, la postura, la estabilidad y el control del cuerpo."
     },
     "id" : "43",
-    "superClasses" : [ "206" ]
+    "superClasses" : [ "203" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b147_funciones_mentales_psicomotoras",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3558,8 +3558,8 @@
     "comment" : {
       "undefined" : "Funciones mentales específicas de control tanto de los actos motores como de los psicológicos en el nivel corporal."
     },
-    "id" : "400",
-    "superClasses" : [ "74" ]
+    "id" : "401",
+    "superClasses" : [ "75" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b140_funciones_atención",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3577,8 +3577,8 @@
     "comment" : {
       "undefined" : "Funciones mentales específicas que permiten centrarse en un estímulo externo o experiencia interna durante el periodo de tiempo necesario."
     },
-    "id" : "401",
-    "superClasses" : [ "74" ]
+    "id" : "278",
+    "superClasses" : [ "75" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tipos_ataque",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3586,12 +3586,12 @@
     "label" : {
       "IRI-based" : "Tipos_ataque"
     },
-    "subClasses" : [ "56", "62", "66" ],
+    "subClasses" : [ "57", "63", "67" ],
     "comment" : {
       "undefined" : "Tipos de ataque"
     },
-    "id" : "57",
-    "superClasses" : [ "88" ]
+    "id" : "58",
+    "superClasses" : [ "89" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_mentales",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3599,11 +3599,11 @@
     "label" : {
       "IRI-based" : "Funciones_mentales"
     },
-    "subClasses" : [ "74", "2" ],
+    "subClasses" : [ "75", "2" ],
     "comment" : {
       "undefined" : "Funciones del cerebro, tanto las funciones mentales globales tales como la conciencia, la energía y los impulsos, como las funciones mentales específicas, tales como memoria, lenguaje y cálculo mental."
     },
-    "id" : "75",
+    "id" : "76",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b134_funciones_sueño",
@@ -3631,12 +3631,12 @@
     "label" : {
       "IRI-based" : "Funciones_mentales_globales"
     },
-    "subClasses" : [ "78", "28", "40", "1", "4", "6", "8" ],
+    "subClasses" : [ "79", "28", "40", "1", "4", "6", "8" ],
     "comment" : {
       "undefined" : "Funciones como la conciencia, la energía y los impulsos."
     },
     "id" : "2",
-    "superClasses" : [ "75" ]
+    "superClasses" : [ "76" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b740_funciones_resistencia_muscular",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3654,8 +3654,8 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con el mantenimiento de la contracción muscular durante un determinado periodo de tiempo.\nIncluye: funciones asociadas con el mantenimiento de la contracción de músculos aislados y grupos de músculos, de todos los músculos del cuerpo; deficiencias tales como en la miastenia grave."
     },
-    "id" : "208",
-    "superClasses" : [ "72" ]
+    "id" : "205",
+    "superClasses" : [ "71" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_físicas",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3668,7 +3668,7 @@
       "undefined" : "Concepto general que engloba todas las capacidades que determinan el rendimiento físico del individuo."
     },
     "id" : "11",
-    "superClasses" : [ "90" ]
+    "superClasses" : [ "91" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b520_funciones_asimilación",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3714,8 +3714,8 @@
         "IRI-based" : "recomendación_aplicada"
       }
     } ],
-    "id" : "125",
-    "superClasses" : [ "95" ]
+    "id" : "48",
+    "superClasses" : [ "49" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b110_funciones_conciencia",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3773,7 +3773,7 @@
     "comment" : {
       "undefined" : "Género de la persona (hombre, mujer, otro) . Necesario tenerlo en cuenta debido a las funciones corporales a las que puede afectar el ser de un género u otro."
     },
-    "id" : "196",
+    "id" : "195",
     "superClasses" : [ "104" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b164_funciones_cognitivas_superiores",
@@ -3793,7 +3793,7 @@
       "undefined" : "Funciones mentales específicas que dependen especialmente de la actividad de los lóbulos frontales del cerebro, incluyendo conductas complejas con propósito final tales como la toma de decisiones, el pensamiento abstracto, la planificación y realización de planes, la flexibilidad mental, y decidir cuál es el comportamiento adecuado en función de las circunstancias; que a menudo se denominan funciones ejecutivas."
     },
     "id" : "405",
-    "superClasses" : [ "74" ]
+    "superClasses" : [ "75" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b650_funciones_menstruación",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3850,7 +3850,7 @@
       "undefined" : "Funciones del cuerpo relacionadas con la protección contra sustancias extrañas, incluyendo infecciones, mediante respuestas inmunológicas específicas y no específicas.\nIncluye: respuesta inmune (específica y no específica); reacciones de hipersensibilidad; funciones de los nódulos y vasos linfáticos; funciones de inmunidad celular, funciones de inmunidad a través de anticuerpos; respuesta a la inmunización; deficiencias tales como autoinmunidad, reacciones alérgicas, linfadenitis y linfedema."
     },
     "id" : "304",
-    "superClasses" : [ "92" ]
+    "superClasses" : [ "93" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Impactos_por_edad",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -3883,16 +3883,16 @@
         "IRI-based" : "impacto_e9a10_b164_f1"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b230_f1",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "impacto_e6a8_b230_f1"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b715_d1",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "impacto_e6a8_b715_d1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b230_f1",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "impacto_e6a8_b230_f1"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b440_f3",
@@ -4027,16 +4027,16 @@
         "IRI-based" : "impacto_e9a10_b730_f2"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b440_d1",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "impacto_e6a8_b440_d1"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b140_f1",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "impacto_e6a8_b140_f1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e6a8_b440_d1",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "impacto_e6a8_b440_d1"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto_e11a12_b760_f3",
@@ -4054,7 +4054,7 @@
     "comment" : {
       "undefined" : "Dificultades, limitaciones de la capacidad y problemas de desempeño debido a la edad madurativa."
     },
-    "id" : "271",
+    "id" : "270",
     "superClasses" : [ "114" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b445_funciones_músculos_respiratorios",
@@ -4086,7 +4086,7 @@
       "undefined" : "Técnicas con tori y uke de rodillas."
     },
     "id" : "407",
-    "superClasses" : [ "137" ]
+    "superClasses" : [ "136" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Grado",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4094,12 +4094,12 @@
     "label" : {
       "IRI-based" : "Grado"
     },
-    "subClasses" : [ "243", "245" ],
+    "subClasses" : [ "242", "244" ],
     "comment" : {
       "undefined" : "Grado del alumno o del profesor."
     },
-    "id" : "236",
-    "superClasses" : [ "88" ]
+    "id" : "235",
+    "superClasses" : [ "89" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tachi_waza_proyecciones",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4207,8 +4207,8 @@
     "comment" : {
       "undefined" : "Técnicas de proyección en Tachi Waza"
     },
-    "id" : "225",
-    "superClasses" : [ "226" ]
+    "id" : "224",
+    "superClasses" : [ "225" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b730_funciones_fuerza_muscular",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4226,8 +4226,8 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con la fuerza generada por la contracción de un músculo o grupo de músculos.\nIncluye: funciones asociadas con la fuerza de músculos específicos o grupos de músculos, músculos de una extremidad, de un lado del cuerpo, de la mitad inferior\ndel cuerpo, de todas las extremidades, del tronco y del cuerpo como un todo; deficiencias tales como debilidad de los músculos pequeños de las manos y los pies,\nparálisis muscular, paresia muscular, monoplejia, hemiplejia, paraplejia, tetraplejia y mutismo aquinético"
     },
-    "id" : "207",
-    "superClasses" : [ "72" ]
+    "id" : "204",
+    "superClasses" : [ "71" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Te_sabaki",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4239,7 +4239,7 @@
       "undefined" : "Movimientos de las manos y los brazos."
     },
     "id" : "301",
-    "superClasses" : [ "88" ]
+    "superClasses" : [ "89" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b415_funciones_vasos_sanguíneos",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4257,7 +4257,7 @@
     "comment" : {
       "undefined" : "Funciones de transporte de la sangre a través del cuerpo.\nIncluye: \nfunciones de las arterias, capilares y venas; funciones vasomotoras; funciones de las arterias, capilares y venas pulmonares; funciones de las válvulas de las venas; deficiencias tales como bloqueo o constricción de las arterias; arteriosclerosis, ateroesclerosis, tromboembolismo y venas varicosas"
     },
-    "id" : "176",
+    "id" : "175",
     "superClasses" : [ "117" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Tachi_waza_inmovilizaciones",
@@ -4318,8 +4318,8 @@
     "comment" : {
       "undefined" : "Técnicas de inmovilización en Tachi Waza"
     },
-    "id" : "227",
-    "superClasses" : [ "226" ]
+    "id" : "226",
+    "superClasses" : [ "225" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b840_funciones_sensaciones_piel",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4366,7 +4366,7 @@
       "IRI-based" : "b215_funciones_adyacentes_ojo"
     },
     "id" : "411",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "83" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Objetivos",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4377,7 +4377,7 @@
     "comment" : {
       "undefined" : "Objetivos de las actividades."
     },
-    "id" : "199",
+    "id" : "198",
     "superClasses" : [ "99" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b250_funciones_gustativas",
@@ -4397,7 +4397,7 @@
       "undefined" : "Funciones sensoriales relacionadas con percibir las cualidades del sabor dulce, salado, amargo y ácido."
     },
     "id" : "412",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "83" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b310_funciones_voz",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4493,7 +4493,7 @@
       "undefined" : "Funciones mentales específicas relacionadas con los sentimientos y los componentes afectivos de los procesos mentales."
     },
     "id" : "414",
-    "superClasses" : [ "74" ]
+    "superClasses" : [ "75" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b610_funciones_relacionadas_excreción_urinaria",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4511,8 +4511,8 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con la filtración y la recogida de la orina."
     },
-    "id" : "158",
-    "superClasses" : [ "154" ]
+    "id" : "157",
+    "superClasses" : [ "153" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Facilitador_leve",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4530,8 +4530,8 @@
     "comment" : {
       "undefined" : "Facilita la función corporal de forma leve."
     },
-    "id" : "219",
-    "superClasses" : [ "70" ]
+    "id" : "218",
+    "superClasses" : [ "73" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Ataques",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4582,28 +4582,28 @@
         "IRI-based" : "ryote_dori"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#yokomen_uchi",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "yokomen_uchi"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#kata_dori",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "kata_dori"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#katate_dori_kubishime",
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#yokomen_uchi",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
-        "IRI-based" : "katate_dori_kubishime"
+        "IRI-based" : "yokomen_uchi"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#shomen_uchi",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "shomen_uchi"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#katate_dori_kubishime",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "katate_dori_kubishime"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#kata_dori_men_uchi",
@@ -4618,16 +4618,16 @@
         "IRI-based" : "eri_dori"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#jodan_tsuki",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "jodan_tsuki"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#morote_dori",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "morote_dori"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#jodan_tsuki",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "jodan_tsuki"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#mawasa_geri",
@@ -4640,7 +4640,7 @@
       "undefined" : "Tipos de ataques de uke."
     },
     "id" : "286",
-    "superClasses" : [ "88" ]
+    "superClasses" : [ "89" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Capacidades_físicas_coordinativas",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4715,8 +4715,8 @@
     "label" : {
       "IRI-based" : "Recomendaciones_realizadas"
     },
-    "id" : "94",
-    "superClasses" : [ "95" ]
+    "id" : "53",
+    "superClasses" : [ "49" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Waza",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4762,7 +4762,7 @@
       "undefined" : "Las distintas formas de practicar las técnicas."
     },
     "id" : "344",
-    "superClasses" : [ "88" ]
+    "superClasses" : [ "89" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_sistema_cardiovascular",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4770,7 +4770,7 @@
     "label" : {
       "IRI-based" : "Funciones_sistema_cardiovascular"
     },
-    "subClasses" : [ "173", "116", "176" ],
+    "subClasses" : [ "172", "116", "175" ],
     "comment" : {
       "undefined" : "Funciones del corazón y vasos sanguíneos"
     },
@@ -4783,12 +4783,12 @@
     "label" : {
       "IRI-based" : "Tipos_defensa"
     },
-    "subClasses" : [ "178", "181" ],
+    "subClasses" : [ "177", "180" ],
     "comment" : {
       "undefined" : "Si es una inmovilizacion o una proyección"
     },
-    "id" : "179",
-    "superClasses" : [ "88" ]
+    "id" : "178",
+    "superClasses" : [ "89" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Edad_6a8",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4806,8 +4806,8 @@
     "comment" : {
       "undefined" : "Primera etapa escolar de Primaria: 6 a 8 años."
     },
-    "id" : "203",
-    "superClasses" : [ "168" ]
+    "id" : "202",
+    "superClasses" : [ "167" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b235_funcion_vestibular",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4826,7 +4826,7 @@
       "undefined" : "Funciones sensoriales del oído interno relacionadas con la posición, el equilibrio y el movimiento.\nIncluye: funciones de posición y del sentido de la posición; funciones de equilibrio corporal y movimiento"
     },
     "id" : "432",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "83" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Profesores",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4875,7 +4875,7 @@
     "comment" : {
       "undefined" : "Funciones adicionales relacionadas con la respiración, tales como toser, estornudar y bostezar.\nIncluye: funciones relacionadas con soplar, silbar y respirar por la boca"
     },
-    "id" : "50",
+    "id" : "51",
     "superClasses" : [ "46" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_genitourinarias_y_reproductoras",
@@ -4884,11 +4884,11 @@
     "label" : {
       "IRI-based" : "Funciones_genitourinarias_y_reproductoras"
     },
-    "subClasses" : [ "119", "156", "158", "160" ],
+    "subClasses" : [ "119", "155", "157", "159" ],
     "comment" : {
       "undefined" : "Funciones urinarias y funciones reproductoras, incluyendo las funciones sexuales y procreadoras."
     },
-    "id" : "154",
+    "id" : "153",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_sensoriales",
@@ -4897,11 +4897,11 @@
     "label" : {
       "IRI-based" : "Funciones_sensoriales"
     },
-    "subClasses" : [ "256", "411", "81", "390", "444", "197", "445", "432", "412", "446" ],
+    "subClasses" : [ "255", "411", "82", "390", "444", "196", "445", "432", "412", "446" ],
     "comment" : {
       "undefined" : "Comprenden funciones para la recepción y procesamiento de estímulos sensoriales (visuales, auditivos, táctiles, olfativos y gustativos), estímulos internos del cuerpo, y sentir y procesar el dolor."
     },
-    "id" : "82",
+    "id" : "83",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b530_funciones_peso_corporal",
@@ -4948,12 +4948,12 @@
     "label" : {
       "IRI-based" : "Tecnicas"
     },
-    "subClasses" : [ "226", "407", "359", "230" ],
+    "subClasses" : [ "225", "407", "359", "229" ],
     "comment" : {
       "undefined" : "Conjuntos de técnicas (defensas contra ataques) que se practican en Aikido."
     },
-    "id" : "137",
-    "superClasses" : [ "135" ]
+    "id" : "136",
+    "superClasses" : [ "134" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b280_funciones_dolor",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4972,7 +4972,7 @@
       "undefined" : "Sensación desagradable que indica daño potencial o real en alguna estructura corporal."
     },
     "id" : "446",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "83" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Contexto_capacidad_física",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -4980,7 +4980,7 @@
     "label" : {
       "IRI-based" : "Contexto_capacidad_física"
     },
-    "subClasses" : [ "387", "232" ],
+    "subClasses" : [ "387", "231" ],
     "id" : "102",
     "superClasses" : [ "20" ]
   }, {
@@ -4990,7 +4990,7 @@
     "label" : {
       "IRI-based" : "Contexto_edad"
     },
-    "subClasses" : [ "271", "168" ],
+    "subClasses" : [ "270", "167" ],
     "comment" : {
       "undefined" : "Problemáticas cuyo origen es la edad cronológica del alumno o etapa madurativa en la que está."
     },
@@ -5014,7 +5014,7 @@
       "undefined" : "Funciones mentales específicas relacionadas con el reconocimiento y la interpretación de los estímulos sensoriales."
     },
     "id" : "419",
-    "superClasses" : [ "74" ]
+    "superClasses" : [ "75" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Modalidad_actividades",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5041,15 +5041,6 @@
         "IRI-based" : "actividad_juego"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_sin_contacto_físico",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "comment" : {
-        "undefined" : "Actividad que para realizarla no es necesario el contacto físico entre los alumnos."
-      },
-      "labels" : {
-        "IRI-based" : "actividad_sin_contacto_físico"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_grupal",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "comment" : {
@@ -5057,6 +5048,15 @@
       },
       "labels" : {
         "IRI-based" : "actividad_grupal"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_sin_contacto_físico",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "comment" : {
+        "undefined" : "Actividad que para realizarla no es necesario el contacto físico entre los alumnos."
+      },
+      "labels" : {
+        "IRI-based" : "actividad_sin_contacto_físico"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#actividad_técnica",
@@ -5077,7 +5077,7 @@
     "comment" : {
       "undefined" : "Las diversas modalidades de ejecución de las actividades (por parejas, individual,sin contacto físico,etc.).  Las actividades pueden tener, a la vez, a distintas modalidades."
     },
-    "id" : "132",
+    "id" : "131",
     "superClasses" : [ "99" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b820_funciones_reparadoras_piel",
@@ -5096,7 +5096,7 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con la reparación de soluciones de continuidad y otras lesiones de la piel.\nIncluye: funciones relacionadas con la formación de costras, cicatrización de la piel y cicatrices; magulladuras y formación de queloides"
     },
-    "id" : "165",
+    "id" : "164",
     "superClasses" : [ "16" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_sistema_endocrino",
@@ -5128,8 +5128,8 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con la regulación de los componentes esenciales del cuerpo tales como los carbohidratos, las proteínas y las grasas, la conversión de unos en otros, y su transformación en energía.\nIncluye: funciones del metabolismo, tasa de metabolismo basal, metabolismo de los carbohidratos, proteínas y grasas; catabolismo, anabolismo, producción de energía en el cuerpo; disminución o aumento de la tasa metabólica"
     },
-    "id" : "188",
-    "superClasses" : [ "171" ]
+    "id" : "187",
+    "superClasses" : [ "170" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Aikido",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5165,16 +5165,16 @@
         "IRI-based" : "9_dan_kodan"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#8_dan_hachidan",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "8_dan_hachidan"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#6_dan_rokudan",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "6_dan_rokudan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#8_dan_hachidan",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "8_dan_hachidan"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#3_dan_sandan",
@@ -5207,8 +5207,8 @@
         "IRI-based" : "7_dan_nanadan"
       }
     } ],
-    "id" : "243",
-    "superClasses" : [ "236" ]
+    "id" : "242",
+    "superClasses" : [ "235" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_movimiento_movilidad",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5216,11 +5216,11 @@
     "label" : {
       "IRI-based" : "Funciones_movimiento_movilidad"
     },
-    "subClasses" : [ "43", "72" ],
+    "subClasses" : [ "43", "71" ],
     "comment" : {
       "undefined" : "Funciones relacionadas con el movimiento y la movilidad, incluyendo las funciones de los huesos, los músculos, las articulaciones y los reflejos."
     },
-    "id" : "206",
+    "id" : "203",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b160_funciones_pensamiento",
@@ -5240,7 +5240,7 @@
       "undefined" : "Funciones mentales específicas relacionadas con el componente ideacional de la mente."
     },
     "id" : "424",
-    "superClasses" : [ "74" ]
+    "superClasses" : [ "75" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b750_funciones_reflejos_motores",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5258,8 +5258,8 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con la contracción involuntaria de los músculos, inducida automáticamente por estímulos específicos.\nIncluye: funciones relacionadas con el reflejo de extensión, reflejos articulares, reflejos generados por estímulos nocivos y otros estímulos exteroceptivos; reflejo de retirada, reflejo bicipital, reflejo radial, reflejo de cuadriceps, reflejo patelar, reflejo aquíleano"
     },
-    "id" : "211",
-    "superClasses" : [ "72" ]
+    "id" : "208",
+    "superClasses" : [ "71" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b144_funciones_memoria",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5278,7 +5278,7 @@
       "undefined" : "Funciones mentales específicas relacionadas con el registro y almacenamiento de información, así como con su recuperación cuando es necesario."
     },
     "id" : "421",
-    "superClasses" : [ "74" ]
+    "superClasses" : [ "75" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Funciones_mentales_específicas",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5286,12 +5286,12 @@
     "label" : {
       "IRI-based" : "Funciones_mentales_específicas"
     },
-    "subClasses" : [ "266", "400", "414", "405", "419", "421", "424", "401", "80", "313", "279" ],
+    "subClasses" : [ "265", "401", "414", "405", "419", "421", "424", "278", "81", "311", "279" ],
     "comment" : {
       "undefined" : "Funciones como la memoria, el lenguaje y el cálculo mental."
     },
-    "id" : "74",
-    "superClasses" : [ "75" ]
+    "id" : "75",
+    "superClasses" : [ "76" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b265_funciones_táctiles",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5310,7 +5310,7 @@
       "undefined" : "Funciones sensoriales relacionadas con sentir las superficies de los objetos y su textura o calidad.\nIncluye: funciones del tacto, sensación de tacto; deficiencias tales como entumecimiento, hormigueo, anestesia, parestesia e hiperestesia"
     },
     "id" : "445",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "83" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_tecnicos",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5318,11 +5318,11 @@
     "label" : {
       "IRI-based" : "Fundamentos_tecnicos"
     },
-    "subClasses" : [ "134", "137", "88" ],
+    "subClasses" : [ "133", "136", "89" ],
     "comment" : {
       "undefined" : "Contiene todos los fundamentos, conceptos, clases y entidades propias de la parte técnica de Aikido."
     },
-    "id" : "135",
+    "id" : "134",
     "superClasses" : [ "293" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b210_funciones_visuales",
@@ -5342,7 +5342,7 @@
       "undefined" : "Funciones sensoriales relacionadas con percibir la presencia de luz y sentir la forma, el tamaño y el color de un estímulo visual."
     },
     "id" : "444",
-    "superClasses" : [ "82" ]
+    "superClasses" : [ "83" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Enseñanza",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5350,7 +5350,7 @@
     "label" : {
       "IRI-based" : "Enseñanza"
     },
-    "subClasses" : [ "23", "127", "95", "143", "145", "147", "130", "99" ],
+    "subClasses" : [ "23", "127", "49", "142", "144", "146", "129", "99" ],
     "comment" : {
       "undefined" : "Parte operativa o de gestión, más orientada a la organización escolar (alumnos, horarios, sesiones) que a los conceptos del arte marcial en sí."
     },
@@ -5414,16 +5414,16 @@
         "IRI-based" : "soto_kaiten_nage"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tenchi_nage",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "tenchi_nage"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#sumi_otoshi",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "sumi_otoshi"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tenchi_nage",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "tenchi_nage"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#aiki_otoshi",
@@ -5432,16 +5432,16 @@
         "IRI-based" : "aiki_otoshi"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#koshi_nage",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "koshi_nage"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#juji_garami",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "juji_garami"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#koshi_nage",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "koshi_nage"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#irimi_nage",
@@ -5465,8 +5465,8 @@
     "comment" : {
       "undefined" : "tori lanza o proyecta a uke"
     },
-    "id" : "181",
-    "superClasses" : [ "179" ]
+    "id" : "180",
+    "superClasses" : [ "178" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b710_funciones_movilidad_articulaciones",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5484,7 +5484,7 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con la extensión y la suavidad de movimiento de una articulación.\nIncluye: funciones relacionadas con la movilidad de una o varias articulaciones vertebrales, hombro, codo, muñeca, cadera, rodilla, tobillo, pequeñas articulaciones de las manos y de los pies; movilidad generalizada de las articulaciones; deficiencias tales como hipermovilidad articular, rigidez articular, hombro “congelado”, artritis"
     },
-    "id" : "42",
+    "id" : "399",
     "superClasses" : [ "43" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Fundamentos_fisicos",
@@ -5497,7 +5497,7 @@
     "comment" : {
       "undefined" : "Fundamentos para el desarrollo corporal de los alumnos."
     },
-    "id" : "90",
+    "id" : "91",
     "superClasses" : [ "293" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b670_funciones_sensaciones_sexuales_reproductoras",
@@ -5525,7 +5525,7 @@
     "label" : {
       "IRI-based" : "Funciones_sistema_respiratorio"
     },
-    "subClasses" : [ "97", "45", "50", "54" ],
+    "subClasses" : [ "97", "45", "51", "55" ],
     "comment" : {
       "undefined" : "Funciones esenciales para el intercambio de gases, la ventilación pulmonar, la tos, y la voz, entre otras. Su correcto funcionamiento es fundamental para mantener los niveles adecuados de oxígeno en el cuerpo."
     },
@@ -5545,16 +5545,16 @@
         "IRI-based" : "respiración_y_movimiento"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desafío_de_equilibrio",
-      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-      "labels" : {
-        "IRI-based" : "desafío_de_equilibrio"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#respira_como_un_sensei",
       "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
       "labels" : {
         "IRI-based" : "respira_como_un_sensei"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#desafío_de_equilibrio",
+      "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+      "labels" : {
+        "IRI-based" : "desafío_de_equilibrio"
       }
     }, {
       "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#caminar_en_silencio",
@@ -5660,8 +5660,8 @@
     "comment" : {
       "undefined" : "caidas"
     },
-    "id" : "275",
-    "superClasses" : [ "88" ]
+    "id" : "274",
+    "superClasses" : [ "89" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Desplazamiento_de_rodillas",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5676,8 +5676,8 @@
         "IRI-based" : "shikko"
       }
     } ],
-    "id" : "59",
-    "superClasses" : [ "60" ]
+    "id" : "60",
+    "superClasses" : [ "61" ]
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#b440_funciones_respiratorias",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -5714,7 +5714,7 @@
     "comment" : {
       "undefined" : "Funciones relacionadas con el mantenimiento de la integridad estructural de las articulaciones.\nIncluye: funciones relacionadas con la estabilidad de una articulación, de varias articulaciones y de las articulaciones en general; deficiencias tales como articulación de hombro inestable, dislocación de una articulación, dislocación del hombro y la cadera"
     },
-    "id" : "48",
+    "id" : "95",
     "superClasses" : [ "43" ]
   } ],
   "property" : [ {
@@ -5766,46 +5766,46 @@
     "id" : "47",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "49",
+    "id" : "50",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "51",
+    "id" : "52",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "53",
+    "id" : "54",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "55",
+    "id" : "56",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "58",
+    "id" : "59",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "61",
+    "id" : "62",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "63",
+    "id" : "64",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "65",
+    "id" : "66",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "67",
+    "id" : "68",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "73",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "76",
+    "id" : "74",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "77",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "89",
+    "id" : "78",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "93",
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "96",
@@ -5838,22 +5838,25 @@
     "id" : "115",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "126",
     "type" : "owl:objectProperty"
   }, {
     "id" : "128",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "129",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "131",
+    "id" : "130",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "133",
+    "id" : "132",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "136",
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "138",
@@ -5868,97 +5871,97 @@
     "id" : "141",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "142",
+    "id" : "143",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "144",
+    "id" : "145",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "146",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "148",
+    "id" : "147",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "150",
+    "id" : "149",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "153",
+    "id" : "168",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "155",
+    "id" : "171",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "157",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "159",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "161",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "169",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "172",
+    "id" : "173",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "174",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "175",
+    "id" : "176",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "177",
+    "id" : "179",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "180",
+    "id" : "181",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "182",
+    "id" : "183",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "184",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "185",
+    "id" : "186",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "187",
+    "id" : "188",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "189",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "191",
+    "id" : "190",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "194",
+    "id" : "193",
     "type" : "owl:objectProperty"
   }, {
     "id" : "36",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "200",
+    "id" : "199",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "202",
+    "id" : "201",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "204",
+    "id" : "210",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "213",
+    "id" : "212",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "215",
+    "id" : "214",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "218",
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "220",
@@ -5973,23 +5976,23 @@
     "id" : "223",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "224",
+    "id" : "227",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "228",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "229",
+    "id" : "230",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "231",
+    "id" : "232",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "233",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "234",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "237",
     "type" : "rdfs:SubClassOf"
@@ -6006,20 +6009,20 @@
     "id" : "241",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "242",
+    "id" : "243",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "244",
+    "id" : "245",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "246",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "247",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "248",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "249",
     "type" : "rdfs:SubClassOf"
@@ -6028,30 +6031,27 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "251",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "252",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "254",
+    "id" : "253",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "267",
+    "id" : "266",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "270",
+    "id" : "269",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "272",
+    "id" : "271",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "274",
+    "id" : "273",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "276",
+    "id" : "275",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "278",
+    "id" : "277",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "280",
@@ -6096,7 +6096,7 @@
     "id" : "305",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "311",
+    "id" : "313",
     "type" : "owl:objectProperty"
   }, {
     "id" : "315",
@@ -6285,10 +6285,10 @@
     "id" : "393",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "35",
+    "id" : "394",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "394",
+    "id" : "35",
     "type" : "owl:objectProperty"
   }, {
     "id" : "37",
@@ -6306,7 +6306,7 @@
     "id" : "398",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "399",
+    "id" : "400",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "402",
@@ -6519,42 +6519,42 @@
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "0"
   }, {
     "range" : "2",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "3"
   }, {
     "range" : "2",
     "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "5"
   }, {
     "range" : "2",
     "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "7"
   }, {
     "range" : "11",
     "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "9"
   }, {
     "range" : "11",
     "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "12"
   }, {
     "range" : "16",
     "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "14"
   }, {
     "range" : "16",
     "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "17"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion",
@@ -6593,161 +6593,148 @@
   }, {
     "range" : "2",
     "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "38"
   }, {
     "range" : "2",
     "domain" : "40",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "39"
   }, {
     "range" : "43",
     "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "41"
   }, {
     "range" : "46",
     "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "44"
   }, {
-    "range" : "43",
+    "range" : "49",
     "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "47"
   }, {
     "range" : "46",
-    "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "49"
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
   }, {
-    "range" : "43",
-    "domain" : "52",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "51"
+    "range" : "49",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
   }, {
     "range" : "46",
-    "domain" : "54",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "53"
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
   }, {
-    "range" : "57",
-    "domain" : "56",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "55"
+    "range" : "58",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
   }, {
-    "range" : "60",
-    "domain" : "59",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "58"
+    "range" : "61",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
   }, {
-    "range" : "57",
-    "domain" : "62",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "61"
+    "range" : "58",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
   }, {
-    "range" : "60",
-    "domain" : "64",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "63"
+    "range" : "61",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
   }, {
-    "range" : "57",
-    "domain" : "66",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "65"
+    "range" : "58",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
   }, {
-    "range" : "68",
+    "range" : "69",
     "domain" : "27",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "67"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "68"
   }, {
-    "range" : "75",
-    "domain" : "74",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "73"
+    "range" : "76",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
   }, {
-    "range" : "75",
+    "range" : "76",
     "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "76"
-  }, {
-    "range" : "2",
-    "domain" : "78",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "77"
   }, {
-    "range" : "90",
-    "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "89"
+    "range" : "2",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "78"
   }, {
-    "range" : "95",
-    "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "93"
+    "range" : "91",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "90"
+  }, {
+    "range" : "43",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "94"
   }, {
     "range" : "46",
     "domain" : "97",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "96"
   }, {
     "range" : "24",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "98"
   }, {
     "range" : "20",
-    "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "100"
   }, {
     "range" : "20",
     "domain" : "102",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "101"
   }, {
     "range" : "20",
     "domain" : "104",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "103"
   }, {
     "range" : "20",
     "domain" : "106",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "105"
   }, {
     "range" : "20",
     "domain" : "110",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "109"
   }, {
     "range" : "20",
     "domain" : "112",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "111"
   }, {
     "range" : "20",
     "domain" : "114",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "113"
   }, {
     "range" : "20",
     "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "115"
-  }, {
-    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_autor",
-    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "127",
-    "label" : {
-      "IRI-based" : "rcm_tiene_autor"
-    },
-    "domain" : "94",
-    "comment" : {
-      "undefined" : "Una recomendación tiene un autor."
-    },
-    "attributes" : [ "object" ],
-    "id" : "126"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_alumno",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -6755,87 +6742,100 @@
     "label" : {
       "IRI-based" : "rcm_tiene_alumno"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Alumno o alumnos a los que se le aplica la recomendación."
     },
     "attributes" : [ "object" ],
-    "id" : "128"
+    "id" : "125"
+  }, {
+    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_autor",
+    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "rcm_tiene_autor"
+    },
+    "domain" : "53",
+    "comment" : {
+      "undefined" : "Una recomendación tiene un autor."
+    },
+    "attributes" : [ "object" ],
+    "id" : "126"
   }, {
     "range" : "24",
-    "domain" : "130",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "129"
+    "domain" : "129",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
   }, {
     "range" : "99",
-    "domain" : "132",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "131"
+    "domain" : "131",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "130"
   }, {
-    "range" : "135",
-    "domain" : "134",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "133"
+    "range" : "134",
+    "domain" : "133",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
   }, {
-    "range" : "135",
-    "domain" : "137",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "136"
+    "range" : "134",
+    "domain" : "136",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
   }, {
-    "range" : "135",
-    "domain" : "88",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "138"
+    "range" : "134",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
   }, {
     "range" : "24",
     "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "139"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "138"
   }, {
     "range" : "24",
     "domain" : "127",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "139"
+  }, {
+    "range" : "24",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "140"
   }, {
     "range" : "24",
-    "domain" : "95",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "142",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "141"
   }, {
     "range" : "24",
-    "domain" : "143",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "142"
+    "domain" : "144",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "143"
   }, {
     "range" : "24",
-    "domain" : "145",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "144"
-  }, {
-    "range" : "24",
-    "domain" : "147",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "146"
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
     "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "149",
+    "range" : "148",
     "label" : {
       "IRI-based" : "topDataProperty"
     },
     "domain" : "30",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "148"
+    "attributes" : [ "datatype", "external" ],
+    "id" : "147"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_objetivo",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "151",
+    "range" : "150",
     "label" : {
       "IRI-based" : "tiene_objetivo"
     },
     "domain" : "30",
     "attributes" : [ "datatype" ],
-    "id" : "150"
+    "id" : "149"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_beneficio",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -6848,108 +6848,108 @@
       "undefined" : "Funciones corporales a las que beneficia la actividad"
     },
     "attributes" : [ "object" ],
+    "id" : "151"
+  }, {
+    "range" : "153",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "152"
   }, {
-    "range" : "154",
-    "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "153"
+    "range" : "153",
+    "domain" : "155",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "154"
   }, {
-    "range" : "154",
-    "domain" : "156",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "155"
+    "range" : "153",
+    "domain" : "157",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
   }, {
-    "range" : "154",
-    "domain" : "158",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "157"
-  }, {
-    "range" : "154",
-    "domain" : "160",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "159"
+    "range" : "153",
+    "domain" : "159",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "158"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_forma",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "162",
+    "range" : "161",
     "label" : {
       "IRI-based" : "tiene_forma"
     },
-    "domain" : "137",
+    "domain" : "136",
     "comment" : {
       "undefined" : "Para indicar si una técnica se puede realizar en omote y ura."
     },
     "attributes" : [ "object" ],
-    "id" : "161"
+    "id" : "160"
   }, {
-    "range" : "171",
-    "domain" : "170",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "169"
+    "range" : "170",
+    "domain" : "169",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "168"
   }, {
     "range" : "117",
-    "domain" : "173",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "172"
+    "domain" : "172",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "171"
   }, {
     "range" : "117",
     "domain" : "116",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "174"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "173"
   }, {
     "range" : "117",
-    "domain" : "176",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "175"
+    "domain" : "175",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "174"
   }, {
-    "range" : "179",
-    "domain" : "178",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "177"
+    "range" : "178",
+    "domain" : "177",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "176"
   }, {
-    "range" : "179",
-    "domain" : "181",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "180"
+    "range" : "178",
+    "domain" : "180",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "179"
   }, {
-    "range" : "70",
-    "domain" : "183",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "182"
+    "range" : "73",
+    "domain" : "182",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
   }, {
-    "range" : "70",
-    "domain" : "79",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "73",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "range" : "73",
+    "domain" : "185",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "184"
   }, {
-    "range" : "70",
-    "domain" : "186",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "185"
+    "range" : "170",
+    "domain" : "187",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "186"
   }, {
-    "range" : "171",
-    "domain" : "188",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "187"
-  }, {
-    "range" : "171",
-    "domain" : "190",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "189"
+    "range" : "170",
+    "domain" : "189",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "188"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_descripción",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "192",
+    "range" : "191",
     "label" : {
       "IRI-based" : "rcm_tiene_descripción"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Descripción de la recomendación."
     },
     "attributes" : [ "datatype" ],
-    "id" : "191"
+    "id" : "190"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_valor",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -6962,170 +6962,170 @@
       "undefined" : "Indica el valor ético y moral que se desarrolla con la actividad."
     },
     "attributes" : [ "object" ],
-    "id" : "194"
+    "id" : "193"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_objetivo",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "199",
+    "range" : "198",
     "label" : {
       "IRI-based" : "act_tiene_objetivo"
     },
     "superproperty" : [ "29" ],
-    "domain" : "198",
+    "domain" : "197",
     "comment" : {
       "undefined" : "El objetivo que tiene la actividad."
     },
     "attributes" : [ "object" ],
     "id" : "36"
   }, {
-    "range" : "168",
-    "domain" : "201",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "200"
+    "range" : "167",
+    "domain" : "200",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "199"
   }, {
-    "range" : "168",
-    "domain" : "203",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "202"
+    "range" : "167",
+    "domain" : "202",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#edad_final",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "205",
+    "range" : "211",
     "label" : {
       "IRI-based" : "edad_final"
     },
-    "domain" : "168",
+    "domain" : "167",
     "comment" : {
       "undefined" : "Edad final de la etapa de la edad"
     },
     "attributes" : [ "datatype" ],
-    "id" : "204"
+    "id" : "210"
   }, {
-    "range" : "70",
-    "domain" : "214",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "213"
+    "range" : "73",
+    "domain" : "213",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "212"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_edad",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "217",
+    "range" : "216",
     "label" : {
       "IRI-based" : "tiene_edad"
     },
-    "domain" : "216",
+    "domain" : "215",
     "comment" : {
       "undefined" : "Edad de las personas (alumnos y profesores)"
     },
     "attributes" : [ "datatype" ],
-    "id" : "215"
+    "id" : "214"
   }, {
-    "range" : "70",
-    "domain" : "219",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "218"
+    "range" : "73",
+    "domain" : "218",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "217"
   }, {
-    "range" : "70",
-    "domain" : "69",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "73",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "219"
+  }, {
+    "range" : "71",
+    "domain" : "207",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "220"
   }, {
-    "range" : "72",
-    "domain" : "210",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "71",
+    "domain" : "208",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "221"
   }, {
-    "range" : "72",
-    "domain" : "211",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "71",
+    "domain" : "209",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "222"
   }, {
-    "range" : "72",
-    "domain" : "212",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "225",
+    "domain" : "224",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "223"
   }, {
-    "range" : "226",
-    "domain" : "225",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "224"
+    "range" : "225",
+    "domain" : "226",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "227"
   }, {
-    "range" : "226",
-    "domain" : "227",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "167",
+    "domain" : "166",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "228"
   }, {
-    "range" : "168",
-    "domain" : "167",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "229"
+    "range" : "71",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "230"
   }, {
-    "range" : "72",
-    "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "231"
-  }, {
-    "range" : "72",
-    "domain" : "71",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "233"
+    "range" : "71",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "232"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_grado",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "236",
+    "range" : "235",
     "label" : {
       "IRI-based" : "tiene_grado"
     },
-    "domain" : "235",
+    "domain" : "234",
     "comment" : {
       "undefined" : "Grado o nivel de Aikido."
     },
     "attributes" : [ "object" ],
-    "id" : "234"
+    "id" : "233"
   }, {
-    "range" : "72",
-    "domain" : "209",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "71",
+    "domain" : "206",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "236"
+  }, {
+    "range" : "71",
+    "domain" : "192",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "237"
   }, {
-    "range" : "72",
-    "domain" : "193",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "16",
+    "domain" : "165",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "238"
   }, {
-    "range" : "16",
-    "domain" : "166",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "104",
+    "domain" : "194",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "239"
   }, {
     "range" : "104",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "240"
   }, {
-    "range" : "104",
-    "domain" : "196",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "235",
+    "domain" : "242",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "241"
   }, {
-    "range" : "236",
-    "domain" : "243",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "242"
+    "range" : "235",
+    "domain" : "244",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "243"
   }, {
-    "range" : "236",
-    "domain" : "245",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "244"
+    "range" : "71",
+    "domain" : "204",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "245"
   }, {
-    "range" : "72",
-    "domain" : "207",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "71",
+    "domain" : "205",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "246"
-  }, {
-    "range" : "72",
-    "domain" : "208",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "247"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_habilidad_principal",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -7138,32 +7138,32 @@
       "undefined" : "La habilidad principal que fomenta un ejercicio del grupo de actividades sociales y emocionales."
     },
     "attributes" : [ "object" ],
+    "id" : "247"
+  }, {
+    "range" : "16",
+    "domain" : "162",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "248"
   }, {
     "range" : "16",
     "domain" : "163",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "249"
   }, {
     "range" : "16",
     "domain" : "164",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "250"
-  }, {
-    "range" : "16",
-    "domain" : "165",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "251"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_materiales",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "253",
+    "range" : "252",
     "label" : {
       "IRI-based" : "usa_materiales"
     },
     "domain" : "30",
     "attributes" : [ "datatype" ],
-    "id" : "252"
+    "id" : "251"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -7171,22 +7171,22 @@
     "label" : {
       "IRI-based" : "usa_funcion_corporal"
     },
-    "domain" : "135",
+    "domain" : "134",
     "attributes" : [ "object" ],
-    "id" : "254"
+    "id" : "253"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_apartado_clase",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "147",
+    "range" : "146",
     "label" : {
       "IRI-based" : "rcm_tiene_apartado_clase"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Indica el apartado de la clase donde se llevaría acabo."
     },
     "attributes" : [ "object" ],
-    "id" : "267"
+    "id" : "266"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#funcion",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -7194,79 +7194,79 @@
     "label" : {
       "IRI-based" : "funcion"
     },
-    "domain" : "271",
+    "domain" : "270",
     "comment" : {
       "undefined" : "Funciones corporales, según definición del CIF de la OMS, sobre las que tiene algún tipo de impacto, positivo o negativo."
     },
     "attributes" : [ "object" ],
-    "id" : "270"
+    "id" : "269"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_posicion",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "87",
+    "range" : "88",
     "label" : {
       "IRI-based" : "tiene_posicion"
     },
-    "domain" : "137",
+    "domain" : "136",
     "comment" : {
       "undefined" : "Indica las posiciones de uke y tori (ai hanmi y giaku hanmi) uno respecto al otro."
     },
     "attributes" : [ "object" ],
-    "id" : "272"
+    "id" : "271"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "211",
+    "range" : "208",
     "label" : {
       "IRI-based" : "usa_funcion_corporal"
     },
-    "domain" : "275",
+    "domain" : "274",
     "attributes" : [ "object", "someValues" ],
-    "id" : "274"
+    "id" : "273"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tipo_defensa",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "181",
+    "range" : "180",
     "label" : {
       "IRI-based" : "tipo_defensa"
     },
-    "domain" : "181",
+    "domain" : "180",
     "attributes" : [ "object", "someValues" ],
-    "id" : "276"
+    "id" : "275"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "54",
+    "range" : "278",
     "label" : {
       "IRI-based" : "usa_funcion_corporal"
     },
-    "domain" : "135",
+    "domain" : "134",
     "attributes" : [ "object", "someValues" ],
-    "id" : "278"
+    "id" : "277"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tipo_defensa",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "178",
+    "range" : "177",
     "label" : {
       "IRI-based" : "tipo_defensa"
     },
-    "domain" : "178",
+    "domain" : "177",
     "attributes" : [ "object", "someValues" ],
     "id" : "280"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "212",
+    "range" : "70",
     "label" : {
       "IRI-based" : "usa_funcion_corporal"
     },
-    "domain" : "135",
+    "domain" : "134",
     "attributes" : [ "object", "someValues" ],
     "id" : "281"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#grupo_edad",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "168",
+    "range" : "167",
     "label" : {
       "IRI-based" : "grupo_edad"
     },
@@ -7277,19 +7277,19 @@
     "attributes" : [ "object" ],
     "id" : "282"
   }, {
-    "range" : "88",
-    "domain" : "57",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "89",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "283"
   }, {
-    "range" : "88",
-    "domain" : "236",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "89",
+    "domain" : "235",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "284"
   }, {
-    "range" : "88",
+    "range" : "89",
     "domain" : "286",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "285"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fundamento",
@@ -7298,7 +7298,7 @@
     "label" : {
       "IRI-based" : "rcm_tiene_fundamento"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Fundamentos a los que se aplica la recomendación."
     },
@@ -7312,7 +7312,7 @@
       "IRI-based" : "rcm_tiene_impacto"
     },
     "superproperty" : [ "29" ],
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Impacto del contexto."
     },
@@ -7332,15 +7332,15 @@
     "attributes" : [ "object" ],
     "id" : "292"
   }, {
-    "range" : "88",
-    "domain" : "275",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "89",
+    "domain" : "274",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "295"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_profesor_de",
     "inverse" : "298",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "130",
+    "range" : "129",
     "label" : {
       "IRI-based" : "es_profesor_de"
     },
@@ -7351,23 +7351,23 @@
     "attributes" : [ "object" ],
     "id" : "297"
   }, {
-    "range" : "88",
-    "domain" : "179",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "89",
+    "domain" : "178",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "299"
   }, {
-    "range" : "88",
+    "range" : "89",
     "domain" : "301",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "300"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_grupo",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "130",
+    "range" : "129",
     "label" : {
       "IRI-based" : "rcm_tiene_grupo"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Grupo al que se aplica la recomendación."
     },
@@ -7380,45 +7380,45 @@
     "label" : {
       "IRI-based" : "impacto_sobre"
     },
-    "domain" : "70",
+    "domain" : "73",
     "comment" : {
       "undefined" : "Indica el tipo de impacto (facilitador o deficiencia) tiene sobre las funciones corporales."
     },
     "attributes" : [ "object" ],
-    "id" : "311"
+    "id" : "313"
   }, {
     "range" : "288",
     "domain" : "312",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "315"
   }, {
     "range" : "288",
     "domain" : "287",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "316"
   }, {
     "range" : "108",
     "domain" : "318",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "317"
   }, {
     "range" : "108",
     "domain" : "320",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "319"
   }, {
     "range" : "288",
     "domain" : "322",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "321"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#edad",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "168",
+    "range" : "167",
     "label" : {
       "IRI-based" : "edad"
     },
-    "domain" : "271",
+    "domain" : "270",
     "attributes" : [ "object" ],
     "id" : "323"
   }, {
@@ -7435,7 +7435,7 @@
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#es_alumno_de",
     "inverse" : "326",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "130",
+    "range" : "129",
     "label" : {
       "IRI-based" : "es_alumno_de"
     },
@@ -7448,22 +7448,22 @@
   }, {
     "range" : "288",
     "domain" : "328",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "327"
   }, {
     "range" : "293",
-    "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "329"
   }, {
     "range" : "293",
-    "domain" : "269",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "268",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "330"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_nombre",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "257",
+    "range" : "256",
     "label" : {
       "IRI-based" : "tiene_nombre"
     },
@@ -7472,38 +7472,38 @@
     "id" : "331"
   }, {
     "range" : "293",
-    "domain" : "135",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "134",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "332"
   }, {
     "range" : "293",
     "domain" : "290",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "333"
   }, {
     "range" : "293",
-    "domain" : "90",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "334"
   }, {
     "range" : "119",
     "domain" : "336",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "335"
   }, {
-    "range" : "83",
-    "domain" : "85",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "84",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "337"
   }, {
     "range" : "119",
     "domain" : "118",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "338"
   }, {
     "range" : "119",
     "domain" : "340",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "339"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_tipo",
@@ -7516,53 +7516,53 @@
     "attributes" : [ "object" ],
     "id" : "341"
   }, {
-    "range" : "88",
+    "range" : "89",
     "domain" : "344",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "343"
   }, {
-    "range" : "88",
-    "domain" : "255",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "89",
+    "domain" : "254",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "345"
   }, {
-    "range" : "83",
-    "domain" : "84",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "84",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "346"
   }, {
-    "range" : "88",
-    "domain" : "162",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "89",
+    "domain" : "161",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "347"
   }, {
-    "range" : "88",
+    "range" : "89",
     "domain" : "306",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "348"
   }, {
-    "range" : "88",
-    "domain" : "60",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "89",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "349"
   }, {
-    "range" : "88",
-    "domain" : "87",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "89",
+    "domain" : "88",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "350"
   }, {
     "range" : "120",
     "domain" : "121",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "351"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_defensa",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "255",
+    "range" : "254",
     "label" : {
       "IRI-based" : "tiene_defensa"
     },
-    "domain" : "137",
+    "domain" : "136",
     "comment" : {
       "undefined" : "Para indicar la defensa que se va a utilizar contra el ataque."
     },
@@ -7571,37 +7571,37 @@
   }, {
     "range" : "22",
     "domain" : "354",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "353"
   }, {
     "range" : "120",
     "domain" : "123",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "355"
   }, {
     "range" : "120",
     "domain" : "122",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "356"
   }, {
     "range" : "22",
     "domain" : "288",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "357"
   }, {
     "range" : "22",
     "domain" : "117",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "358"
   }, {
     "range" : "22",
-    "domain" : "154",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "153",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "360"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_técnica",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "134",
+    "range" : "133",
     "label" : {
       "IRI-based" : "act_usa_capacidad_técnica"
     },
@@ -7624,57 +7624,57 @@
   }, {
     "range" : "22",
     "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "365"
   }, {
     "range" : "22",
-    "domain" : "70",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "366"
   }, {
     "range" : "22",
-    "domain" : "171",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "170",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "367"
   }, {
     "range" : "22",
-    "domain" : "206",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "203",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "368"
   }, {
     "range" : "22",
     "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "369"
   }, {
     "range" : "22",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "370"
   }, {
     "range" : "22",
-    "domain" : "92",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "371"
   }, {
     "range" : "22",
-    "domain" : "75",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "372"
   }, {
     "range" : "22",
     "domain" : "108",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "373"
   }, {
     "range" : "106",
     "domain" : "375",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "374"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#realizar_en_apartado_clase",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "147",
+    "range" : "146",
     "label" : {
       "IRI-based" : "realizar_en_apartado_clase"
     },
@@ -7687,36 +7687,36 @@
   }, {
     "range" : "106",
     "domain" : "342",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "377"
   }, {
     "range" : "108",
     "domain" : "379",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "378"
   }, {
     "range" : "108",
     "domain" : "107",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "380"
   }, {
     "range" : "108",
     "domain" : "382",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "381"
   }, {
     "range" : "108",
     "domain" : "384",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "383"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fecha_creación",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "273",
+    "range" : "272",
     "label" : {
       "IRI-based" : "rcm_tiene_fecha_creación"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Fecha creación de la recomendación"
     },
@@ -7729,7 +7729,7 @@
     "label" : {
       "IRI-based" : "tiene_alumno"
     },
-    "domain" : "130",
+    "domain" : "129",
     "comment" : {
       "undefined" : "Indica alumno que tiene un grupo."
     },
@@ -7743,7 +7743,7 @@
       "IRI-based" : "tiene_ataque"
     },
     "superproperty" : [ "29" ],
-    "domain" : "137",
+    "domain" : "136",
     "comment" : {
       "undefined" : "Para indicar el tipo de ataque de uke (katate dori, kata dori, jodan tsuki, etc.)."
     },
@@ -7762,11 +7762,11 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_evaluación",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "268",
+    "range" : "267",
     "label" : {
       "IRI-based" : "rcm_tiene_evaluación"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Evaluación de la Recomendación"
     },
@@ -7775,11 +7775,11 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_observaciones",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "264",
+    "range" : "263",
     "label" : {
       "IRI-based" : "rcm_tiene_observaciones"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Observaciones sobre las recomendaciones."
     },
@@ -7805,7 +7805,7 @@
     "label" : {
       "IRI-based" : "tiene_waza"
     },
-    "domain" : "137",
+    "domain" : "136",
     "comment" : {
       "undefined" : "Indica el waza al que pertenece la técnica (suwari, hanmi handachi, tachi, ushiro)-"
     },
@@ -7814,16 +7814,26 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fecha_modificación",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "262",
+    "range" : "261",
     "label" : {
       "IRI-based" : "rcm_tiene_fecha_modificación"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Fecha de modificación de la recomendación."
     },
     "attributes" : [ "datatype" ],
     "id" : "393"
+  }, {
+    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_fisica",
+    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "act_usa_capacidad_fisica"
+    },
+    "domain" : "121",
+    "attributes" : [ "object" ],
+    "id" : "394"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_contraindicación",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -7839,19 +7849,9 @@
     "attributes" : [ "object" ],
     "id" : "35"
   }, {
-    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_usa_capacidad_fisica",
-    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "11",
-    "label" : {
-      "IRI-based" : "act_usa_capacidad_fisica"
-    },
-    "domain" : "121",
-    "attributes" : [ "object" ],
-    "id" : "394"
-  }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tipo_actividad",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "132",
+    "range" : "131",
     "label" : {
       "IRI-based" : "act_tipo_actividad"
     },
@@ -7862,48 +7862,48 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_apartado",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "147",
+    "range" : "146",
     "label" : {
       "IRI-based" : "tiene_apartado"
     },
-    "domain" : "145",
+    "domain" : "144",
     "comment" : {
       "undefined" : "Indica el apartado que tiene una etapa de la clase."
     },
     "attributes" : [ "object" ],
     "id" : "395"
   }, {
-    "range" : "269",
+    "range" : "268",
     "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "396"
   }, {
     "range" : "120",
     "domain" : "124",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "397"
   }, {
-    "range" : "95",
-    "domain" : "125",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "43",
+    "domain" : "399",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "398"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_fecha_evaluación",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "263",
+    "range" : "262",
     "label" : {
       "IRI-based" : "rcm_tiene_fecha_evaluación"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "FEcha de la evaluación de la recomendación."
     },
     "attributes" : [ "datatype" ],
-    "id" : "399"
+    "id" : "400"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_desarrollo",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "259",
+    "range" : "258",
     "label" : {
       "IRI-based" : "tiene_desarrollo"
     },
@@ -7913,7 +7913,7 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_enseñanza",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "261",
+    "range" : "260",
     "label" : {
       "IRI-based" : "tiene_enseñanza"
     },
@@ -7923,7 +7923,7 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_género",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "196",
+    "range" : "195",
     "label" : {
       "IRI-based" : "tiene_género"
     },
@@ -7936,7 +7936,7 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_estatura",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "258",
+    "range" : "257",
     "label" : {
       "IRI-based" : "tiene_estatura"
     },
@@ -7949,11 +7949,11 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#edad_inicial",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "277",
+    "range" : "276",
     "label" : {
       "IRI-based" : "edad_inicial"
     },
-    "domain" : "168",
+    "domain" : "167",
     "comment" : {
       "undefined" : "Edad inicial de la etapa de la edad"
     },
@@ -7975,7 +7975,7 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_beneficio",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "260",
+    "range" : "259",
     "label" : {
       "IRI-based" : "tiene_beneficio"
     },
@@ -7989,7 +7989,7 @@
     "label" : {
       "IRI-based" : "tiene_orden"
     },
-    "domain" : "145",
+    "domain" : "144",
     "comment" : {
       "undefined" : "El número de orden de la etapa dentro de la estructura de la clase."
     },
@@ -7998,7 +7998,7 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_clasificación_IMC",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "85",
+    "range" : "86",
     "label" : {
       "IRI-based" : "tiene_clasificación_IMC"
     },
@@ -8009,11 +8009,11 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_motivo",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "265",
+    "range" : "264",
     "label" : {
       "IRI-based" : "rcm_tiene_motivo"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Motivo por el que se ha generado la recomendación."
     },
@@ -8022,30 +8022,30 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#produce_impacto",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "70",
+    "range" : "73",
     "label" : {
       "IRI-based" : "produce_impacto"
     },
-    "domain" : "168",
+    "domain" : "167",
     "comment" : {
       "undefined" : "Indica el tipo de impacto (grado) que produce una etapa de edad"
     },
     "attributes" : [ "object" ],
     "id" : "416"
   }, {
-    "range" : "74",
+    "range" : "75",
     "domain" : "405",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "417"
   }, {
-    "range" : "74",
+    "range" : "75",
     "domain" : "419",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "418"
   }, {
-    "range" : "74",
+    "range" : "75",
     "domain" : "421",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "420"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_contexto",
@@ -8061,99 +8061,99 @@
     "attributes" : [ "object" ],
     "id" : "422"
   }, {
-    "range" : "74",
+    "range" : "75",
     "domain" : "424",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "423"
   }, {
-    "range" : "74",
-    "domain" : "401",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "75",
+    "domain" : "278",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "425"
   }, {
-    "range" : "74",
-    "domain" : "80",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "75",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "426"
   }, {
-    "range" : "74",
-    "domain" : "313",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "75",
+    "domain" : "311",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "427"
   }, {
-    "range" : "74",
+    "range" : "75",
     "domain" : "279",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "428"
   }, {
     "range" : "99",
     "domain" : "120",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "429"
   }, {
     "range" : "99",
-    "domain" : "199",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "198",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "430"
   }, {
-    "range" : "74",
+    "range" : "75",
     "domain" : "414",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "431"
   }, {
-    "range" : "92",
-    "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "93",
+    "domain" : "92",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "433"
   }, {
     "range" : "361",
     "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "434"
   }, {
     "range" : "361",
     "domain" : "293",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "435"
   }, {
     "range" : "361",
     "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "436"
   }, {
     "range" : "361",
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "437"
   }, {
-    "range" : "206",
+    "range" : "203",
     "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "438"
   }, {
-    "range" : "206",
-    "domain" : "72",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "203",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "439"
   }, {
-    "range" : "74",
-    "domain" : "266",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "75",
+    "domain" : "265",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "440"
   }, {
-    "range" : "74",
-    "domain" : "400",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "75",
+    "domain" : "401",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "441"
   }, {
     "range" : "354",
     "domain" : "364",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "442"
   }, {
-    "range" : "92",
+    "range" : "93",
     "domain" : "304",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "443"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_habilidad_secundaria",
@@ -8172,118 +8172,118 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#impacto",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "70",
+    "range" : "73",
     "label" : {
       "IRI-based" : "impacto"
     },
-    "domain" : "271",
+    "domain" : "270",
     "comment" : {
       "undefined" : "Tipo de impacto (favorable o deficiencia) y el grado del impacto."
     },
     "attributes" : [ "object" ],
     "id" : "447"
   }, {
-    "range" : "137",
-    "domain" : "226",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "136",
+    "domain" : "225",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "448"
   }, {
-    "range" : "137",
+    "range" : "136",
     "domain" : "407",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "449"
   }, {
-    "range" : "137",
+    "range" : "136",
     "domain" : "359",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "450"
   }, {
-    "range" : "137",
-    "domain" : "230",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "136",
+    "domain" : "229",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "451"
   }, {
     "range" : "102",
     "domain" : "387",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "452"
   }, {
     "range" : "102",
-    "domain" : "232",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "231",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "453"
   }, {
     "range" : "114",
-    "domain" : "271",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "270",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "454"
   }, {
     "range" : "114",
-    "domain" : "168",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "167",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "455"
   }, {
-    "range" : "82",
+    "range" : "83",
     "domain" : "432",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "456"
   }, {
-    "range" : "82",
+    "range" : "83",
     "domain" : "412",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "457"
   }, {
-    "range" : "82",
+    "range" : "83",
     "domain" : "446",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "458"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#forma_parte_de",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "143",
+    "range" : "142",
     "label" : {
       "IRI-based" : "forma_parte_de"
     },
-    "domain" : "145",
+    "domain" : "144",
     "comment" : {
       "undefined" : "Indica a cual \"estructura de clase\" pertenece la etapa de clase especificada."
     },
     "attributes" : [ "object" ],
     "id" : "459"
   }, {
-    "range" : "82",
-    "domain" : "256",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "83",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "460"
   }, {
-    "range" : "82",
+    "range" : "83",
     "domain" : "411",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "461"
   }, {
-    "range" : "82",
-    "domain" : "81",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "83",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "462"
   }, {
-    "range" : "82",
+    "range" : "83",
     "domain" : "390",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "463"
   }, {
-    "range" : "82",
+    "range" : "83",
     "domain" : "444",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "464"
   }, {
-    "range" : "82",
-    "domain" : "197",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "83",
+    "domain" : "196",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "465"
   }, {
-    "range" : "82",
+    "range" : "83",
     "domain" : "445",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "466"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_problemática",
@@ -8292,7 +8292,7 @@
     "label" : {
       "IRI-based" : "rcm_tiene_problemática"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Problemáticas a las que se le aplica la recomendación"
     },
@@ -8301,7 +8301,7 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_modalidad",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "132",
+    "range" : "131",
     "label" : {
       "IRI-based" : "act_tiene_modalidad"
     },
@@ -8312,71 +8312,41 @@
     "attributes" : [ "object" ],
     "id" : "468"
   }, {
-    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_apartado",
+    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#forma_parte_de",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "147",
+    "range" : "142",
     "label" : {
-      "IRI-based" : "tiene_apartado"
+      "IRI-based" : "forma_parte_de"
     },
-    "domain" : "145",
+    "domain" : "144",
     "comment" : {
-      "undefined" : "Indica el apartado que tiene una etapa de la clase."
+      "undefined" : "Indica a cual \"estructura de clase\" pertenece la etapa de clase especificada."
     },
     "attributes" : [ "object", "someValues" ],
     "id" : "470"
   }, {
-    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#forma_parte_de",
+    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#tiene_apartado",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "143",
+    "range" : "146",
     "label" : {
-      "IRI-based" : "forma_parte_de"
+      "IRI-based" : "tiene_apartado"
     },
-    "domain" : "145",
+    "domain" : "144",
     "comment" : {
-      "undefined" : "Indica a cual \"estructura de clase\" pertenece la etapa de clase especificada."
+      "undefined" : "Indica el apartado que tiene una etapa de la clase."
     },
     "attributes" : [ "object", "someValues" ],
     "id" : "471"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "71",
+    "range" : "206",
     "label" : {
       "IRI-based" : "usa_funcion_corporal"
     },
-    "domain" : "135",
+    "domain" : "134",
     "attributes" : [ "object", "someValues" ],
     "id" : "472"
-  }, {
-    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
-    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "401",
-    "label" : {
-      "IRI-based" : "usa_funcion_corporal"
-    },
-    "domain" : "135",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "473"
-  }, {
-    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
-    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "411",
-    "label" : {
-      "IRI-based" : "usa_funcion_corporal"
-    },
-    "domain" : "135",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "474"
-  }, {
-    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
-    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "210",
-    "label" : {
-      "IRI-based" : "usa_funcion_corporal"
-    },
-    "domain" : "135",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "475"
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
@@ -8384,7 +8354,37 @@
     "label" : {
       "IRI-based" : "usa_funcion_corporal"
     },
-    "domain" : "135",
+    "domain" : "134",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "473"
+  }, {
+    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
+    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "usa_funcion_corporal"
+    },
+    "domain" : "134",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "474"
+  }, {
+    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
+    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+    "range" : "411",
+    "label" : {
+      "IRI-based" : "usa_funcion_corporal"
+    },
+    "domain" : "134",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "475"
+  }, {
+    "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#usa_funcion_corporal",
+    "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
+    "range" : "207",
+    "label" : {
+      "IRI-based" : "usa_funcion_corporal"
+    },
+    "domain" : "134",
     "attributes" : [ "object", "someValues" ],
     "id" : "476"
   }, {
@@ -8394,7 +8394,7 @@
     "label" : {
       "IRI-based" : "rcm_tiene_actividad"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Actividad recomendada."
     },
@@ -8417,7 +8417,7 @@
     "label" : {
       "IRI-based" : "tiene_orden"
     },
-    "domain" : "145",
+    "domain" : "144",
     "comment" : {
       "undefined" : "El número de orden de la etapa dentro de la estructura de la clase."
     },
@@ -8426,11 +8426,11 @@
   }, {
     "iri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#rcm_tiene_estado",
     "baseIri" : "http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido",
-    "range" : "125",
+    "range" : "48",
     "label" : {
       "IRI-based" : "rcm_tiene_estado"
     },
-    "domain" : "94",
+    "domain" : "53",
     "comment" : {
       "undefined" : "Una recomendación tiene un estado"
     },
@@ -8443,7 +8443,7 @@
     "label" : {
       "IRI-based" : "tiene_profesor"
     },
-    "domain" : "130",
+    "domain" : "129",
     "comment" : {
       "undefined" : "Indica el profesor que tiene un grupo"
     },
