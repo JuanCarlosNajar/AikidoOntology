@@ -14,9 +14,15 @@
                                                                   <http://purl.org/dc/elements/1.1/license> "https://creativecommons.org/licenses/by-nc/4.0/deed.es" .
 
 #################################################################
+<<<<<<< HEAD
 #    Annotation properties
 #################################################################
 
+=======
+#    Annotation properties
+#################################################################
+
+>>>>>>> b07ecce98e0bbf420e2a42bed1ec6db193840cf8
 ###  http://purl.org/dc/elements/1.1/Title
 <http://purl.org/dc/elements/1.1/Title> rdf:type owl:AnnotationProperty .
 
@@ -42,9 +48,15 @@
 
 
 #################################################################
+<<<<<<< HEAD
 #    Object Properties
 #################################################################
 
+=======
+#    Object Properties
+#################################################################
+
+>>>>>>> b07ecce98e0bbf420e2a42bed1ec6db193840cf8
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#act_tiene_beneficio
 :act_tiene_beneficio rdf:type owl:ObjectProperty ;
                      rdfs:domain :Actividades ;
@@ -415,9 +427,15 @@
 
 
 #################################################################
+<<<<<<< HEAD
 #    Data properties
 #################################################################
 
+=======
+#    Data properties
+#################################################################
+
+>>>>>>> b07ecce98e0bbf420e2a42bed1ec6db193840cf8
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#edad_final
 :edad_final rdf:type owl:DatatypeProperty ;
             rdfs:domain :Etapas_edad ;
@@ -547,9 +565,15 @@
 
 
 #################################################################
+<<<<<<< HEAD
 #    Classes
 #################################################################
 
+=======
+#    Classes
+#################################################################
+
+>>>>>>> b07ecce98e0bbf420e2a42bed1ec6db193840cf8
 ###  http://www.semanticweb.org/juancarlos/ontologies/2025/4/aikido#Actividades
 :Actividades rdf:type owl:Class ;
              rdfs:subClassOf :Enseñanza ;
@@ -1751,9 +1775,15 @@ Incluye: crecimiento y pigmentación de las uñas, calidad de las uñas""" .
 
 
 #################################################################
+<<<<<<< HEAD
 #    Individuals
 #################################################################
 
+=======
+#    Individuals
+#################################################################
+
+>>>>>>> b07ecce98e0bbf420e2a42bed1ec6db193840cf8
 ###  http://purl.obolibrary.org/obo/alumno_06
 <http://purl.obolibrary.org/obo/alumno_06> rdf:type owl:NamedIndividual ,
                                                     :Alumnos ;
